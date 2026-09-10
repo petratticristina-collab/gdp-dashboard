@@ -13,6 +13,7 @@ La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petrat
 | `memoria/M3_regla_una_sola_persona.md` | Los tres checks de privacidad antes de publicar un caso clínico, cómo construir un arquetipo compuesto, requisitos de consentimiento, marco normativo en cadena (RGPD, LOPDGDD, OMC 2022, art. 199.2 Código Penal). | 2026-09-10 |
 | `memoria/M3_dos_y_donts_posting.md` | Diez pares Do/Don't del posting sanitario en redes, reconstruidos en tabla, con mapa cruzado al resto del módulo. | 2026-09-10 |
 | `memoria/M3_protocolo_creacion_reels_posts.md` | **Punto de entrada.** Flujo de producción de un reel/post en 6 fases (antes de escribir, guion, producción, disclosure, antes de publicar, después de publicar) que encadena los seis materiales del Módulo 3, más el formato de entrega exigido para cada pieza. | 2026-09-10 |
+| `memoria/M3_ejercicio_practico_respuestas.md` | Ejercicio práctico evaluable del Módulo 3: enunciado resumido, rúbrica y respuestas a los cinco casos (conflicto no declarado, caso identificable, patrocinio mal etiquetado, RAM no notificada, consulta individualizada por DM). Sirve de modelo de razonamiento infracción → norma → corrección. | 2026-09-10 |
 
 Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `memoria/` como Markdown estructurado, registrarlo en esta tabla y hacer commit.
 
