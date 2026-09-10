@@ -2,7 +2,7 @@
 
 ## Memoria persistente del proyecto
 
-La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petratti) ha pedido mantener cargado y actualizado entre sesiones. **Leer estos archivos al inicio de cualquier tarea relacionada con divulgación científica digital, contenido sanitario en redes, colaboraciones con industria o farmacovigilancia.**
+La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petratti) ha pedido mantener cargado y actualizado entre sesiones. **Finalidad declarada por la usuaria: esta memoria es la base para la construcción de reels y posteos sanitarios en redes sociales.** Leer estos archivos al inicio de cualquier tarea de creación, revisión o reformulación de contenido digital (reels, stories, carruseles, posts), colaboraciones con industria o farmacovigilancia. Empezar siempre por `memoria/M3_protocolo_creacion_reels_posts.md`, que encadena el resto en orden de producción.
 
 | Archivo | Contenido | Última actualización |
 |---|---|---|
@@ -12,6 +12,7 @@ La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petrat
 | `memoria/M3_tres_disclaimers.md` | Plantillas literales de los tres disclaimers (General, Referral, Patrocinado): cuándo, dónde, texto exacto, estándar de identificación comercial y regla de acumulación. | 2026-09-10 |
 | `memoria/M3_regla_una_sola_persona.md` | Los tres checks de privacidad antes de publicar un caso clínico, cómo construir un arquetipo compuesto, requisitos de consentimiento, marco normativo en cadena (RGPD, LOPDGDD, OMC 2022, art. 199.2 Código Penal). | 2026-09-10 |
 | `memoria/M3_dos_y_donts_posting.md` | Diez pares Do/Don't del posting sanitario en redes, reconstruidos en tabla, con mapa cruzado al resto del módulo. | 2026-09-10 |
+| `memoria/M3_protocolo_creacion_reels_posts.md` | **Punto de entrada.** Flujo de producción de un reel/post en 6 fases (antes de escribir, guion, producción, disclosure, antes de publicar, después de publicar) que encadena los seis materiales del Módulo 3, más el formato de entrega exigido para cada pieza. | 2026-09-10 |
 
 Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `memoria/` como Markdown estructurado, registrarlo en esta tabla y hacer commit.
 
