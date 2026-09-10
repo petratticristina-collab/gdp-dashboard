@@ -20,6 +20,7 @@ Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `me
 
 ## Proyectos en curso
 - `proyectos/libro_IA_AP_obesidad/prompt_gemini.md`: prompt maestro y secuencia de prompts para Gemini con los que la usuaria escribe un libro sobre IA en Atención Primaria para el abordaje de la obesidad. Al retomar el proyecto, leer primero ese archivo.
+- `proyectos/orquestadores/`: dos sistemas multiagente con prompts de sistema, esquema de traspaso JSON y mapa de nodos n8n. `orquestador_editorial.md` (libro, 7 agentes) y `orquestador_contenido.md` (reels y posts, 6 agentes). Si la usuaria pide ejecutar uno, lanzar los agentes con la herramienta Agent siguiendo esos prompts y el ciclo descrito.
 
 ## Estilo de respuesta preferido por la usuaria
 Creativa, auténtica, científica y profesional. Responder en español.
