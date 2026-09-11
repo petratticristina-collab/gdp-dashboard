@@ -50,6 +50,10 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 11. **Disclaimer estándar, dos variantes.** Tuteo (por defecto): "Material informativo generado con apoyo de IA y revisado por tu profesional sanitario. No sustituye la valoración clínica individual." Usted (hojas impresas o enviadas): "Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual."
 12. **Remisión a la transparencia.** Todo capítulo que trate fisiología incretínica o fármacos para la obesidad lleva una nota al pie remitiendo a la declaración de transparencia del inicio.
 14. **Caso de la etiqueta nutricional** (foto de envase, prompt con legibilidad, tablas por columna, lista cerrada de azúcares y comprobación aritmética): reservado para el capítulo 6, en educación grupal y preparación de material. Ya revisado por los cuatro agentes en el ciclo del capítulo 2.
+15. **Calendario del AI Act (11-09-2026).** Todo capítulo que lo cite usa: "se aplica por fases entre 2025 y 2028: lo prohibido y la alfabetización desde febrero de 2025, la transparencia desde agosto de 2026 y las obligaciones de alto riesgo, aplazadas en 2026, entre finales de 2027 y 2028 (Reglamento (UE) 2024/1689, art. 113, modificado por el Reglamento (UE) 2026/1744)", con [VERIFICAR en EUR-Lex antes de imprimir]. Afecta al capítulo 12 y a los anexos.
+16. **Promesa de datos, fórmula única:** "Nada que permita saber quién es [usted / eres tú] entra nunca en esas herramientas". Sustituye a "sus datos no entran nunca" en todo el libro (los casos que parten de una persona real usan perfiles en rangos).
+17. **Farmacovigilancia:** la frase real de la autora se mantiene y lleva siempre red de seguridad ("si no toleras líquidos, dolor fuerte de tripa, mareo o malestar: urgencias o 112") y "o te llamo yo"; tres canales (portal del paciente = consulta registrada; WhatsApp de familiar = que llame ella; comentario público = frase preparada). Capítulo 13: el formulario se ensaya con un caso inventado; los datos reales van directos a notificaRAM.es, nunca por un chat. Suscripciones de pago a herramientas de IA = gasto personal, no vínculo.
+18. **Checklist de salida:** las preguntas 1 (dato identificable), 3 (afirmación clínica no sostenida), 6 (marca, objetivo de peso o consejo individual) y 9 (no leída entera) son eliminatorias; el resto, 8+ sale, 6-7 corrige, <6 rehace. Va al anexo B.
 13. **Remisiones internas fijadas:** criterios de derivación y evaluación clínica → capítulo 8 (asistente de derivación y tratamiento; la interconsulta se redacta en el capítulo 5); tratamiento farmacológico y analítica de seguimiento → capítulo 8.
 
 ## Arquetipo de la paciente que abre y cierra el libro (capítulos 1 y 14)
@@ -73,10 +77,10 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
 | 1 | **terminado, pendiente de aprobación de Cristina** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
 | 2 | **terminado, pendiente de aprobación de Cristina** | v3 | Decisión del orquestador: el caso de la etiqueta nutricional (educación grupal) se traslada al capítulo 6 y se guarda en capitulos/cap06_caso_etiqueta_reservado.md; el capítulo 2 queda con 6 casos; 6.799 palabras; 18 referencias; 3 [VERIFICAR]. Archivo: capitulos/cap02_v3_estilo.md |
-| 3 | pendiente | – | siguiente en el ciclo |
+| 3 | en v2 (REDACTOR integra el consolidado) | v1 → v2 | v1: 6.648 palabras, 7 casos, 19 referencias (19/19 existen); revisiones: CLÍNICO 1 alto (red de seguridad en la frase RAM), COMPLIANCE sin veto, PROMPTS casos 3 y 4 a mejorar. Consolidado: revisiones/cap03_consolidado.md (28 puntos). |
 
 ## Referencias
 ### Verificadas
-(ninguna todavía)
+- Capítulo 1: 22 (lista Vancouver en revisiones/cap01_evidencia.md). Capítulo 2: 18 (revisiones/cap02_evidencia.md). Capítulo 3: 21, incluidas Rubino 2020 (PMID 32127716), Kyle y Puhl 2014 (PMID 24616446), Omiye 2023 (PMID 37864012, sesgo racial, no de peso), AEPD/SEPD 2021 y Reglamento (UE) 2026/1744 (revisiones/cap03_evidencia.md).
 ### Pendientes [VERIFICAR]
-(ninguna todavía)
+- ISBN de la GIRO 2.ª ed. (candidato 978-84-09-65969-2; confirmar en créditos del PDF). Infrarregistro (cap. 1). Literal de los arts. 5 y 7 del RD 1416/1994 en el BOE. Apartados exactos del Código de Deontología 2022 (86.1/86.5; arts. 4-6). Reglamento (UE) 2026/1744 en EUR-Lex. Cita de sesgo de peso en modelos de lenguaje: ninguna comprobada; no se usa.
