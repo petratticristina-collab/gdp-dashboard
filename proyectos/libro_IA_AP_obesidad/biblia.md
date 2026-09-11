@@ -67,7 +67,8 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 | Cap | Estado | Versión | Notas |
 |---|---|---|---|
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
-| 1 | v2 revisada; en estilo | v2 | 4 revisiones aplicadas (compliance desbloqueado con el camino B); ESTILO lanzado 11-09-2026 |
+| 1 | **terminado, pendiente de aprobación de Cristina** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
+| 2 | pendiente | – | siguiente en el ciclo |
 
 ## Referencias
 ### Verificadas
