@@ -8,7 +8,7 @@ Oferta final: Método Petratti `[confirmar nombre del programa, formato, duraci�
 
 ## 0. Verificación del reel (lo que dijiste es correcto)
 
-El ensayo que citas es la extensión del STEP 1 (Rubino D, et al. JAMA 2021;325:1414-25): 327 participantes
+El ensayo que citas es la extensión del STEP 1 (Wilding JPH, et al. Diabetes Obes Metab 2022;24:1553-64): 327 participantes
 seguidos hasta la semana 120 tras retirar semaglutida 2,4 mg en la semana 68. Pérdida media del 17,3 % en
 semana 68; un año después de suspender habían recuperado dos tercios (pérdida neta 5,6 %). Las mejoras
 cardiometabólicas (presión arterial, HbA1c, lípidos) revirtieron hacia los valores basales. Todo ello dentro
@@ -160,3 +160,23 @@ activado y mensaje personal la víspera).
 - [ ] Oferta veraz: duración, modalidad y precio exactos; sin promesas de resultado (OMC 2022, publicidad).
 - [ ] Sesión «sin coste» solo si sigue siéndolo en Calendly.
 - [ ] Reacciones adversas comunicadas por DM → notificaRAM.es.
+
+---
+
+## 8. Respuesta a «MÉTODO» con entrega de la guía PDF (versión definitiva)
+
+Activo: `contenido/guia-no-fracasaste-dra-petratti.pdf` (generado con `build_guia_consolidacion.py`).
+Subirla a un enlace estable (Drive público en modo lectura, o la web) y usar ese enlace en el DM.
+
+**Comentario público de respuesta (bajo el comentario «método»):**
+> Te la mando por privado. Mira tus mensajes. 💬
+
+**DM 1 · entrega + una pregunta:**
+> Hola, [nombre]. Aquí tienes la guía «No fracasaste»: qué le pasa a tu cuerpo al dejar el tratamiento y
+> qué consolidar antes de decidir nada. [ENLACE PDF]
+> Una sola pregunta para orientarte bien: ¿cuál de estas frases se parece más a ti?
+> 1️⃣ Lo dejé y he recuperado peso.
+> 2️⃣ Lo estoy tomando y me da miedo dejarlo.
+> 3️⃣ Nunca lo he tomado; busco un método que funcione.
+
+Después, responder con el DM 2 del arquetipo correspondiente (sección 2) y enlace a la Sesión de valoración.
