@@ -43,6 +43,15 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 - Su historia clínica electrónica permite listar el cupo por comorbilidades, meses desde la última visita y cualquier variable; no dispone de contrato de tratamiento de datos, así que a la IA solo entran recuentos agregados.
 - La maratón de Londres 2025 y la caja de medallas se reservan para el cierre del libro (capítulo 14).
 
+## Reglas añadidas tras la revisión del capítulo 1
+10. **No reproducir frases del material del curso** (potencIA / AI-Powered Metabolic Medicine): las ideas se reformulan con voz propia; un lema se atribuye en una línea a "mi formación en IA". En los capítulos, no se nombra el programa ni al patrocinador: eso va en la nota de transparencia inicial del libro.
+11. **Disclaimer estándar, dos variantes.** Tuteo (por defecto): "Material informativo generado con apoyo de IA y revisado por tu profesional sanitario. No sustituye la valoración clínica individual." Usted (hojas impresas o enviadas): "Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual."
+12. **Remisión a la transparencia.** Todo capítulo que trate fisiología incretínica o fármacos para la obesidad lleva una nota al pie remitiendo a la declaración de transparencia del inicio.
+13. **Remisiones internas fijadas:** criterios de derivación y evaluación clínica → capítulo 8 (asistente de derivación y tratamiento; la interconsulta se redacta en el capítulo 5); tratamiento farmacológico y analítica de seguimiento → capítulo 8.
+
+## Arquetipo de la paciente que abre y cierra el libro (capítulos 1 y 14)
+Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabetes en dos analíticas, cuatro o cinco intentos previos de bajar de peso con recuperación completa, que entra en consulta con "ya sé lo que me va a decir". Caso ilustrativo, no real: se combinan rasgos de varias pacientes y se modifican edad exacta, número y orden de las dietas y comorbilidades acompañantes; sin profesión, municipio, fechas ni cifras que permitan trazar a nadie. En el capítulo 14 reaparece "un año después" con lo que suele pasar en muchas personas como ella, nunca como seguimiento de una persona real.
+
 ## Glosario (se amplía con cada capítulo)
 - **IA generativa**: sistemas que producen texto, imagen, audio o vídeo nuevos a partir de instrucciones.
 - **LLM (modelo de lenguaje de gran tamaño)**: el motor detrás de los asistentes conversacionales.
@@ -58,7 +67,7 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 | Cap | Estado | Versión | Notas |
 |---|---|---|---|
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
-| 1 | en redacción | v1 | REDACTOR lanzado 11-09-2026 |
+| 1 | v2 revisada; en estilo | v2 | 4 revisiones aplicadas (compliance desbloqueado con el camino B); ESTILO lanzado 11-09-2026 |
 
 ## Referencias
 ### Verificadas
