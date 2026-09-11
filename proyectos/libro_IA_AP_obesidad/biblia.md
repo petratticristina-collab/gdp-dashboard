@@ -13,10 +13,13 @@ La IA generativa no sustituye el juicio clínico: devuelve tiempo y capacidad al
 Médicas y médicos de familia en España, consultas de 7-10 minutos, alta carga de cronicidad, sin conocimientos previos de IA. Secundaria: enfermería de AP y residentes de MFyC.
 
 ## Voz de la autora
+**Guía completa con ejemplos literales en `voz.md` (extraída de "Obesidades sin culpa"). Es de lectura obligatoria para REDACTOR y ESTILO.** Resumen:
 - Primera persona, tuteo, español de España.
 - Frases cortas, una idea por párrafo, ejemplos antes que teoría.
 - Cercanía sin condescendencia. Ciencia en claro. Humor sobrio. Sin emojis. Sin entusiasmo de vendedor.
-- Frases propias: "Es biología, no falta de voluntad." · "La obesidad es una enfermedad crónica." · "Nadie te va a decir cuánto tienes que pesar."
+- Frases propias: "No es falta de voluntad. Es biología." · "Ya no tratamos un número. Tratamos una biología." · "La medicación puede abrir una puerta. Pero lo que realmente transforma la salud es lo que una persona construye después de cruzarla." · "Doctora, ya probé todo."
+- Estribillo corto repetido, ciencia con nombre y fecha, frases de pacientes entrecomilladas, imágenes concretas (el timón, la puerta, el círculo vicioso y el virtuoso), listas en negrita de 4-6 puntos, cierre memorable en vez de resumen.
+- Libro anterior: *Obesidades sin culpa* (2026), 18 capítulos para pacientes, prólogo de Gema Medina-Gómez (SEEDO). El nuevo libro es su continuación para el profesional.
 - Lo que nunca dice: "obeso/a" como sustantivo; culpa; moralización; dietas milagro; nombres comerciales de fármacos de prescripción.
 
 ## Declaración de transparencia (va al inicio del libro)
