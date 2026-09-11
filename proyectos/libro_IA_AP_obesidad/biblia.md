@@ -47,6 +47,7 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 10. **No reproducir frases del material del curso** (potencIA / AI-Powered Metabolic Medicine): las ideas se reformulan con voz propia; un lema se atribuye en una línea a "mi formación en IA". En los capítulos, no se nombra el programa ni al patrocinador: eso va en la nota de transparencia inicial del libro.
 11. **Disclaimer estándar, dos variantes.** Tuteo (por defecto): "Material informativo generado con apoyo de IA y revisado por tu profesional sanitario. No sustituye la valoración clínica individual." Usted (hojas impresas o enviadas): "Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual."
 12. **Remisión a la transparencia.** Todo capítulo que trate fisiología incretínica o fármacos para la obesidad lleva una nota al pie remitiendo a la declaración de transparencia del inicio.
+14. **Caso de la etiqueta nutricional** (foto de envase, prompt con legibilidad, tablas por columna, lista cerrada de azúcares y comprobación aritmética): reservado para el capítulo 6, en educación grupal y preparación de material. Ya revisado por los cuatro agentes en el ciclo del capítulo 2.
 13. **Remisiones internas fijadas:** criterios de derivación y evaluación clínica → capítulo 8 (asistente de derivación y tratamiento; la interconsulta se redacta en el capítulo 5); tratamiento farmacológico y analítica de seguimiento → capítulo 8.
 
 ## Arquetipo de la paciente que abre y cierra el libro (capítulos 1 y 14)
@@ -69,7 +70,7 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 |---|---|---|---|
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
 | 1 | **terminado, pendiente de aprobación de Cristina** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
-| 2 | v1 revisada; REDACTOR v2 en marcha | v1 | 4 revisiones sin veto; consolidado en revisiones/cap02_consolidado.md |
+| 2 | v2 escrita; en estilo | v2 | Decisión del orquestador: el caso de la etiqueta nutricional (educación grupal) se traslada al capítulo 6 y se guarda en capitulos/cap06_caso_etiqueta_reservado.md; el capítulo 2 queda con 6 casos y unas 6.800 palabras |
 
 ## Referencias
 ### Verificadas
