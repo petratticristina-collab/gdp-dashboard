@@ -77,7 +77,8 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
 | 1 | **terminado, pendiente de aprobación de Cristina** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
 | 2 | **terminado, pendiente de aprobación de Cristina** | v3 | Decisión del orquestador: el caso de la etiqueta nutricional (educación grupal) se traslada al capítulo 6 y se guarda en capitulos/cap06_caso_etiqueta_reservado.md; el capítulo 2 queda con 6 casos; 6.799 palabras; 18 referencias; 3 [VERIFICAR]. Archivo: capitulos/cap02_v3_estilo.md |
-| 3 | en v2 (REDACTOR integra el consolidado) | v1 → v2 | v1: 6.648 palabras, 7 casos, 19 referencias (19/19 existen); revisiones: CLÍNICO 1 alto (red de seguridad en la frase RAM), COMPLIANCE sin veto, PROMPTS casos 3 y 4 a mejorar. Consolidado: revisiones/cap03_consolidado.md (28 puntos). |
+| 3 | **terminado, pendiente de aprobación de Cristina** | v3 | 7.977 palabras (decisión del orquestador: tope 8.000 por ser el capítulo de compliance); 7 casos, 8 prompts; 21 referencias verificadas; 9 [VERIFICAR] (Reglamento 2026/1744, RD 1416/1994 literal, apartados Código de Deontología, ISBN GIRO, triángulo negro). Archivo: capitulos/cap03_v3_estilo.md. Consolidado: revisiones/cap03_consolidado.md. |
+| 4 | pendiente | – | siguiente en el ciclo |
 
 ## Referencias
 ### Verificadas
