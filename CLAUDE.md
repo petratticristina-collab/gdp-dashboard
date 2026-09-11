@@ -15,12 +15,17 @@ La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petrat
 | `memoria/M3_protocolo_creacion_reels_posts.md` | **Punto de entrada.** Flujo de producción de un reel/post en 6 fases (antes de escribir, guion, producción, disclosure, antes de publicar, después de publicar) que encadena los seis materiales del Módulo 3, más el formato de entrega exigido para cada pieza. | 2026-09-10 |
 | `memoria/M3_ejercicio_practico_respuestas.md` | Ejercicio práctico evaluable del Módulo 3: enunciado resumido, rúbrica y respuestas a los cinco casos (conflicto no declarado, caso identificable, patrocinio mal etiquetado, RAM no notificada, consulta individualizada por DM). Sirve de modelo de razonamiento infracción → norma → corrección. | 2026-09-10 |
 | `memoria/Programa_AI_Powered_Metabolic_Medicine.md` | Programa de IA generativa cursado por la usuaria (8 módulos: fundamentos y ética, prompt engineering médico, investigación, diagnóstico, audiovisual, agentes, día a día, proyecto final). Base del proyecto de libro en `proyectos/libro_IA_AP_obesidad/`. | 2026-09-10 |
+| `memoria/Curso_PotencIA_materiales_sesiones.md` | Lenguaje y técnicas del programa potencIA (M2 prompts y casos, Sesión III investigación, M4/Sesión IV diagnóstico): copiloto no piloto, pensamiento crítico sintético, ciclo de 6 pasos, rúbrica fidelidad/priorización/calibración/confusores/acción segura, máquinas no deterministas creando deterministas, escalera chatbot→razonador→agente. | 2026-09-11 |
 
 Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `memoria/` como Markdown estructurado, registrarlo en esta tabla y hacer commit.
 
 ## Proyectos en curso
 - `proyectos/libro_IA_AP_obesidad/prompt_gemini.md`: prompt maestro y secuencia de prompts para Gemini con los que la usuaria escribe un libro sobre IA en Atención Primaria para el abordaje de la obesidad. Al retomar el proyecto, leer primero ese archivo.
 - `proyectos/orquestadores/`: dos sistemas multiagente con prompts de sistema, esquema de traspaso JSON y mapa de nodos n8n. `orquestador_editorial.md` (libro, 7 agentes) y `orquestador_contenido.md` (reels y posts, 6 agentes). Si la usuaria pide ejecutar uno, lanzar los agentes con la herramienta Agent siguiendo esos prompts y el ciclo descrito.
+
+## Proyectos en curso (cont.)
+- `proyectos/potencia_presentacion/`: presentación del proyecto final del programa potencIA (calculadora de condición física, 7 puntos de la plantilla del curso), generada con `build_deck.js`. Charla el lunes 14-09-2026.
+- **Calculadora funcional:** repositorio público `adrsuarez22/calculadora-funcional` (app Streamlit `evaluacion-funcional-pro.streamlit.app`, 3 pruebas: caminata 6 min, prensión, silla; fuentes STAAB 2024, Tomkinson 2024, EXERNET 2012). Diagnóstico del 2026-09-11: interpolación por décadas en caminata, etiqueta errónea bajo P10 en silla, sin disclaimer ni población visible, dependencia supabase sin uso. Clonada en `/home/user/adrsuarez22/calculadora-funcional` (solo lectura en esta sesión).
 
 ## Estilo de respuesta preferido por la usuaria
 Creativa, auténtica, científica y profesional. Responder en español.
