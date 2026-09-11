@@ -25,7 +25,7 @@ Tres verificaciones que se hacen antes incluso de escribir la primera palabra.
 |---|---|---|
 | 01 | El contenido cae dentro de mi **competencia profesional declarada**; lo que se sale, lo enmarco como divulgación general. | LOPS 44/2003 |
 | 02 | El contenido mantiene un **propósito divulgativo**: describe la evidencia disponible sin incentivar, sugerir o promover actuaciones terapéuticas concretas. | RD 1416/1994 |
-| 03 | **No incluyo casos clínicos identificables** directa o indirectamente; he aplicado la regla "una sola persona". | RGPD, LOPDGDD, Código Deontológico OMC 2022 (art. 199.2) |
+| 03 | **No incluyo casos clínicos identificables** directa o indirectamente; he aplicado la regla "una sola persona". | RGPD, LOPDGDD, Código Deontológico OMC 2022; Código Penal (art. 199.2) |
 
 ### ÁREA 2 · Antes de grabar o subir — consentimientos, licencias y marcas en el frame
 Dos verificaciones sobre el material audiovisual.
@@ -86,5 +86,5 @@ Una persona escribe en comentarios o DM describiendo un efecto adverso bajo un t
 |---|---|
 | **Ley 44/2003 (LOPS)** — Ordenación de las profesiones sanitarias | Competencia profesional declarada (ítem 01) |
 | **LOPDGDD** — Ley Orgánica 3/2018 de Protección de Datos y garantía de derechos digitales | Casos clínicos identificables (ítem 03) |
-| **Código Deontológico OMC 2022, art. 199.2** | Casos clínicos identificables (ítem 03) |
+| **Código Penal, art. 199.2** (el material del curso lo atribuye al Código Deontológico OMC 2022; verificado 11-09-2026: es el art. 199.2 del Código Penal, LO 10/1995) | Casos clínicos identificables (ítem 03) |
 | RD 1416/1994 · RD 577/2013 · RGPD · Farmaindustria · notificaRAM.es | Ya recogidos en `M3_marco_legal_etico_compliance.md` |
