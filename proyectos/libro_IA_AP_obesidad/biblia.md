@@ -3,7 +3,9 @@
 > Última actualización: 2026-09-11 · Mantenida por el ORQUESTADOR. Todos los agentes la leen antes de trabajar.
 
 ## Obra
-**Título de trabajo:** Inteligencia artificial en la consulta de Atención Primaria: guía práctica para el abordaje de la obesidad.
+**Título (decisión de la autora, 11-09-2026):** *IA en la consulta: la revolución que cabe en diez minutos.*
+**Subtítulo:** *Aplicación práctica para el médico de familia ante la obesidad.*
+(Título de trabajo anterior: "Inteligencia artificial en la consulta de Atención Primaria: guía práctica para el abordaje de la obesidad". Comprobado el 11-09-2026 que no coincide con ningún título en Amazon/Kindle.)
 **Autora:** Dra. Cristina Petratti. Médica de familia, especialista en obesidad. Más de 25 años de consulta. Miembro de la SEEDO. Consulta en la provincia de Alicante (El Campello). Formada en el programa *AI-Powered Metabolic Medicine* (8 módulos de IA generativa, 2026) y en el *Programa de Líderes en divulgación científica digital*.
 
 ## Tesis
@@ -55,7 +57,7 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 ## Estado de capítulos
 | Cap | Estado | Versión | Notas |
 |---|---|---|---|
-| Índice | revisar (pendiente de aprobación de Cristina) | v1 | Título propuesto: "Diez minutos y una IA". 14 capítulos, 4 anexos, 51 casos [AP]. |
+| Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
 | 1 | en redacción | v1 | REDACTOR lanzado 11-09-2026 |
 
 ## Referencias

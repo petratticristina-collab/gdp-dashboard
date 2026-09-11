@@ -439,7 +439,11 @@ La plantilla de una página (problema, herramienta, datos, solución, validació
 
 ---
 
-# Títulos alternativos para el libro
+# Título elegido por la autora (11-09-2026)
+
+**IA en la consulta: la revolución que cabe en diez minutos.** *Aplicación práctica para el médico de familia ante la obesidad.*
+
+# Títulos alternativos considerados
 
 1. **Diez minutos y una IA.** *Guía práctica de inteligencia artificial para el médico de familia ante la obesidad.*
 2. **Es biología, no falta de voluntad.** *Inteligencia artificial en la consulta de Atención Primaria para tratar la obesidad como lo que es.*
