@@ -14,6 +14,7 @@ from reportlab.lib.enums import TA_LEFT, TA_CENTER
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "guia-no-fracasaste-dra-petratti.pdf")
 CAL = "https://calendly.com/metodopetratti-info/30min"
+LOGO = os.path.join(HERE, "logo-metodo-petratti.png")  # logo oficial; si existe, sustituye al dibujo
 
 TURQ, LIMA, VERDE, GRIS, GRIS_OSC = (HexColor("#1FA8A6"), HexColor("#8CC63F"),
                                      HexColor("#C9DA8C"), HexColor("#8E9194"), HexColor("#3F4548"))
@@ -50,16 +51,30 @@ def footer(canvas, doc):
     canvas.setFont("DVB", 7.2)
     canvas.setFillColor(TURQ)
     canvas.drawRightString(W - M, 18.5 * mm, f"Dra. Cristina Petratti · @crispetratti · {doc.page}")
-    # marca de agua: mariposa estilizada (cuatro círculos), esquina superior derecha
-    canvas.setFillColor(HexColor("#DDF0EF"))
-    cx, cy = W - M - 6 * mm, H - 12 * mm
-    for dx, dy, r in ((-3.2, 1.8, 2.6), (3.2, 1.8, 2.6), (-2.4, -1.8, 1.9), (2.4, -1.8, 1.9)):
-        canvas.circle(cx + dx * mm, cy + dy * mm, r * mm, stroke=0, fill=1)
+    if os.path.exists(LOGO) and doc.page > 1:
+        canvas.drawImage(LOGO, W - M - 34 * mm, H - 17 * mm, width=34 * mm, height=12 * mm,
+                         preserveAspectRatio=True, mask="auto", anchor="ne")
+    else:
+        canvas.setFillColor(HexColor("#DDF0EF"))
+        cx, cy = W - M - 6 * mm, H - 12 * mm
+        for dx, dy, r in ((-3.2, 1.8, 2.6), (3.2, 1.8, 2.6), (-2.4, -1.8, 1.9), (2.4, -1.8, 1.9)):
+            canvas.circle(cx + dx * mm, cy + dy * mm, r * mm, stroke=0, fill=1)
     canvas.restoreState()
 
 
 def cover(canvas, doc):
     canvas.saveState()
+    if os.path.exists(LOGO):
+        canvas.drawImage(LOGO, M, H * 0.66, width=W - 2 * M, height=H * 0.28,
+                         preserveAspectRatio=True, mask="auto", anchor="c")
+        canvas.setFillColor(TURQ)
+        canvas.rect(0, H * 0.58, W, H * 0.06, stroke=0, fill=1)
+        canvas.setFont("DVB", 10)
+        canvas.setFillColor(white)
+        canvas.drawCentredString(W / 2, H * 0.605, "GUÍA GRATUITA")
+        canvas.restoreState()
+        footer(canvas, doc)
+        return
     canvas.setFillColor(TURQ)
     canvas.rect(0, H * 0.58, W, H * 0.42, stroke=0, fill=1)
     # mariposa grande
