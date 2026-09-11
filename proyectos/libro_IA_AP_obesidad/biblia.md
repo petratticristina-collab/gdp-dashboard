@@ -59,6 +59,7 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 - **Alucinación**: respuesta plausible pero falsa. Riesgo principal en uso clínico.
 - **Ventana de contexto**: cuánta información puede tener en cuenta el modelo a la vez.
 - **Persona con obesidad**: forma obligatoria; nunca "obeso/a".
+- **Escala de certeza (única para todo el libro):** ALTA = lo sostendría cualquier manual o guía; MEDIA = compatible, con explicaciones o estudios discrepantes; BAJA = plausible, no lo afirmaría sin comprobarlo.
 - **Arquetipo compuesto**: viñeta clínica construida combinando rasgos de varias personas y modificando los detalles no sustantivos; siempre etiquetada como "caso ilustrativo, no real".
 - **Acuerdo de tratamiento de datos**: contrato que permite introducir datos clínicos en una herramienta; sin él, solo datos anonimizados o sintéticos.
 - **Modelo de razonamiento**: modelo que dedica más cómputo a descomponer el problema antes de responder; útil para casos con fricción, no para trámites.
@@ -68,7 +69,7 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 |---|---|---|---|
 | Índice | aprobado con título fijado | v1 | Título elegido por la autora: "IA en la consulta: la revolución que cabe en diez minutos". 14 capítulos, 4 anexos, 51 casos [AP]. |
 | 1 | **terminado, pendiente de aprobación de Cristina** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
-| 2 | pendiente | – | siguiente en el ciclo |
+| 2 | v1 revisada; REDACTOR v2 en marcha | v1 | 4 revisiones sin veto; consolidado en revisiones/cap02_consolidado.md |
 
 ## Referencias
 ### Verificadas
