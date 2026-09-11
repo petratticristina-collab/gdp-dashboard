@@ -36,6 +36,11 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 8. **Decisión de la autora (11-09-2026): no dispone de ninguna herramienta con acuerdo de tratamiento de datos.** El libro se escribe desde ese supuesto, que es el de la mayoría de médicos de familia: solo herramientas de consumo, por tanto solo datos anonimizados, agregados o sintéticos, nunca historia clínica real. Los casos que necesiten datos de pacientes se plantean con cifras agregadas que el lector obtiene fuera de la IA (contadores de la historia clínica electrónica, listados sin identificadores) o con casos sintéticos. El "Mapa de mi cupo" del capítulo 1 se rebaja a datos agregados sin identificadores; si la exportación no es posible en el sistema del lector, se ofrece la alternativa manual. Cuando exista una herramienta con contrato, el libro lo señala como escenario futuro, no como punto de partida.
 9. **La calculadora de condición física es la prueba de que se puede empezar así.** La autora la construyó sin contrato de datos, con herramientas de consumo, y sin meter ningún dato de paciente en la IA: la IA escribió el código y las tablas son datos publicados; los datos del paciente se introducen en la app, que no los guarda. Es el hilo narrativo del libro ("así empecé yo") y se mantiene su doble presencia: caso destacado del capítulo 8 y ejemplo de los siete puntos del capítulo 12.
 
+## Datos de la práctica de la autora (para viñetas y casos)
+- Circuito real de consulta de obesidad: primera visita con historia clínica exhaustiva; consulta escrita en unos seis minutos; registro y diagnóstico; hoja informativa; cita a los 15-20 días o al mes; seguimientos mensuales con la propia médica; analítica cuando toca.
+- Su historia clínica electrónica permite listar el cupo por comorbilidades, meses desde la última visita y cualquier variable; no dispone de contrato de tratamiento de datos, así que a la IA solo entran recuentos agregados.
+- La maratón de Londres 2025 y la caja de medallas se reservan para el cierre del libro (capítulo 14).
+
 ## Glosario (se amplía con cada capítulo)
 - **IA generativa**: sistemas que producen texto, imagen, audio o vídeo nuevos a partir de instrucciones.
 - **LLM (modelo de lenguaje de gran tamaño)**: el motor detrás de los asistentes conversacionales.

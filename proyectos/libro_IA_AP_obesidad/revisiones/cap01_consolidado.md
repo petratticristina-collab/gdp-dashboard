@@ -29,3 +29,8 @@ Sustituir la lista del capítulo por las 22 referencias verificadas de cap01_evi
 
 ## E · Extensión
 Prosa objetivo 3.500 palabras; los prompts completos no se recortan, pero los ejemplos de salida pueden abreviarse. Total máximo orientativo: 5.000 palabras.
+
+## F · Respuestas de la autora (11-09-2026, tras el consolidado)
+- **Viñeta, circuito real:** primera visita con historia clínica exhaustiva; la consulta se escribe en seis minutos; registro y diagnóstico; hoja informativa para la paciente; cita a los 15-20 días o al mes; después seguimientos mensuales con la propia médica, con analítica cuando toca. No hay derivación a enfermería para el seguimiento: corregir la v1 en ese punto.
+- **Mapa del cupo:** su historia clínica electrónica sí permite explorar y listar por comorbilidades, meses desde la última visita y cualquier dato de la historia. La exportación es factible; lo que no existe es contrato de datos. Por tanto el Caso 1 se mantiene con el camino B: la médica obtiene los recuentos agregados del propio sistema y solo esa tabla entra en la IA.
+- **Maratón y medallas:** se reservan para el cierre del libro (capítulo 14). El capítulo 1 no cierra con la maratón: cerrar con una escena de consulta o con la frase eje.
