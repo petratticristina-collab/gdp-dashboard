@@ -1,0 +1,136 @@
+<title>Teleprónter El nuevo apetito</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+  :root{
+    --bg:#0b0f12; --ink:#f2f4f5; --dim:#7c8a92; --line:#2a343b; --panel:#141a1f; --accent:#3fc8c4; --accent-ink:#0b0f12;
+    --size:56px; --guide:34vh;
+  }
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible",Verdana,Arial,sans-serif;overflow:hidden}
+  .top{position:fixed;inset:0 0 auto 0;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 20px;z-index:3;
+       background:linear-gradient(var(--bg) 60%,transparent)}
+  .top h1{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;color:var(--dim)}
+  .clock b{color:var(--ink);font-weight:700}
+  .guide{position:fixed;left:0;right:0;top:var(--guide);height:0;border-top:2px solid var(--accent);opacity:.55;pointer-events:none;z-index:2}
+  .guide::before{content:"";position:absolute;left:14px;top:-7px;border:6px solid transparent;border-left:9px solid var(--accent)}
+  .fade{position:fixed;left:0;right:0;pointer-events:none;z-index:1}
+  .fade.t{top:0;height:22vh;background:linear-gradient(var(--bg),transparent)}
+  .fade.b{bottom:0;height:34vh;background:linear-gradient(transparent,var(--bg))}
+  #stage{position:absolute;inset:0;overflow:hidden}
+  #script{padding:var(--guide) 24px 80vh;max-width:min(92vw,20ch);margin:0 auto;font-size:var(--size);line-height:1.28;font-weight:700;
+          text-wrap:balance;transform:translateY(0);will-change:transform}
+  #script p{margin:0 0 .55em}
+  #script p.pause{margin-bottom:1.15em}
+  #script p.beat{color:var(--accent)}
+  .mirror #script{transform:scaleX(-1)}
+  .bar{position:fixed;left:0;right:0;bottom:0;z-index:4;background:var(--panel);border-top:1px solid var(--line);
+       padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:center}
+  .bar label{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--dim);letter-spacing:.04em}
+  .bar input[type=range]{accent-color:var(--accent);width:150px}
+  .bar output{min-width:3.2ch;text-align:right;color:var(--ink);font-variant-numeric:tabular-nums}
+  button{font:inherit;font-size:14px;font-weight:700;padding:10px 18px;border-radius:999px;border:1px solid var(--line);
+         background:var(--panel);color:var(--ink);cursor:pointer}
+  button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);min-width:132px}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  #count{position:fixed;inset:0;display:none;place-items:center;font-size:min(40vw,260px);font-weight:700;color:var(--accent);z-index:5;background:rgba(11,15,18,.85)}
+  #count.on{display:grid}
+  .hint{width:100%;text-align:center;font-size:12px;color:var(--dim)}
+  @media (max-width:600px){:root{--size:40px} .bar input[type=range]{width:110px} .hint{display:none}}
+  @media (prefers-reduced-motion:reduce){#script{transition:none}}
+</style>
+
+<div class="top">
+  <h1>Directo al grano · El nuevo apetito · 2 min</h1>
+  <div class="clock"><b id="elapsed">0:00</b> / 2:00</div>
+</div>
+<div class="fade t"></div><div class="guide"></div><div class="fade b"></div>
+
+<div id="stage">
+  <div id="script">
+    <p>Quien toma el medicamento lo nota en la primera semana.</p>
+    <p class="pause">La comida que antes le llamaba, deja de llamarle.</p>
+    <p>El bollo de la tarde.</p>
+    <p>La bolsa de patatas.</p>
+    <p class="pause">La segunda copa de vino.</p>
+    <p class="pause">Y de repente apetecen cosas más ligeras: un caldo, un yogur, fruta, pescado.</p>
+    <p class="beat pause">Eso no es fuerza de voluntad.</p>
+    <p class="pause">El medicamento actúa en el cerebro, en el centro del hambre, y cambia lo que te apetece.</p>
+    <p class="beat pause">Y aquí viene lo interesante.</p>
+    <p>La industria alimentaria se ha dado cuenta.</p>
+    <p class="pause">Y ha reaccionado como reacciona siempre: con productos.</p>
+    <p>Raciones mini.</p>
+    <p>Batidos “altos en proteína”.</p>
+    <p class="pause">Platos preparados “para tu nuevo apetito”.</p>
+    <p>Comida diseñada para personas que toman el medicamento.</p>
+    <p>Unas, porque lo necesitan.</p>
+    <p class="pause">Otras, porque lo han conseguido por capricho.</p>
+    <p class="beat pause">Y aquí está la trampa.</p>
+    <p class="pause">Quien come menos necesita que lo poco que come sea comida de verdad.</p>
+    <p>Proteína. Fibra. Agua.</p>
+    <p class="pause">Comida que reconoces.</p>
+    <p class="pause">No otro envase con una etiqueta nueva.</p>
+    <p class="pause">Porque cambiar un ultraprocesado por un ultraprocesado “para el medicamento” es el mismo negocio con otro nombre.</p>
+    <p>En consulta lo veo cada semana.</p>
+    <p class="pause">Me dicen: “doctora, es que ya no me apetece”.</p>
+    <p class="pause">Y ese es el mejor momento para aprender a comer bien. No para comprar productos.</p>
+    <p class="pause">Así que, si lo tomas, aprovecha la tregua que te da el hambre.</p>
+    <p>Y si lo tomas sin que un médico te lo haya indicado, el problema no es lo que comes.</p>
+    <p class="beat">Es que estás usando un medicamento como si fuera un producto más del supermercado.</p>
+  </div>
+</div>
+
+<div id="count" aria-live="polite"></div>
+
+<div class="bar">
+  <button id="play" class="primary" type="button">▶ Empezar (espacio)</button>
+  <button id="restart" type="button">↺ Inicio (R)</button>
+  <label for="speed">Velocidad <input id="speed" type="range" min="0.5" max="2" step="0.05" value="1"><output id="speedOut">1.00×</output></label>
+  <label for="size">Letra <input id="size" type="range" min="32" max="96" step="2" value="56"><output id="sizeOut">56</output></label>
+  <button id="mirror" type="button">⇋ Espejo (M)</button>
+  <div class="hint">Espacio: pausa · ↑↓: velocidad · R: inicio · M: espejo · La línea turquesa es tu punto de lectura</div>
+</div>
+
+<script>
+(function(){
+  const TARGET=120; // segundos
+  const script=document.getElementById('script'), stage=document.getElementById('stage');
+  const play=document.getElementById('play'), restart=document.getElementById('restart'), mirror=document.getElementById('mirror');
+  const speed=document.getElementById('speed'), speedOut=document.getElementById('speedOut');
+  const size=document.getElementById('size'), sizeOut=document.getElementById('sizeOut');
+  const elapsedEl=document.getElementById('elapsed'), count=document.getElementById('count');
+  let y=0, running=false, last=0, elapsed=0, raf=0;
+
+  try{ const s=JSON.parse(localStorage.getItem('tp-settings')||'{}'); if(s.speed) speed.value=s.speed; if(s.size) size.value=s.size; if(s.mirror) document.body.classList.add('mirror'); }catch(e){}
+  function save(){ try{ localStorage.setItem('tp-settings',JSON.stringify({speed:speed.value,size:size.value,mirror:document.body.classList.contains('mirror')})); }catch(e){} }
+
+  function travel(){ // píxeles que hay que recorrer para leer todo
+    const guide=window.innerHeight*0.34;
+    return script.scrollHeight - guide - window.innerHeight*0.8 + guide*0; }
+  function basePps(){ return travel()/TARGET; }
+  function fmt(s){ s=Math.max(0,Math.round(s)); return Math.floor(s/60)+':'+String(s%60).padStart(2,'0'); }
+  function apply(){ script.style.transform=(document.body.classList.contains('mirror')?'scaleX(-1) ':'')+'translateY('+(-y)+'px)'; elapsedEl.textContent=fmt(elapsed); }
+  function tick(t){ if(!running) return; const dt=(t-last)/1000; last=t; const v=basePps()*parseFloat(speed.value); y+=v*dt; elapsed+=dt*parseFloat(speed.value);
+    if(y>=travel()){ y=travel(); stop(); } apply(); raf=requestAnimationFrame(tick); }
+  function start(){ if(running) return; running=true; last=performance.now(); play.textContent='❚❚ Pausa (espacio)'; raf=requestAnimationFrame(tick); }
+  function stop(){ running=false; cancelAnimationFrame(raf); play.textContent= y>=travel() ? '↺ Otra vez' : '▶ Seguir (espacio)'; }
+  function reset(){ stop(); y=0; elapsed=0; play.textContent='▶ Empezar (espacio)'; apply(); }
+  function countdown(cb){ let n=3; count.textContent=n; count.classList.add('on'); const id=setInterval(()=>{ n--; if(n<=0){ clearInterval(id); count.classList.remove('on'); cb(); } else count.textContent=n; },1000); }
+
+  play.addEventListener('click',()=>{ if(running){ stop(); return; } if(y>=travel()){ reset(); } if(y===0&&elapsed===0) countdown(start); else start(); });
+  restart.addEventListener('click',reset);
+  mirror.addEventListener('click',()=>{ document.body.classList.toggle('mirror'); apply(); save(); });
+  speed.addEventListener('input',()=>{ speedOut.textContent=parseFloat(speed.value).toFixed(2)+'×'; save(); });
+  size.addEventListener('input',()=>{ document.documentElement.style.setProperty('--size',size.value+'px'); sizeOut.textContent=size.value; save(); });
+  document.addEventListener('keydown',e=>{ if(e.target.tagName==='INPUT') return;
+    if(e.code==='Space'){ e.preventDefault(); play.click(); }
+    else if(e.key==='ArrowUp'){ speed.value=Math.min(2,parseFloat(speed.value)+0.05); speed.dispatchEvent(new Event('input')); }
+    else if(e.key==='ArrowDown'){ speed.value=Math.max(0.5,parseFloat(speed.value)-0.05); speed.dispatchEvent(new Event('input')); }
+    else if(e.key.toLowerCase()==='r'){ reset(); }
+    else if(e.key.toLowerCase()==='m'){ mirror.click(); } });
+  stage.addEventListener('wheel',e=>{ if(running) return; y=Math.min(Math.max(0,y+e.deltaY),travel()); apply(); },{passive:true});
+  window.addEventListener('resize',apply);
+
+  speed.dispatchEvent(new Event('input')); size.dispatchEvent(new Event('input')); apply();
+})();
+</script>
