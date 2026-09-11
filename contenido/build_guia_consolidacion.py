@@ -16,8 +16,9 @@ OUT = os.path.join(HERE, "guia-no-fracasaste-dra-petratti.pdf")
 CAL = "https://calendly.com/metodopetratti-info/30min"
 LOGO = os.path.join(HERE, "logo-metodo-petratti.png")  # logo oficial; si existe, sustituye al dibujo
 
-TURQ, LIMA, VERDE, GRIS, GRIS_OSC = (HexColor("#1FA8A6"), HexColor("#8CC63F"),
-                                     HexColor("#C9DA8C"), HexColor("#8E9194"), HexColor("#3F4548"))
+# Paleta exacta medida sobre el logo oficial (Drive: «Critina Petratti-color.png»)
+TURQ, LIMA, VERDE, GRIS, GRIS_OSC = (HexColor("#00A8A4"), HexColor("#94C01C"),
+                                     HexColor("#D0E08C"), HexColor("#88888C"), HexColor("#3F4548"))
 
 pdfmetrics.registerFont(TTFont("DV", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
 pdfmetrics.registerFont(TTFont("DVB", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
@@ -51,9 +52,10 @@ def footer(canvas, doc):
     canvas.setFont("DVB", 7.2)
     canvas.setFillColor(TURQ)
     canvas.drawRightString(W - M, 18.5 * mm, f"Dra. Cristina Petratti · @crispetratti · {doc.page}")
-    if os.path.exists(LOGO) and doc.page > 1:
-        canvas.drawImage(LOGO, W - M - 34 * mm, H - 17 * mm, width=34 * mm, height=12 * mm,
-                         preserveAspectRatio=True, mask="auto", anchor="ne")
+    if os.path.exists(LOGO):
+        if doc.page > 1:
+            canvas.drawImage(LOGO, W - M - 34 * mm, H - 17 * mm, width=34 * mm, height=12 * mm,
+                             preserveAspectRatio=True, mask="auto", anchor="ne")
     else:
         canvas.setFillColor(HexColor("#DDF0EF"))
         cx, cy = W - M - 6 * mm, H - 12 * mm
@@ -92,7 +94,7 @@ def cover(canvas, doc):
 
 
 def bullets(items):
-    return [Paragraph(f"<font color='#8CC63F'>■</font>&nbsp;&nbsp;{t}", s_bul) for t in items]
+    return [Paragraph(f"<font color='#94C01C'>■</font>&nbsp;&nbsp;{t}", s_bul) for t in items]
 
 
 def cta_block():
@@ -100,7 +102,7 @@ def cta_block():
     qr.add_data(CAL)
     qr.make(fit=True)
     img_path = os.path.join(HERE, "_qr.png")
-    qr.make_image(fill_color="#1FA8A6", back_color="white").save(img_path)
+    qr.make_image(fill_color="#00A8A4", back_color="white").save(img_path)
     qr_img = Image(img_path, 30 * mm, 30 * mm)
     txt = [Paragraph("Reserva tu Sesión de valoración", s_cta),
            Spacer(1, 4),

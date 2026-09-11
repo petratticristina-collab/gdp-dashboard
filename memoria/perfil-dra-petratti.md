@@ -21,17 +21,24 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Herramientas de práctica | WhatsApp Business, DietoPro, tablero de ventas `[inferido de captura de pantalla]` |
 | Ámbito regulatorio | España (colegiación autonómica, OMC, LOPS, RGPD/LOPDGDD) |
 
-### Identidad visual (logo «Método Dra. Petratti»)
-Logo: mariposa de cuatro alas asimétricas (turquesa, verde lima, verde claro) con cuerpo gris, y el nombre
-«Método Dra. Petratti» en caligrafía manuscrita turquesa. Fondo blanco. Códigos estimados a partir del logo
-`[confirmar con el manual de marca]`:
+### Identidad visual (logos oficiales, verificados en su Google Drive)
+Dos versiones oficiales, ambas con la mariposa de cuatro alas asimétricas (turquesa, verde lima, verde
+claro, cuerpo gris) y caligrafía manuscrita turquesa:
+- **«Método Cristina Petratti»** — vectorial `Logo.ai` en Drive (id 17wLv00xNnygIThiaQuO5dSL7vjtfPVn0).
+  Copia rasterizada con fondo transparente en `contenido/logo-metodo-petratti.png`. Es el logo del Método.
+- **«Cristina Petratti»** — PNG 3114×2184 con fondo transparente (Drive id 1X3WpLPbj_MIorSLzt_hOL4XiHOzqF3T9),
+  con variantes blanco y gris en la misma carpeta. Copia en `contenido/logo-cristina-petratti.png`.
+  Es el logo de marca personal.
+- Existe además una variante «Método Dra. Petratti» que ella envía como imagen; no localizada como archivo.
 
-| Uso | Color | Hex aproximado |
+Paleta exacta (medida sobre el PNG oficial):
+
+| Uso | Color | Hex |
 |---|---|---|
-| Principal (ala grande, tipografía) | Turquesa | #1FA8A6 |
-| Secundario (ala izquierda) | Verde lima | #8CC63F |
-| Terciario (ala inferior) | Verde claro | #C9DA8C |
-| Neutro (cuerpo, texto de apoyo) | Gris | #8E9194 |
+| Principal (ala grande, tipografía) | Turquesa | #00A8A4 |
+| Secundario (ala izquierda y derecha media) | Verde lima | #94C01C |
+| Terciario (ala inferior) | Verde claro | #D0E08C |
+| Neutro (cuerpo) | Gris | #88888C |
 | Fondo | Blanco | #FFFFFF |
 
 Lectura simbólica útil para guiones: la mariposa habla de transformación y ligereza sin decir «peso»; el
