@@ -246,7 +246,7 @@ ROL: Eres médica de familia especialista en obesidad y redactora de materiales 
 
 CONTEXTO: Necesito un texto informativo para entregar en consulta a personas adultas con obesidad que han recuperado peso tras dietas. No dispones ni necesitas datos de ninguna persona concreta: escribe para un lector genérico. Trato de [usted / tú] en las tres versiones.
 
-TAREA: Responde a la pregunta "¿Por qué recupero el peso después de una dieta?" en tres versiones: (A) nivel básico, frases muy cortas, unas 100 palabras; (B) nivel medio, unas 180 palabras; (C) nivel alto, unas 250 palabras, nombrando solo estas hormonas: leptina, grelina, GLP-1 y PYY, e indicando en cada una si sube o baja tras perder peso. Las tres deben explicar: que el peso está regulado, que tras bajar de peso aumenta el hambre y baja el gasto energético, que esto es biología y no falta de voluntad, y que la obesidad es una enfermedad crónica con tratamiento y seguimiento.
+TAREA: Responde a la pregunta "¿Por qué recupero el peso después de una dieta?" en tres versiones: (A) nivel básico, frases muy cortas, unas 100 palabras; (B) nivel medio, unas 180 palabras; (C) nivel alto, unas 250 palabras, nombrando solo estas hormonas: leptina, grelina y PYY, e indicando en cada una si sube o baja tras perder peso; no menciones el GLP-1. Las tres deben explicar: que el peso está regulado, que tras bajar de peso aumenta el hambre y baja el gasto energético, que esto es biología y no falta de voluntad, y que la obesidad es una enfermedad crónica con tratamiento y seguimiento.
 
 FORMATO: Tres textos separados con encabezado A, B, C y un título común breve. Al final de cada uno, incluye literalmente esta frase: "Material informativo generado con apoyo de IA y revisado por tu profesional sanitario. No sustituye la valoración clínica individual." Debajo, deja una línea: "Revisado por: ________  Fecha: ________".
 
@@ -258,7 +258,7 @@ RESTRICCIONES: Sin nombres de medicamentos. Sin cifras ni porcentajes. Sin "obes
 > **Por qué vuelve el peso.** Su cuerpo defiende su peso. Cuando baja kilos, le da más hambre y gasta menos energía. No es culpa suya. Es biología. […] Se trata con seguimiento, no con castigo.
 > *Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual.*
 
-**Qué revisar antes de usarla.** Que las tres versiones digan lo mismo. En el nivel C, el sentido de cada hormona: leptina baja, grelina sube, GLP-1 y PYY bajan; si el modelo dice lo contrario, no lo corrijas a mano: pídele que lo revise. Que el disclaimer esté en las tres (en usted, "revisado por su profesional sanitario"). Y tu firma: es material tuyo.
+**Qué revisar antes de usarla.** Que las tres versiones digan lo mismo. En el nivel C, el sentido de cada hormona: leptina baja, grelina sube, PYY tiende a bajar; si el modelo dice lo contrario, no lo corrijas a mano: pídele que lo revise. El GLP-1 queda fuera a propósito: la evidencia sobre lo que hace tras perder peso no es uniforme (Iepsen 2016 [VERIFICAR]), y un ejemplo para pacientes no es el sitio para una controversia. Que el disclaimer esté en las tres (en usted, "revisado por su profesional sanitario"). Y tu firma: es material tuyo.
 
 **Riesgo principal y mitigación.** Que la persona lea "es biología" como "no depende de mí" y se desactive. Mitigación: entrega la hoja con una frase tuya sobre el siguiente paso y una cita de seguimiento.
 
