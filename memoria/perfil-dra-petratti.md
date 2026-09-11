@@ -21,6 +21,23 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Herramientas de práctica | WhatsApp Business, DietoPro, tablero de ventas `[inferido de captura de pantalla]` |
 | Ámbito regulatorio | España (colegiación autonómica, OMC, LOPS, RGPD/LOPDGDD) |
 
+### Identidad visual (logo «Método Dra. Petratti»)
+Logo: mariposa de cuatro alas asimétricas (turquesa, verde lima, verde claro) con cuerpo gris, y el nombre
+«Método Dra. Petratti» en caligrafía manuscrita turquesa. Fondo blanco. Códigos estimados a partir del logo
+`[confirmar con el manual de marca]`:
+
+| Uso | Color | Hex aproximado |
+|---|---|---|
+| Principal (ala grande, tipografía) | Turquesa | #1FA8A6 |
+| Secundario (ala izquierda) | Verde lima | #8CC63F |
+| Terciario (ala inferior) | Verde claro | #C9DA8C |
+| Neutro (cuerpo, texto de apoyo) | Gris | #8E9194 |
+| Fondo | Blanco | #FFFFFF |
+
+Lectura simbólica útil para guiones: la mariposa habla de transformación y ligereza sin decir «peso»; el
+turquesa aporta calma clínica y el verde, vitalidad. Tipografía manuscrita solo para el logo; el cuerpo de
+texto en sans serif limpia para legibilidad en móvil.
+
 ### Tesis públicas que ya la definen (su "voz científica")
 - «Comer menos y moverse más» es un eslogan científicamente incorrecto y dañino para quien vive con obesidad.
 - La obesidad es una enfermedad crónica, compleja y multifactorial: cerebro, hormonas, metabolismo, entorno y emociones.
