@@ -200,7 +200,7 @@ Segundo turno, en la misma conversación: `Revisa solo el apartado [nombre o nú
 > Turno 1: Documento: Guía GIRO 2.ª ed. · Páginas que veo: [número]. NO ENCONTRADO EN EL DOCUMENTO. No aparece en el texto que he leído.
 > Turno 2: ENCONTRADO EN EL DOCUMENTO. "[cita literal]". Frase anterior: "[frase que la precede]". Página 31 del PDF (impresa: 27), apartado 4.2 [VERIFICAR página y apartado en la 2.ª ed. de GIRO].
 
-**Qué revisar antes de usarla.** Abre el PDF por la página que dice; si da dos números, prueba los dos. La frase está o no está, tal cual. Este orden ya no permite lo que he visto más de una vez: una cifra recitada de memoria con un "no encontrado" debajo. Y el porqué clínico del ejemplo: en España conviven dos juegos de puntos de corte de cintura, 102/88 y 94/80 centímetros. Cuál usa la guía, y en qué página, es lo que la máquina, de memoria, no puede darte.
+**Qué revisar antes de usarla.** Abre el PDF por la página que dice; si da dos números, prueba los dos. La frase está o no está, tal cual. Este orden ya no permite lo que he visto más de una vez: una cifra recitada de memoria con un "no encontrado" debajo. Y el porqué clínico del ejemplo: en España conviven dos juegos de puntos de corte de cintura, 102/88 y 94/80 centímetros. Yo uso en consulta 102 en varones y 88 en mujeres. Cuál usa la guía, y en qué página, es lo que la máquina, de memoria, no puede darte.
 
 **Riesgo principal y mitigación.** Que el modelo "recuerde" en vez de leer. Mitigación: etiqueta antes que cita, frase previa, dos números de página y tus ojos en el PDF.
 

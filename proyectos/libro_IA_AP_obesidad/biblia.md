@@ -42,6 +42,8 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 - Circuito real de consulta de obesidad: primera visita con historia clínica exhaustiva; consulta escrita en unos seis minutos; registro y diagnóstico; hoja informativa; cita a los 15-20 días o al mes; seguimientos mensuales con la propia médica; analítica cuando toca.
 - Su historia clínica electrónica permite listar el cupo por comorbilidades, meses desde la última visita y cualquier variable; no dispone de contrato de tratamiento de datos, así que a la IA solo entran recuentos agregados.
 - La maratón de Londres 2025 y la caja de medallas se reservan para el cierre del libro (capítulo 14).
+- Puntos de corte de perímetro de cintura que usa en consulta: 102 cm en varones y 88 cm en mujeres.
+- Respuestas del 11-09-2026: las anécdotas en primera persona de los capítulos 1 y 2 son suyas; el gancho del capítulo 2 ("me ha pasado más de una vez") la representa; la atribución genérica "mi formación en IA" se mantiene en todos los capítulos; **declara vínculos con todos los proveedores de herramientas de IA que el libro nombra** (pendiente de detallar en la nota de transparencia inicial: cuáles y de qué tipo: suscripción, formación, licencia, ponencia).
 
 ## Reglas añadidas tras la revisión del capítulo 1
 10. **No reproducir frases del material del curso** (potencIA / AI-Powered Metabolic Medicine): las ideas se reformulan con voz propia; un lema se atribuye en una línea a "mi formación en IA". En los capítulos, no se nombra el programa ni al patrocinador: eso va en la nota de transparencia inicial del libro.
