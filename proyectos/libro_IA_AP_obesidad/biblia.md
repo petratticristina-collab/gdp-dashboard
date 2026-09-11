@@ -1,6 +1,6 @@
 # BIBLIA del libro · memoria compartida del orquestador editorial
 
-> Última actualización: 2026-09-10 · Mantenida por el ORQUESTADOR. Todos los agentes la leen antes de trabajar.
+> Última actualización: 2026-09-11 · Mantenida por el ORQUESTADOR. Todos los agentes la leen antes de trabajar.
 
 ## Obra
 **Título de trabajo:** Inteligencia artificial en la consulta de Atención Primaria: guía práctica para el abordaje de la obesidad.
@@ -38,12 +38,15 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 - **Alucinación**: respuesta plausible pero falsa. Riesgo principal en uso clínico.
 - **Ventana de contexto**: cuánta información puede tener en cuenta el modelo a la vez.
 - **Persona con obesidad**: forma obligatoria; nunca "obeso/a".
+- **Arquetipo compuesto**: viñeta clínica construida combinando rasgos de varias personas y modificando los detalles no sustantivos; siempre etiquetada como "caso ilustrativo, no real".
+- **Acuerdo de tratamiento de datos**: contrato que permite introducir datos clínicos en una herramienta; sin él, solo datos anonimizados o sintéticos.
+- **Modelo de razonamiento**: modelo que dedica más cómputo a descomponer el problema antes de responder; útil para casos con fricción, no para trámites.
 
 ## Estado de capítulos
 | Cap | Estado | Versión | Notas |
 |---|---|---|---|
-| Índice | pendiente | – | – |
-| 1 | pendiente | – | – |
+| Índice | revisar (pendiente de aprobación de Cristina) | v1 | Título propuesto: "Diez minutos y una IA". 14 capítulos, 4 anexos, 51 casos [AP]. |
+| 1 | en redacción | v1 | REDACTOR lanzado 11-09-2026 |
 
 ## Referencias
 ### Verificadas
