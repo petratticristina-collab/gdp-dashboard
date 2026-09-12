@@ -1,0 +1,290 @@
+<title>De 20 minutos a segundos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#F5F7F4; --surface:#FFFFFF; --ink:#151B1F; --ink-2:#4B5760; --line:#D9DFDA;
+  --green:#178A4C; --green-soft:#E3F3E8; --amber:#B77900; --amber-soft:#FBF0D6; --red:#B93A2E; --red-soft:#F9E4E0; --blue:#2A67B0; --blue-soft:#E1EBF8;
+  --code-bg:#0F1720; --code-ink:#5BE27A;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif; --body:"IBM Plex Sans","Segoe UI",Helvetica,Arial,sans-serif; --mono:"IBM Plex Mono",Menlo,Consolas,monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1317; --surface:#151C22; --ink:#ECF0EC; --ink-2:#A6B2B9; --line:#26313A;
+  --green:#4FD37E; --green-soft:#12301E; --amber:#F0B33C; --amber-soft:#33270C; --red:#F0705F; --red-soft:#3A1712; --blue:#7FB2F0; --blue-soft:#132538;
+  --code-bg:#070B0F; --code-ink:#5BE27A; color-scheme: dark; } }
+:root[data-theme="dark"]{
+  --bg:#0E1317; --surface:#151C22; --ink:#ECF0EC; --ink-2:#A6B2B9; --line:#26313A;
+  --green:#4FD37E; --green-soft:#12301E; --amber:#F0B33C; --amber-soft:#33270C; --red:#F0705F; --red-soft:#3A1712; --blue:#7FB2F0; --blue-soft:#132538;
+  --code-bg:#070B0F; --code-ink:#5BE27A; color-scheme: dark; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;padding-inline:clamp(16px,4vw,40px);padding-block:0 64px}
+a{color:inherit}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header.hero{max-width:1080px;margin:0 auto;padding-block:40px 28px;display:grid;gap:14px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,8vw,88px);line-height:.95;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--green)}
+.lede{max-width:62ch;color:var(--ink-2);font-size:17px;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.rail{max-width:1080px;margin:8px auto 0}
+.rail .bar{display:flex;gap:3px;height:34px}
+.rail a{display:flex;align-items:center;justify-content:center;text-decoration:none;font-family:var(--mono);font-size:12px;color:#fff;border-radius:4px;min-width:0}
+.rail a span{opacity:.95}
+.rI{background:var(--red)} .rII{background:var(--blue)} .rIII{background:var(--amber)} .rIV{background:var(--green)}
+.rail .ticks{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:4px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink-2);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;align-items:start;margin-top:36px}
+nav.toc{position:sticky;top:16px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:2px;font-size:13.5px}
+nav.toc a{display:flex;gap:8px;align-items:baseline;text-decoration:none;padding:5px 8px;border-radius:6px;color:var(--ink-2)}
+nav.toc a:hover{background:var(--surface);color:var(--ink)}
+nav.toc a em{margin-left:auto;font-style:normal;font-size:11px}
+nav.toc .sec{margin-top:14px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);padding-left:8px}
+main{display:grid;gap:22px;min-width:0}
+h2.act{font-family:var(--display);font-size:34px;font-weight:700;margin:18px 0 0;line-height:1;text-transform:uppercase;letter-spacing:.01em}
+h2.act span{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--ink-2);text-transform:uppercase;margin-bottom:4px;font-weight:400}
+article.slide{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.slide-head{display:flex;align-items:center;gap:14px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.slide-head .num{font-family:var(--display);font-size:30px;font-weight:700;color:var(--green);line-height:1}
+.slide-head h3{font-family:var(--display);font-size:24px;font-weight:600;margin:0;line-height:1.1;flex:1;min-width:0;text-wrap:balance}
+.chip{font-size:12px;padding:4px 8px;border-radius:999px;background:var(--green-soft);color:var(--green);white-space:nowrap}
+figure{margin:0;background:#0B0F14}
+figure img{display:block;width:100%;height:auto;max-width:100%;aspect-ratio:1376/768}
+.body{padding:18px 20px 20px;display:grid;gap:14px}
+.note{margin:0;font-size:14px;color:var(--ink-2);padding:10px 12px;border-radius:8px}
+.note b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+.stage{background:var(--amber-soft);color:var(--ink)} .stage b{color:var(--amber)}
+.anim{background:var(--blue-soft);color:var(--ink)} .anim b{color:var(--blue)}
+.speech{font-size:18.5px;line-height:1.6;max-width:66ch;padding-left:14px;border-left:3px solid var(--green)}
+.speech p{margin:0 0 .8em} .speech p:last-child{margin-bottom:0}
+section.extra{margin-top:40px;display:grid;gap:14px}
+section.extra h2{font-family:var(--display);font-size:34px;font-weight:700;margin:0;text-transform:uppercase;line-height:1}
+details{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
+summary{cursor:pointer;font-weight:600} details p{color:var(--ink-2);margin:8px 0 0;max-width:70ch}
+ul.check{margin:0;padding-left:20px;display:grid;gap:8px;max-width:70ch}
+.prompt{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.prompt .ph{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.prompt .ph strong{font-family:var(--display);font-size:20px;font-weight:600;flex:1}
+.prompt button{font:500 13px var(--mono);background:var(--green);color:#fff;border:0;border-radius:6px;padding:7px 12px;cursor:pointer}
+.prompt button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.prompt pre{margin:0;padding:16px;background:var(--code-bg);color:var(--code-ink);font:14px/1.5 var(--mono);white-space:pre-wrap;overflow-x:auto}
+.steps{margin:0;padding-left:20px;color:var(--ink-2);max-width:70ch}
+@media (max-width:820px){ .wrap{grid-template-columns:1fr;gap:20px} nav.toc{position:static} .rail a span{font-size:10px} .speech{font-size:17px} }
+@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+</style>
+
+<header class="hero">
+  <div class="eyebrow">Ponencia final · Building Clinical AI Without Code · Dra. Cristina Petratti</div>
+  <h1>De 20 minutos <em>a segundos</em></h1>
+  <p class="lede">Guion de 10 minutos para exponer ante el cuerpo docente: cómo se construyó un asistente clínico web con IA sin saber programar, qué grietas aparecieron y qué prioridades quedaron invertidas. Cada diapositiva trae su tiempo, su texto hablado, la puesta en escena y la animación sugerida.</p>
+  <div class="meta"><span>12 diapositivas</span><span>4 actos</span><span>≈ 1.050 palabras habladas</span><span>130 palabras/min + pausas</span></div>
+</header>
+
+<div class="rail" aria-label="Línea de tiempo de la ponencia">
+  <div class="bar"><a href="#d1" class="rI" style="flex:45" title="Portada — De 20 minutos a segundos"><span>1</span></a><a href="#d2" class="rI" style="flex:60" title="El laberinto de Excel"><span>2</span></a><a href="#d3" class="rI" style="flex:45" title="El costo real del método manual"><span>3</span></a><a href="#d4" class="rII" style="flex:30" title="La pregunta"><span>4</span></a><a href="#d5" class="rII" style="flex:75" title="La arquitectura del asistente"><span>5</span></a><a href="#d6" class="rII" style="flex:75" title="Anatomía de un prompt exitoso"><span>6</span></a><a href="#d7" class="rII" style="flex:60" title="El resultado"><span>7</span></a><a href="#d8" class="rIII" style="flex:50" title="Funciona a diario, pero tenía grietas"><span>8</span></a><a href="#d9" class="rIII" style="flex:50" title="El espejismo del código"><span>9</span></a><a href="#d10" class="rIV" style="flex:45" title="Lecciones de la trinchera clínica"><span>10</span></a><a href="#d11" class="rIV" style="flex:40" title="Si empezara hoy de nuevo"><span>11</span></a><a href="#d12" class="rIV" style="flex:25" title="Cierre — La estética es el final, no el principio"><span>12</span></a></div>
+  <div class="ticks"><span>0:00</span><span>2:30</span><span>5:00</span><span>7:30</span><span>10:00</span></div>
+  <div class="legend"><span><i style="background:var(--red)"></i>I · El problema</span><span><i style="background:var(--blue)"></i>II · La construcción</span><span><i style="background:var(--amber)"></i>III · Las grietas</span><span><i style="background:var(--green)"></i>IV · Lecciones y cierre</span></div>
+</div>
+
+<div class="wrap">
+<nav class="toc" aria-label="Índice">
+  <ol><li><a href="#d1"><span class="mono">01</span> Portada — De 20 minutos a segundos <em class="mono">0:00</em></a></li><li><a href="#d2"><span class="mono">02</span> El laberinto de Excel <em class="mono">0:45</em></a></li><li><a href="#d3"><span class="mono">03</span> El costo real del método manual <em class="mono">1:45</em></a></li><li><a href="#d4"><span class="mono">04</span> La pregunta <em class="mono">2:30</em></a></li><li><a href="#d5"><span class="mono">05</span> La arquitectura del asistente <em class="mono">3:00</em></a></li><li><a href="#d6"><span class="mono">06</span> Anatomía de un prompt exitoso <em class="mono">4:15</em></a></li><li><a href="#d7"><span class="mono">07</span> El resultado <em class="mono">5:30</em></a></li><li><a href="#d8"><span class="mono">08</span> Funciona a diario, pero tenía grietas <em class="mono">6:30</em></a></li><li><a href="#d9"><span class="mono">09</span> El espejismo del código <em class="mono">7:20</em></a></li><li><a href="#d10"><span class="mono">10</span> Lecciones de la trinchera clínica <em class="mono">8:10</em></a></li><li><a href="#d11"><span class="mono">11</span> Si empezara hoy de nuevo <em class="mono">8:55</em></a></li><li><a href="#d12"><span class="mono">12</span> Cierre — La estética es el final, no el principio <em class="mono">9:35</em></a></li></ol>
+  <div class="sec">Después del guion</div>
+  <ol><li><a href="#jurado">Preguntas del jurado</a></li><li><a href="#ensayo">Checklist de ensayo</a></li><li><a href="#notebooklm">Prompt NotebookLM</a></li></ol>
+</nav>
+<main>
+<h2 class="act" id="acto-I"><span>Acto</span> I · El problema</h2>
+<article class="slide" id="d1">
+  <div class="slide-head">
+    <span class="num">01</span>
+    <h3>Portada — De 20 minutos a segundos</h3>
+    <span class="chip mono">0:00 – 0:45</span>
+  </div>
+  <figure><img src="img/j01.jpg" alt="Diapositiva 1: Portada — De 20 minutos a segundos" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> entrás con la diapositiva ya proyectada. No la leas. Mirá al jurado, esperá dos segundos de silencio y arrancá con la cifra.</p>
+    <div class="speech"><p>Buenas tardes. Veinte minutos. Ese era el tiempo que yo dedicaba, por paciente, a cruzar datos en Excel antes de empezar a hablar con esa persona. Hoy tarda tres segundos.</p><p>Lo que voy a presentar es un estudio de caso: mi consultorio, mis pacientes, mi planilla. Cómo construí un asistente clínico web con inteligencia artificial sin saber programar, aplicando lo que aprendimos en este curso. Y, sobre todo, qué grietas descubrí después, porque de esos errores aprendí más que del éxito.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> el reloj digital pasa de 20:00 a 00:03 al hacer clic (efecto Aparecer sobre el reloj verde).</p>
+  </div>
+</article>
+<article class="slide" id="d2">
+  <div class="slide-head">
+    <span class="num">02</span>
+    <h3>El laberinto de Excel</h3>
+    <span class="chip mono">0:45 – 1:45</span>
+  </div>
+  <figure><img src="img/j02.jpg" alt="Diapositiva 2: El laberinto de Excel" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> señalá el diagrama de flechas. Dejá que el caos visual hable; vos aportás el contexto clínico.</p>
+    <div class="speech"><p>En medicina de la obesidad no alcanza con pesar y medir. Evaluamos condición física: antropometría, fuerza de prensión manual con dinamómetro, test de levantarse de la silla y caminata de seis minutos.</p><p>Cada resultado tiene que ubicarse en su tabla de percentiles, y esas tablas dependen del sexo, la edad y la talla. Para cada persona yo tenía que evaluar, buscar cada valor en su tabla, cruzarlo, interpretarlo, redactar el informe y compararlo con la visita anterior. Todo a mano.</p><p>Este diagrama no es una exageración: es un mapa fiel de mi Excel. Evaluar la condición física me consumía más tiempo que la consulta médica en sí.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> que las flechas rojas y grises aparezcan en dos tandas (Fundido de entrada), para que el &quot;laberinto&quot; se construya delante del jurado.</p>
+  </div>
+</article>
+<article class="slide" id="d3">
+  <div class="slide-head">
+    <span class="num">03</span>
+    <h3>El costo real del método manual</h3>
+    <span class="chip mono">1:45 – 2:30</span>
+  </div>
+  <figure><img src="img/j03.jpg" alt="Diapositiva 3: El costo real del método manual" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> tres cifras, tres pausas. Marcá cada número con la mano. La tercera es la que importa: bajá la voz.</p>
+    <div class="speech"><p>Traducido a costo: veinte minutos por paciente invertidos únicamente en cruzar datos. Cien por ciento del trabajo hecho a mano y repetido, idéntico, en cada visita.</p><p>Y el dato más grave: cero seguimiento longitudinal. Todo ese esfuerzo no generaba un historial evolutivo. Con la obesidad, una enfermedad crónica, lo que importa es la trayectoria del paciente, y mi método la borraba en cada consulta.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> los tres paneles aparecen de a uno, de izquierda a derecha, al ritmo de tu voz.</p>
+  </div>
+</article><h2 class="act" id="acto-II"><span>Acto</span> II · La construcción</h2>
+<article class="slide" id="d4">
+  <div class="slide-head">
+    <span class="num">04</span>
+    <h3>La pregunta</h3>
+    <span class="chip mono">2:30 – 3:00</span>
+  </div>
+  <figure><img src="img/j04.jpg" alt="Diapositiva 4: La pregunta" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> este es el punto de giro. Una sola frase, lenta. Podés dar un paso hacia el jurado.</p>
+    <div class="speech"><p>Y entonces apareció la pregunta que da origen a este curso: ¿y si construyo una calculadora web… sin saber programar?</p><p>Ese es el salto que se nos propuso: dejar de ser consumidoras de Excel para convertirnos en creadoras de software asistido por inteligencia artificial.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> el cursor verde parpadeando; la frase aparece como si se tipeara (Máquina de escribir o entrada por caracteres).</p>
+  </div>
+</article>
+<article class="slide" id="d5">
+  <div class="slide-head">
+    <span class="num">05</span>
+    <h3>La arquitectura del asistente</h3>
+    <span class="chip mono">3:00 – 4:15</span>
+  </div>
+  <figure><img src="img/j05.jpg" alt="Diapositiva 5: La arquitectura del asistente" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> recorré el círculo en sentido horario, empezando por Claude. Usá las metáforas del curso; el jurado las conoce y valora que las hayas internalizado.</p>
+    <div class="speech"><p>La solución tiene cuatro piezas, y ninguna la programé yo.</p><p>Primero, el arquitecto: Claude. Yo describo en castellano lo que necesito, usando chat y agentes, y el modelo escribe el código.</p><p>Segundo, el escaparate: Streamlit. Publica la aplicación en internet y la hace usable desde el celular, en el consultorio, sin instalar nada.</p><p>Tercero, el archivo: Supabase, una base de datos. Guarda pacientes y evaluaciones, y eso es lo que finalmente permite ver la evolución histórica que Excel me negaba.</p><p>Cuarto, la máquina del tiempo: GitHub. Guarda el código y cada versión; si algo se rompe, puedo volver atrás.</p><p>Este es el stack completo que nos enseñó el curso: modelo de lenguaje, interfaz, base de datos y control de versiones.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> cada nodo se enciende al hacer clic, en orden 1 → 4, con su texto.</p>
+  </div>
+</article>
+<article class="slide" id="d6">
+  <div class="slide-head">
+    <span class="num">06</span>
+    <h3>Anatomía de un prompt exitoso</h3>
+    <span class="chip mono">4:15 – 5:30</span>
+  </div>
+  <figure><img src="img/j06.jpg" alt="Diapositiva 6: Anatomía de un prompt exitoso" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> esta es la diapositiva más &quot;técnica&quot; y la que más valoran los docentes. Señalá cada color mientras nombrás su función. Es tu demostración de método.</p>
+    <div class="speech"><p>¿Cómo se le habla a la IA para que el resultado sirva en una consulta? Este es el prompt real que usé, y tiene cinco componentes que aprendimos a exigir.</p><p>En azul, asignación de rol y tecnología: &quot;Sos un desarrollador senior de Python y Streamlit&quot;.</p><p>En naranja, contexto clínico y variables: sexo, edad y el resultado de la prueba de fuerza de prensión en kilogramos.</p><p>En rojo, rigor matemático explícito: buscá el percentil en esta tabla, e interpolá si el valor cae entre dos filas. Si no lo pido, el modelo redondea, y en clínica redondear es equivocarse.</p><p>En verde, la lógica de visualización clínica: un semáforo. Rojo por debajo del percentil 10, naranja por debajo del 25, verde hasta el 75, azul por encima.</p><p>Y en amarillo, formato de salida estricto: código completo, listo para pegar, sin explicaciones.</p><p>La lección: un buen prompt se escribe igual que una buena indicación médica. Quién, para qué, con qué datos, con qué criterios y en qué formato.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> los recuadros de color se iluminan uno por uno en el orden azul → naranja → rojo → verde → amarillo.</p>
+  </div>
+</article>
+<article class="slide" id="d7">
+  <div class="slide-head">
+    <span class="num">07</span>
+    <h3>El resultado</h3>
+    <span class="chip mono">5:30 – 6:30</span>
+  </div>
+  <figure><img src="img/j07.jpg" alt="Diapositiva 7: El resultado" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> mirá primero a la izquierda (&quot;el pasado&quot;), después a la derecha (&quot;el presente&quot;). Es la diapositiva de la satisfacción; permitite sonreír.</p>
+    <div class="speech"><p>El resultado. A la izquierda, el pasado: veinte minutos por paciente, múltiples hojas de Excel, cruce manual propenso a errores, datos aislados.</p><p>A la derecha, el presente: quince pacientes evaluados con el asistente desde abril. Un informe en PDF generado en segundos. Interpretación visual por semáforos, que el paciente entiende de un vistazo. Y datos estructurados, listos para análisis estadístico.</p><p>Pasamos de datos aislados a información clínica accionable. Y si mi historia terminara acá, sería una historia de éxito. Pero no termina acá.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> el semáforo central se enciende de arriba a abajo; después aparecen las cuatro tarjetas verdes.</p>
+  </div>
+</article><h2 class="act" id="acto-III"><span>Acto</span> III · Las grietas</h2>
+<article class="slide" id="d8">
+  <div class="slide-head">
+    <span class="num">08</span>
+    <h3>Funciona a diario, pero tenía grietas</h3>
+    <span class="chip mono">6:30 – 7:20</span>
+  </div>
+  <figure><img src="img/j08.jpg" alt="Diapositiva 8: Funciona a diario, pero tenía grietas" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> cambio de tono. Más pausado, más grave. Este acto es el que te distingue como profesional científica: reportar lo que salió mal.</p>
+    <div class="speech"><p>La aplicación funciona a diario. Pero tenía grietas críticas que yo no veía.</p><p>Primera grieta: seguridad. La aplicación quedó abierta en internet, sin contraseña, durante meses. Datos de pacientes. Yo no lo pensé porque estaba concentrada en que funcionara.</p><p>Segunda grieta: trazabilidad. Las tablas de referencia clínica quedaron incrustadas dentro del código, &quot;hardcodeadas&quot;, sin citar la fuente ni el número de versión. Si mañana se publica una nueva tabla de percentiles, ¿cómo sé cuál está usando mi calculadora? No lo sé.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> las grietas rojas del bloque de concreto aparecen con Fundido al mencionar cada una; los dos recuadros rojos entran después.</p>
+  </div>
+</article>
+<article class="slide" id="d9">
+  <div class="slide-head">
+    <span class="num">09</span>
+    <h3>El espejismo del código</h3>
+    <span class="chip mono">7:20 – 8:10</span>
+  </div>
+  <figure><img src="img/j09.jpg" alt="Diapositiva 9: El espejismo del código" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> es la tesis central de la ponencia. Decila mirando al jurado, sin mirar la pantalla.</p>
+    <div class="speech"><p>Y la tercera grieta es la más importante, porque es conceptual. El espejismo del código: que &quot;funcione&quot; no significa que esté &quot;bien&quot;.</p><p>El código corría perfectamente. La pantalla decía &quot;ejecutado con éxito&quot;. Pero no había forma de saber si el cálculo de un percentil era correcto sin recalcularlo a mano. Es decir, sin volver al método que quería reemplazar.</p><p>El insight clínico es este: sin casos de prueba automatizados que validen la lógica matemática, la IA es un riesgo clínico inaceptable. Un fármaco se aprueba con ensayos. Un cálculo clínico también necesita los suyos.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> la X roja aparece sobre la ventana &quot;Ejecutado con éxito&quot; con Aparecer, un golpe seco, sin transición suave.</p>
+  </div>
+</article><h2 class="act" id="acto-IV"><span>Acto</span> IV · Lecciones y cierre</h2>
+<article class="slide" id="d10">
+  <div class="slide-head">
+    <span class="num">10</span>
+    <h3>Lecciones de la trinchera clínica</h3>
+    <span class="chip mono">8:10 – 8:55</span>
+  </div>
+  <figure><img src="img/j10.jpg" alt="Diapositiva 10: Lecciones de la trinchera clínica" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> tres semáforos, tres frases cortas. Ritmo ágil.</p>
+    <div class="speech"><p>Lecciones de la trinchera clínica, en tres colores.</p><p>Verde, lo que repito: usar la calculadora en cada consulta, y exigirle siempre a la IA el código completo, nunca fragmentos aislados que después no sé dónde pegar.</p><p>Rojo, lo que descarto: confiar ciegamente en que &quot;corre&quot;. Si no hay casos de prueba con resultados conocidos, el código no sirve para la práctica médica.</p><p>Naranja, lo que me falta: control de usuarios y contraseñas, copias de seguridad, y aprender a auditar los cambios antes de publicarlos.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> cada fila entra desde la izquierda con Desplazar, en orden verde → rojo → naranja.</p>
+  </div>
+</article>
+<article class="slide" id="d11">
+  <div class="slide-head">
+    <span class="num">11</span>
+    <h3>Si empezara hoy de nuevo</h3>
+    <span class="chip mono">8:55 – 9:35</span>
+  </div>
+  <figure><img src="img/j11.jpg" alt="Diapositiva 11: Si empezara hoy de nuevo" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> señalá la pirámide de la izquierda, después la de la derecha. La clave es la palabra &quot;invertidas&quot;.</p>
+    <div class="speech"><p>Si empezara hoy de nuevo, invertiría las prioridades.</p><p>Cómo lo hice: primero el PDF bonito, después la interfaz, después la lógica matemática y, al final, seguridad y casos de prueba… que quedaron olvidados.</p><p>Cómo lo haría hoy, y cómo el curso nos enseñó a hacerlo: primero seguridad, contraseñas y accesos. Segundo, casos de prueba con validación clínica garantizada. Tercero, la lógica matemática. Y recién al final la interfaz y el PDF bonito.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> la pirámide de la izquierda se desmorona (bloques que caen con Salida flotante); la de la derecha se construye desde la base, bloque por bloque.</p>
+  </div>
+</article>
+<article class="slide" id="d12">
+  <div class="slide-head">
+    <span class="num">12</span>
+    <h3>Cierre — La estética es el final, no el principio</h3>
+    <span class="chip mono">9:35 – 10:00</span>
+  </div>
+  <figure><img src="img/j12.jpg" alt="Diapositiva 12: Cierre — La estética es el final, no el principio" loading="lazy" width="1376" height="768"></figure>
+  <div class="body">
+    <p class="note stage"><b>Puesta en escena</b> frase final de memoria. Pausa. Agradecé. No digas &quot;y eso es todo&quot;.</p>
+    <div class="speech"><p>La estética es el final, no el principio.</p><p>La inteligencia artificial no reemplaza la validación clínica. Pero cuando se la audita correctamente, nos devuelve el tiempo necesario para ejercerla. Veinte minutos que hoy vuelven a ser de mi paciente.</p><p>Muchas gracias.</p></div>
+    <p class="note anim"><b>Animación sugerida</b> ninguna. La imagen de la consulta a la izquierda y el código a la derecha ya dicen todo; que la frase quede quieta.</p>
+  </div>
+</article>
+
+<section class="extra" id="jurado">
+  <h2>Preguntas probables del jurado</h2>
+  <details><summary>¿De dónde salen las tablas de percentiles y cómo garantizás que sean las correctas?</summary><p>Hoy están incrustadas en el código sin cita ni versión: es la grieta de trazabilidad que reconozco. El próximo paso es moverlas a un archivo de datos separado, con fuente bibliográfica, año y versión, y cargar en el prompt la referencia exacta.</p></details><details><summary>¿Validaste los cálculos?</summary><p>Solo por recálculo manual en casos aislados. La prioridad inmediata es un banco de casos de prueba: valores de entrada con percentil esperado conocido, incluidos los bordes (valor exactamente en una fila, valor entre dos filas, extremos de la tabla), que se ejecute automáticamente cada vez que la IA modifica el código.</p></details><details><summary>¿Y la protección de datos de los pacientes?</summary><p>La aplicación estuvo abierta sin contraseña; ya lo corregí como prioridad uno. Además corresponde: autenticación, cifrado, consentimiento informado para el registro digital, minimización de datos identificatorios y copias de seguridad, según la normativa de protección de datos de salud que aplique en la jurisdicción.</p></details><details><summary>¿Cuánto tiempo real ahorrás?</summary><p>El cruce de datos pasó de unos 20 minutos a segundos. Lo que no se elimina, y no debe eliminarse, es el tiempo de interpretación clínica y la conversación con el paciente.</p></details><details><summary>¿La IA puede introducir errores silenciosos al modificar el código?</summary><p>Sí, y ese es el argumento central de la ponencia. Por eso: casos de prueba antes de cada publicación, control de versiones en GitHub para poder volver atrás y auditoría del cambio antes de desplegarlo.</p></details><details><summary>¿Es reproducible por otro colega?</summary><p>Sí: el stack es gratuito y el prompt está documentado. La condición es que ese colega aplique el orden de prioridades invertidas desde el día uno.</p></details>
+</section>
+
+<section class="extra" id="ensayo">
+  <h2>Checklist de ensayo</h2>
+  <ul class="check">
+    <li>Cronometrá tres pasadas completas. Objetivo: 9:30 – 10:00. Si te pasás, recortá en la diapositiva 5 (arquitectura), nunca en la 9 (tesis).</li>
+    <li>Memorizá de corrido las tres frases ancla: <q>Veinte minutos</q> (inicio), <q>Que funcione no significa que esté bien</q> (centro), <q>La estética es el final, no el principio</q> (cierre).</li>
+    <li>Llevá impreso el prompt de la diapositiva 6 por si preguntan por el texto exacto.</li>
+    <li>Llevá un caso de ejemplo (sexo, edad, kilos de prensión y percentil resultante) para responder con un número concreto si piden demostración.</li>
+    <li>Regla de oro: una idea por diapositiva, un dato por idea, una pausa por dato.</li>
+  </ul>
+</section>
+
+<section class="extra" id="notebooklm">
+  <h2>Prompt para el audio de NotebookLM</h2>
+  <ol class="steps">
+    <li>Creá un cuaderno nuevo y subí como fuentes el PDF de las diapositivas y el guion de esta ponencia.</li>
+    <li>En <b>Resumen de audio → Personalizar</b>, pegá la versión corta. Si el campo admite más texto, usá la extendida.</li>
+    <li>Idioma: español. Duración: predeterminada (10–15 min) o más corta.</li>
+  </ol>
+  <div class="prompt"><div class="ph"><strong>Versión A · corta</strong><button type="button" data-copy="pa" id="copy-a">Copiar</button></div><pre id="pa">Generá el audio en español rioplatense, tono profesional y cercano, como una conversación entre dos colegas de salud digital. Tema: el estudio de caso de la Dra. Cristina Petratti, médica endocrinóloga, que construyó un asistente clínico web con IA sin saber programar, aplicando el curso &quot;Building Clinical AI Without Code&quot;. Seguí este orden: 1) el problema (20 minutos por paciente cruzando percentiles de condición física en Excel, sin seguimiento longitudinal); 2) el stack (Claude escribe el código, Streamlit publica, Supabase guarda, GitHub versiona); 3) la anatomía del prompt (rol, contexto clínico, rigor matemático con interpolación, semáforo por percentiles, formato estricto); 4) resultados (15 pacientes desde abril, PDF en segundos); 5) las grietas: app abierta sin contraseña, tablas hardcodeadas sin fuente, y la tesis central: &quot;que el código funcione no significa que esté bien&quot;; 6) las prioridades invertidas: seguridad, casos de prueba, lógica y recién al final la estética. Cerrá con la frase: &quot;La IA no reemplaza la validación clínica, pero bien auditada nos devuelve el tiempo para ejercerla&quot;. No inventes datos ni cifras que no estén en las fuentes.</pre></div>
+  <div class="prompt"><div class="ph"><strong>Versión B · extendida</strong><button type="button" data-copy="pb" id="copy-b">Copiar</button></div><pre id="pb">Rol y audiencia. Sos el guionista de un podcast breve para docentes y profesionales de la salud interesados en IA aplicada. Los oyentes son médicos y formadores; no necesitan que les expliquen qué es un percentil, pero sí qué es un caso de prueba automatizado y por qué importa.</pre></div>
+</section>
+</main>
+</div>
+<script>
+document.querySelectorAll('button[data-copy]').forEach(b=>b.addEventListener('click',async()=>{
+  const t=document.getElementById(b.dataset.copy).textContent;
+  try{await navigator.clipboard.writeText(t);b.textContent='Copiado';}catch(e){b.textContent='Seleccioná y copiá';}
+  setTimeout(()=>b.textContent='Copiar',1800);
+}));
+</script>
