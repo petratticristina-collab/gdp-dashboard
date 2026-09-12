@@ -67,6 +67,7 @@ La autora declara conflictos de interés con **Novo Nordisk**: ha recibido forma
 - **Capítulo 13:** la doble salida no produce documentos clínicos: la nota (A) es borrador, nunca anotación en la historia; el caso 6 remite a la frase de farmacovigilancia y a notificar si la persona contesta con un efecto adverso; el "Hazlo hoy" puede usar la hoja del caso 1 y el texto (B) del caso 3 como salidas de prueba; el caso 4 (sesgo de "hábitos" sin hecho que lo sostenga) sirve de ejemplo de estigma en salidas.
 - **Anexo A:** la ficha del caso 7 (con Por qué esta herramienta, Higiene, Variables, Probada por) es la plantilla de los cincuenta prompts; los nueve prompts del capítulo 4 entran en su versión corregida; el bloque "CONTEXTO DE VOZ" del caso 2 se guarda como contexto reutilizable.
 - **Anexo B:** las tres líneas de la regla 19 pasan al bloque "forma" junto al disclaimer; la pregunta 6 (eliminatoria) cubre los consejos que el modelo añade sin que la médica los diera; la pregunta 9 (leída entera) incluye contar a mano los recuentos que el modelo declara.
+- **Capítulo 2 (v4 futura):** su caso 4 y su receta de caso sintético dicen "dos cosas cambiadas"; con la regla 22 (casos de cero) hay que reformularlo. El capítulo 4 ya remite a "solo casos construidos de cero (capítulo 2)".
 - **Maquetación:** la plantilla del caso 7 va en un bloque de cuatro acentos graves que anida otro de tres; comprobar que el maquetador lo renderiza.
 
 ## Preguntas abiertas para la autora (capítulo 4, no bloquean; ver revisiones/cap04_consolidado.md, sección C)
@@ -103,7 +104,8 @@ Mujer de entre 50 y 60 años, obesidad grado II, hipertensión tratada, prediabe
 | 1 | **aprobado por la autora (12-09-2026)** | v3 | 6.399 palabras; 6 prompts; 22 referencias verificadas; 2 [VERIFICAR] (ISBN GIRO, infrarregistro). Archivo: capitulos/cap01_v3_estilo.md |
 | 2 | **aprobado por la autora (12-09-2026)** | v3 | Decisión del orquestador: el caso de la etiqueta nutricional (educación grupal) se traslada al capítulo 6 y se guarda en capitulos/cap06_caso_etiqueta_reservado.md; el capítulo 2 queda con 6 casos; 6.799 palabras; 18 referencias; 3 [VERIFICAR]. Archivo: capitulos/cap02_v3_estilo.md |
 | 3 | **aprobado por la autora (12-09-2026)** | v3 | 7.977 palabras (decisión del orquestador: tope 8.000 por ser el capítulo de compliance); 7 casos, 8 prompts; 21 referencias verificadas; 9 [VERIFICAR] (Reglamento 2026/1744, RD 1416/1994 literal, apartados Código de Deontología, ISBN GIRO, triángulo negro). Archivo: capitulos/cap03_v3_estilo.md. Consolidado: revisiones/cap03_consolidado.md. |
-| 4 | **en ciclo** (v1 en redacción desde 12-09-2026) | – | Plan: indice.md, 7 casos, viñeta varón 60-65 jubilado, objetivo 4.000 palabras (rango real del libro 6.400-6.800) |
+| 4 | **terminado, pendiente de aprobación de Cristina** | v3 | 7.982 palabras (tope ad hoc 8.000, regla 20); 7 casos, 9 prompts literales (11 bloques de código); 13 referencias verificadas; 1 [VERIFICAR] (ISBN GIRO); 1 [POR ACLARAR: frase de la autora] en el caso 5. Ciclo: v1 6.977 → v2 9.135 → v3 7.982. Archivo: capitulos/cap04_v3_estilo.md. Consolidado: revisiones/cap04_consolidado.md. PDF: capitulos/Capitulo_4_v3_borrador.pdf |
+| 5 | pendiente | – | siguiente en el ciclo |
 
 ## Referencias
 ### Verificadas
