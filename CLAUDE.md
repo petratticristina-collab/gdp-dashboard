@@ -20,7 +20,7 @@ La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petrat
 Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `memoria/` como Markdown estructurado, registrarlo en esta tabla y hacer commit.
 
 ## Proyectos en curso
-- `proyectos/libro_IA_AP_obesidad/prompt_gemini.md`: prompt maestro y secuencia de prompts para Gemini con los que la usuaria escribe un libro sobre IA en Atención Primaria para el abordaje de la obesidad. Al retomar el proyecto, leer primero ese archivo.
+- `proyectos/libro_IA_AP_obesidad/`: el libro *IA en la consulta: la revolución que cabe en diez minutos* (Dra. Cristina Petratti), escrito capítulo a capítulo con el orquestador editorial. **Al retomar el proyecto ("sigue con mi libro"), leer primero `biblia.md`** (memoria compartida: decisiones, reglas, estado de capítulos, preguntas abiertas) y después el plan y el consolidado del último capítulo en `revisiones/`. Estado el 13-09-2026: capítulos 1-3 y 5 aprobados por la autora; 4 y 6 terminados y pendientes de su aprobación; 7 siguiente. Cada ciclo produce `capitulos/capNN_v1.md` → cuatro informes en `revisiones/` → `capNN_consolidado.md` → `capNN_v2.md` → `capNN_v3_estilo.md` → PDF con `herramientas/md_a_pdf.py` (requiere `pip install markdown` y el Chromium de Playwright). `prompt_gemini.md` es el prompt maestro original para Gemini.
 - `proyectos/orquestadores/`: dos sistemas multiagente con prompts de sistema, esquema de traspaso JSON y mapa de nodos n8n. `orquestador_editorial.md` (libro, 7 agentes) y `orquestador_contenido.md` (reels y posts, 6 agentes). Si la usuaria pide ejecutar uno, lanzar los agentes con la herramienta Agent siguiendo esos prompts y el ciclo descrito.
 
 ## Proyectos en curso (cont.)
