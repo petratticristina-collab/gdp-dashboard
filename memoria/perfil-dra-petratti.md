@@ -19,7 +19,7 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Libros | «Pierde peso» (bestseller) · «Obesidades sin culpa. No es falta de voluntad. Es biología» (2026) |
 | Canales | Instagram @crispetratti · YouTube @dra.cristinapetratti · Threads @crispetratti · LinkedIn · web cristinapetratti.com · podcast «Quiérete mucho» `[confirmar]` |
 | Herramientas de práctica | WhatsApp Business, DietoPro, tablero de ventas `[inferido de captura de pantalla]` |
-| Consulta | Alicante y online (según guion del tráiler de YouTube, sept. 2026) |
+| Consulta | Alicante (presencial) y online para España y Latinoamérica (sept. 2026) |
 | Podcast | Conversaciones con expertos en obesidad, ejercicio, menopausia e IA aplicada a la salud (nombre y plataforma `[confirmar]`) |
 | Ámbito regulatorio | España (colegiación autonómica, OMC, LOPS, RGPD/LOPDGDD) |
 

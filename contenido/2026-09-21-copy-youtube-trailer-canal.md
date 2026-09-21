@@ -27,7 +27,7 @@ este canal es para ti.
 
 Soy la Dra. Cristina Petratti, médica de familia especializada en obesidad y salud metabólica, miembro de la
 Sociedad Española para el Estudio de la Obesidad (SEEDO) y autora de «Obesidades sin culpa». Paso consulta en
-Alicante y online.
+Alicante y online, también desde Latinoamérica.
 
 Aquí no vas a encontrar dietas milagro, motivación ni antes y después. Vas a encontrar tres cosas:
 1. Los estudios que de verdad importan, explicados en lenguaje claro.
@@ -55,7 +55,7 @@ Suscríbete y activa la campana: cada semana desmontamos un mito con ciencia.
 Web: https://www.cristinapetratti.com
 Instagram: https://www.instagram.com/crispetratti
 Podcast: [enlace a Spotify / Apple Podcasts]
-Consulta (Alicante y online): [enlace de la web]
+Consulta en Alicante y online (España y Latinoamérica): [enlace de la web]
 
 ℹ️ TRANSPARENCIA
 Participo en un programa formativo de divulgación científica digital financiado por Novo Nordisk. Los vídeos de
