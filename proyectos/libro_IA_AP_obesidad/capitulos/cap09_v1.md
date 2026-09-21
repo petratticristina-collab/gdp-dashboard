@@ -18,7 +18,7 @@ De todo lo que hay en esa agenda, la máquina entra en algunas cosas; en otras e
 
 ## Primera parte · La agenda de un martes
 
-Los cinco momentos los definí en el capítulo 1 (caso 4) y cada caso del libro lleva el suyo. En una línea cada uno: **consulta**, la persona delante, presencial o al teléfono; **seguimiento de crónicos**, las revisiones programadas y lo que las prepara; **administración**, informes, partes, correo y gestión; **docencia**, sesiones, residentes y estudio; **divulgación y comunidad**, lo que sale del centro hacia fuera: charlas, redes, el cartel.
+Los cinco momentos los definí en el capítulo 1 (caso 4). En una línea cada uno: **consulta**, la persona delante, presencial o al teléfono; **seguimiento de crónicos**, las revisiones programadas y lo que las prepara; **administración**, informes, partes, correo y gestión; **docencia**, sesiones, residentes y estudio; **divulgación y comunidad**, lo que sale del centro hacia fuera: charlas, redes, el cartel.
 
 Un martes los mezcla, y el reel que me debo desde hace un mes es divulgación y no cabe en ningún hueco: lo hago en casa.
 
@@ -139,9 +139,9 @@ RESTRICCIONES: Sin fármacos ni nombres comerciales. Sin adjetivos sobre nadie. 
 | Pieza | Tema | Formato | Disclaimer | Vínculo |
 |---|---|---|---|---|
 | 1 | "No es falta de voluntad. Es biología" (capítulo 1) | Reel, 45 s | General, en la bio | No |
-| 2 | La función antes que el peso: la silla y el dinamómetro (capítulo 8) | Carrusel | General; de derivación (habla de pruebas) | No |
+| 2 | La función antes que el peso (capítulo 8) | Carrusel | General; de derivación (habla de pruebas) | No |
 | 3 | "Comer menos y moverse más", refutado | Texto | General; de derivación (nombra el tratamiento) | Sí: roza los fármacos; declaro dentro aunque no haya patrocinio |
-| 4 | La pregunta de vuelta: por qué le pido que me lo cuente (capítulo 6) | Reel, 45 s | General, en la bio | No |
+| 4 | La pregunta de vuelta (capítulo 6) | Reel, 45 s | General, en la bio | No |
 
 Patrocinado, ninguno este mes. Si lo hubiera, se dice primero y se acumulan los tres (capítulo 3).
 
@@ -267,7 +267,7 @@ Lo que se ve: [por ejemplo: una puerta de consulta entreabierta, con luz cálida
 
 Lo que no debe aparecer, y lo compruebo: ningún texto, letra ni número dentro de la imagen; ninguna persona ni parte de una persona (ni manos, ni siluetas, ni sombras con forma humana); ninguna comida ni bebida; ninguna báscula, cinta métrica ni ropa; ningún logotipo, marca ni cruz sanitaria; ningún objeto médico reconocible (bata, fonendo, pastillas); nada que sugiera "antes y después".
 
-Genera tres variantes distintas de la misma escena. Después de las imágenes, escribe una lista con el título "LO QUE NO DEBE APARECER" repitiendo, uno por uno, los ocho puntos anteriores, para que yo marque cada uno como comprobado en cada variante.
+Genera tres variantes distintas de la misma escena. Después de las imágenes, escribe una lista con el título "LO QUE NO DEBE APARECER" repitiendo, uno por uno, los ocho puntos anteriores, para que yo marque cada uno como comprobado en cada variante. No incluyas ni pidas datos de personas.
 ```
 
 **Ejemplo abreviado de salida.**
@@ -357,7 +357,7 @@ RESTRICCIONES: No propongas cómo construirlo, ni "en pequeño", ni "para probar
 
 > DESCRIPCIÓN SIN DATOS
 > QUÉ HARÍA SOLO: leer peso, pasos, glucosa y ánimo cada día; escribir qué comer y cuánto moverse; avisar "si algo va mal". QUÉ DATOS: cuatro, diarios, todos de una persona, todos de salud. QUIÉN LO SUPERVISA: SIN RESPUESTA. DATO ALARMANTE A LAS TRES: SIN RESPUESTA. QUIÉN FIRMA: SIN RESPUESTA.
-> Autonomía: escribiría cada día sin que nadie lo lea. Responsabilidad: SIN RESPUESTA. Supervisión: SIN RESPUESTA. Consentimiento: SIN RESPUESTA. Equidad: SIN RESPUESTA (exige reloj y aplicaciones).
+> Autonomía: escribiría cada día sin que nadie lo lea. Responsabilidad: SIN RESPUESTA. Supervisión: SIN RESPUESTA. Consentimiento: SIN RESPUESTA. Equidad: SIN RESPUESTA.
 > PREGUNTAS SIN RESPUESTA: 4 · DATOS DE PERSONAS QUE NECESITA: SÍ
 > NO SE ENCIENDE
 > DECISIÓN: la médica
@@ -419,7 +419,7 @@ RESTRICCIONES: Sin diagnósticos, sin "probablemente", sin pauta, sin fármacos.
 
 Tiene cincuenta y cinco años, conduce un camión de reparto, obesidad de grado II, hipertensión tratada y una apnea del sueño que nadie ha estudiado. Un martes, en cuatro momentos.
 
-**Consulta, 08:40.** Viene por "cansancio". Ronca, dice su mujer; se duerme en los semáforos, dice él, como quien cuenta una anécdota; el cuello es ancho. Le hago el STOP-Bang (Chung 2008; capítulo 5) y la tensión con el manguito grande. Antes de nombrar el peso, pido permiso (capítulo 4, caso 5); me lo da, y hablamos dos minutos de que la apnea y el peso van juntos. Siete minutos, ninguna máquina, y una derivación a la unidad de sueño. Al levantarse: "Doctora, necesito un informe para el carnet".
+**Consulta, 08:40.** Viene por "cansancio". Ronca, dice su mujer; se duerme en los semáforos, dice él; el cuello es ancho. Le hago el STOP-Bang (Chung 2008; capítulo 5) y la tensión con el manguito grande. Antes de nombrar el peso, pido permiso (capítulo 4, caso 5); me lo da, y hablamos dos minutos de que la apnea y el peso van juntos. Siete minutos, ninguna máquina, y una derivación a la unidad de sueño. Al levantarse: "Doctora, necesito un informe para el carnet".
 
 **Administración, 11:30.** El informe para el centro de reconocimiento de conductores es un documento firmado, desde la plantilla de mi sistema, con sus datos, sin IA: los modelos oficiales quedan fuera (capítulo 5, caso 3) y lo que se firma no lleva "generado con IA". Lo que la IA hizo, meses antes, fue la plantilla del caso 1 y el correo genérico a la unidad de sueño para adelantar la cita, que hoy relleno en mi sistema. Lo que le digo sobre conducir hasta que le vean no es opinión mía: es lo que dice el reglamento de conductores para la apnea con somnolencia y para su grupo de permiso [VERIFICAR RD 1055/2015, anexo IV; CLÍNICO y COMPLIANCE fijan la frase], y que se lo he dicho consta en la historia (Ley 41/2002, art. 4.1).
 
@@ -456,6 +456,7 @@ Mañana a las ocho la agenda será otra. La máquina habrá entrado en lo que no
 
 1. Sørensen K, Pelikan JM, Röthlin F, Ganahl K, Slonska Z, Doyle G, et al. Health literacy in Europe: comparative results of the European health literacy survey (HLS-EU). Eur J Public Health. 2015;25(6):1053-8. doi:10.1093/eurpub/ckv043 [VERIFICAR cifra española, figura 2, como en el capítulo 6]
 2. Houts PS, Doak CC, Doak LG, Loscalzo MJ. The role of pictures in improving health communication: a review of research on attention, comprehension, recall, and adherence. Patient Educ Couns. 2006;61(2):173-90. doi:10.1016/j.pec.2005.05.004 [VERIFICAR]
+
 **Estigma y representación**
 
 3. Rubino F, Puhl RM, Cummings DE, Eckel RH, Ryan DH, Mechanick JI, et al. Joint international consensus statement for ending stigma of obesity. Nat Med. 2020;26(4):485-97. doi:10.1038/s41591-020-0803-x [VERIFICAR página del apartado sobre imágenes en medios]
@@ -478,5 +479,5 @@ Mañana a las ocho la agenda será otra. La máquina habrá entrado en lo que no
 
 12. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. BOE núm. 274, de 15 de noviembre de 2002. Art. 4.1.
 13. Real Decreto 577/2013, de 26 de julio, por el que se regula la farmacovigilancia de medicamentos de uso humano. BOE núm. 179, de 27 de julio de 2013. Arts. 2 y 6.1.
-14. Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (Reglamento General de Protección de Datos). DOUE L 119, de 4 de mayo de 2016. Arts. 4.11 y 9.
+14. Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (Reglamento General de Protección de Datos). DOUE L 119, de 4 de mayo de 2016. Art. 4.11.
 15. Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial. DOUE L, 12 de julio de 2024. Arts. 3, 50 y 113, modificado por el Reglamento (UE) 2026/1744 [VERIFICAR en EUR-Lex la definición de ultrasuplantación, los apartados 2 y 4 del art. 50 y la fecha de aplicación, 2 de agosto de 2026]
