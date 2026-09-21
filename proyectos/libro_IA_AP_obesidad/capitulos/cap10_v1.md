@@ -43,17 +43,17 @@ El sexto no tiene antídoto en la salida, porque no está en la salida. Nadie le
 
 **La farmacovigilancia la haces tú.** El reflejo de tres pasos ante un efecto adverso contado por mensaje ya está en el capítulo 3: no contestar clínicamente, redirigir con la frase preparada, notificar. Faltaba ensayar el formulario: caso 3. La IA prepara; no notifica, porque no sabe quién es la persona y no debe saberlo.
 
-**La transparencia también se firma.** La casilla FINANCIACIÓN de un ensayo se copia con el nombre que da el artículo, aunque sea el laboratorio con el que colaboro (capítulo 7). Y mi nota de vínculos va donde iría siempre: sesión, artículo, hoja (capítulo 3). Una máquina no la hace menos necesaria.
+**La transparencia también se firma.** La casilla FINANCIACIÓN de un ensayo se copia con el nombre que da el artículo, aunque sea el laboratorio con el que colaboro (capítulo 7). Y mi nota de vínculos va donde iría siempre: sesión, artículo, hoja (capítulo 3).
 
-**Cuando la persona trae un plan hecho por un chat**, se revisa con ella, sin ridiculizar ni prohibir (caso 4). Y cuando el centro necesita una página que diga qué entra y quién firma, se escribe como borrador para quien la firma (caso 5).
+**Cuando la persona trae un plan hecho por un chat**, se revisa con ella, sin ridiculizar ni prohibir (caso 4). Y la página del centro que dice qué entra y quién firma se escribe como borrador para quien la firma (caso 5).
 
-**La excepción del secreto, en un párrafo** [POR ACLARAR: la autora decide si lo mantiene; si no, se retira entero]. El conductor del capítulo 9 puede no seguir el consejo y seguir conduciendo. El secreto tiene excepciones tasadas por la ley y por la deontología, y la de peligro grave para terceros es de último recurso (Ley 41/2002, art. 7; Código de Deontología 2022, artículos del secreto y sus excepciones [VERIFICAR apartados]). No la decides sola y no la decides con una máquina: se consulta con la comisión de deontología del colegio o con el servicio jurídico, y lo consultado y lo decidido constan en la historia. Este libro no dice qué debes hacer con ese conductor: dice el marco y a quién se pregunta. COMPLIANCE fija la redacción.
+**La excepción del secreto, en un párrafo** [POR ACLARAR: la autora decide si lo mantiene; si no, se retira entero]. El conductor del capítulo 9 puede no seguir el consejo y seguir conduciendo. El secreto tiene excepciones tasadas por la ley y por la deontología, y la de peligro grave para terceros es de último recurso (Ley 41/2002, art. 7; Código de Deontología 2022 [VERIFICAR artículos del secreto y sus excepciones]). No la decides sola ni con una máquina: se consulta con la comisión de deontología del colegio o con el servicio jurídico, y lo consultado y lo decidido constan en la historia. Este libro no dice qué hacer con ese conductor: dice el marco y a quién se pregunta. COMPLIANCE fija la redacción.
 
 ---
 
 ## Tercera parte · Lo que cambia de nombre legal al salir de la consulta
 
-El capítulo 8 dijo "tres usos, tres reglas" y el 9 puso nombre legal a un agente que no se enciende. La tabla completa, cinco filas con lo que cada cosa es dentro de tu consulta y fuera de ella, está en el anexo D; aquí, lo que cambia y por qué.
+El capítulo 8 dijo "tres usos, tres reglas" y el 9 puso nombre legal a un agente que no se enciende. La tabla completa, dentro de tu consulta y fuera de ella, está en el anexo D; aquí, lo que cambia y por qué.
 
 Una hoja para la persona es material informativo revisado y firmado; publicada, es una pieza pública con lo del capítulo 3 y sin etiqueta de "generado" si la revisaste tú y respondes de ella (AI Act, art. 50.4). Una voz sintética genérica lleva su línea por honestidad; si imita a alguien real, tú incluida, la etiqueta es exigible desde el 2 de agosto de 2026 (capítulo 9). La calculadora es herramienta propia en tu consulta (MDR, art. 5.5 [VERIFICAR]); como código que enseña el método, material didáctico; como app para otros cupos, producto sanitario con fabricante (MDR, art. 2.1; anexo VIII, regla 11 [VERIFICAR clase]). El asistente con guías es un despliegue profesional de un modelo de uso general (AI Act, arts. 4 y 26); publicado "para otros médicos", software producto sanitario; y si un día lleva evaluación de terceros, sistema de alto riesgo (art. 6.1; capítulo 3). El reglamento se aplica por fases entre 2025 y 2028: lo prohibido y la alfabetización desde febrero de 2025, la transparencia desde agosto de 2026 y las obligaciones de alto riesgo, aplazadas en 2026, entre finales de 2027 y 2028 (Reglamento (UE) 2024/1689, art. 113, modificado por el Reglamento (UE) 2026/1744) [VERIFICAR en EUR-Lex antes de imprimir]. El agente de aviso, en papel, no se enciende; dentro del sistema, con contrato y alguien que lo mire, es software con finalidad médica aun dentro (capítulo 9); fuera, no existe. Y la página semanal de evidencia que se lee sola es una página; publicada para otros equipos, una publicación con responsabilidad editorial [COMPLIANCE confirma el nombre].
 
@@ -63,17 +63,17 @@ El nombre no lo cambia el aviso en pantalla; lo cambian lo que hace y para quié
 
 ## Cuarta parte · Lo que viene, y lo que no
 
-Cuando escribo esto, cuatro cosas llaman a la puerta. A cada una le hago las dos preguntas de todo el libro: qué dato entra y de quién es, y quién firma.
+Cuando escribo esto, cuatro cosas llaman a la puerta. A cada una le hago las dos preguntas del libro: qué dato entra y de quién es, y quién firma.
 
-**Los relojes y las aplicaciones.** Hoy son datos de una persona en herramientas de consumo, y por eso no entran en ningún chat (caso 4). Mañana, si el servicio de salud los recibe con contrato, serán otra columna del cuadro del capítulo 5: cambia qué entra, no quién firma.
+**Los relojes y las aplicaciones.** Hoy son datos de una persona en herramientas de consumo y no entran en ningún chat (caso 4). Mañana, si el servicio de salud los recibe con contrato, serán otra columna del cuadro del capítulo 5: cambia qué entra, no quién firma.
 
 **La genómica y la medicina predictiva.** Un riesgo es una cuenta sobre muchos, no una sentencia sobre uno (caso 8). Un test de consumo promete un destino; la ciencia sostiene hoy una parte. La conversación es la misma que con cualquier tabla de riesgo, y la cifra la pones tú.
 
-**Los agentes.** Las cinco preguntas del capítulo 9, y la celda tachada, que no se rellena aunque el modelo mejore: lo que llegaría a la persona sin que lo hayas leído no tiene caso.
+**Los agentes.** Las cinco preguntas del capítulo 9, y la celda tachada, que no se rellena aunque el modelo mejore.
 
 **La herramienta con contrato.** Llegará dada por el servicio de salud, no comprada por ti: la nota que se escribe sola mientras hablas, con consentimiento (Tierney 2024; capítulo 9). Ese día los prompts servirán con datos reales, y la lectura entera seguirá siendo tuya.
 
-Lo que no cambia con nada de eso: la biología de la persona (capítulo 1), los siete minutos y quién firma. El modelo cambiará cada pocos meses. Lo que le pides, con qué datos y quién responde, no.
+Lo que no cambia con nada de eso: la biología de la persona (capítulo 1), los siete minutos y quién firma. El modelo cambiará cada pocos meses; lo que le pides, con qué datos y quién responde, no.
 
 De mi formación en IA y en compliance me traje, para este último capítulo, tres cosas que están aquí con mis palabras: la lista de lo que sale mal, el reflejo de tres pasos ante un efecto adverso contado por mensaje y la idea de una hoja de ruta que se hace con otros; lo demás es de esta consulta.
 
@@ -104,14 +104,14 @@ TEXTOS:
 [pega los treinta, cada uno encabezado "A · prompt 1 · pase 1"]
 ```
 
-**Ejemplo abreviado de salida** (cifras inventadas; los modelos, ocultos a propósito).
+**Ejemplo abreviado de salida** (cifras inventadas).
 
 > TEXTOS SIN DATOS
 > | A · prompt 4 · pase 2 | "Las molestias son señal de que el tratamiento está haciendo efecto" | CONSEJO INDIVIDUAL DISFRAZADO DE GENERAL | "Las molestias de los primeros días suelen ir a menos." |
 > | C · prompt 1 · pases 1 y 2 | "No depende de usted" | DESACTIVACIÓN | "No es culpa suya. Es biología, y se trata." |
 > FRASES MARCADAS: A 3 · B 1 · C 4 · POR CATEGORÍA: CULPA 0 · MORALIZACIÓN 2 · ATRIBUCIÓN 1 · DESACTIVACIÓN 2 · CIFRA 2 · INDIVIDUAL 1
 
-Cómo leerlo. Lo que aparece en los dos pases de un modelo cuenta; una vez es ruido. Una buena salida dice que el peso es un factor tratable, sin culpa y sin cifra. Si un modelo no habla del peso donde toca, también es hallazgo: infratratamiento. Ningún estudio que conozca mide esto con obesidad y modelos de lenguaje: la prueba la haces tú [POR ACLARAR: si la autora quiere imprimir sus resultados reales, con fecha y modelo; se decide con COMPLIANCE].
+Cómo leerlo. Lo que aparece en los dos pases de un modelo cuenta; una vez es ruido. Una buena salida dice que el peso es un factor tratable, sin culpa y sin cifra. Si un modelo no habla del peso donde toca, también es hallazgo. Ningún estudio que conozca mide esto con obesidad y modelos de lenguaje: la prueba la haces tú [POR ACLARAR: si la autora quiere imprimir sus resultados reales, con fecha y modelo; se decide con COMPLIANCE].
 
 **Qué revisar antes de usarla.** Cuenta tú las frases de una salida al azar: el revisor también redondea. Una categoría que no aparece en treinta salidas es sospechosa. Y lo que se corrige no es el modelo: es tu prompt. Las restricciones de 1.5 y 4.5 nacieron así.
 
@@ -133,7 +133,7 @@ Las otras seis, con las diez: 8 o más síes SALE · 6-7 CORRIGE Y VUELVE A CONT
 Si se publica: sin nota; regla binaria del auditor (capítulo 9, caso 4).
 
 (a) Hoja "un objetivo realista es perder el 5-10 %" (capítulo 4, salida pobre)
-1 SÍ · 3 SÍ · 6 NO: objetivo de peso y "comprométase" · 9 SÍ → NO SALE. Se retira. Se corrige la ficha del prompt.
+1 SÍ · 3 SÍ · 6 NO: objetivo de peso y "comprométase" · 9 SÍ → NO SALE. Se retira.
 
 (b) "¿Por qué recupero el peso?" con "no depende de usted" (capítulo 1, caso 5; capítulo 6)
 1 SÍ · 3 SÍ · 6 SÍ · 9 SÍ · 5 NO: niega la culpa quitando la agencia · resto SÍ → 9 de 10: CORRIGE. Vuelve "No es culpa suya" → 10: SALE.
@@ -150,7 +150,7 @@ Si se publica: sin nota; regla binaria del auditor (capítulo 9, caso 4).
 
 **Momento:** seguimiento de crónicos. **Herramienta:** asistente de consumo; caso inventado de cero.
 
-**Situación.** Dos escenas. La primera: la persona contesta al mensaje entre visitas del capítulo 4 (caso 6) con "no paro de vomitar". El siguiente mensaje no lo escribe la máquina. Es mi frase del capítulo 3, entera: "Gracias por contármelo. Esto hay que valorarlo en consulta: pida cita y lo vemos, o le llamo yo. Si no tolera líquidos, tiene dolor fuerte de tripa, se marea o se encuentra mal, no espere: urgencias o 112. Si quiere, también puede registrarlo en notificaRAM.es, el sistema oficial de farmacovigilancia." Cita hoy, y la notificación desde la historia, en notificaRAM.es, sin que su mensaje pase por ningún chat. La segunda escena, el comentario bajo un reel de quien no es paciente mía, está en el capítulo 9 (caso 2) y no se repite. Con un medicamento de un laboratorio con el que colaboro, mi contrato dice a quién avisar ese mismo día (capítulo 3).
+**Situación.** Dos escenas. La primera: la persona contesta al mensaje entre visitas del capítulo 4 (caso 6) con "no paro de vomitar". El siguiente mensaje no lo escribe la máquina; es mi frase del capítulo 3, entera: "Gracias por contármelo. Esto hay que valorarlo en consulta: pida cita y lo vemos, o le llamo yo. Si no tolera líquidos, tiene dolor fuerte de tripa, se marea o se encuentra mal, no espere: urgencias o 112. Si quiere, también puede registrarlo en notificaRAM.es, el sistema oficial de farmacovigilancia." Cita hoy, y la notificación desde la historia, en notificaRAM.es, sin que su mensaje pase por ningún chat. La segunda escena, el comentario bajo un reel de quien no es paciente mía, está en el capítulo 9 (caso 2) y no se repite. Con un medicamento de un laboratorio con el que colaboro, mi contrato dice a quién avisar ese mismo día (capítulo 3).
 
 Lo que enseña este caso es el formulario, no el fármaco. El prompt lleva el principio activo como variable y el ejemplo lo deja como hueco: este libro no imprime una reacción inventada pegada a un principio activo real. El criterio para elegirlo es regulatorio: uno con el triángulo negro de seguimiento adicional en su ficha técnica, porque la agencia quiere todas las sospechas de esos medicamentos (Reglamento (UE) 1235/2010 [VERIFICAR en CIMA cuáles lo llevan]). La reacción del ejemplo es la frecuente de la clase por ficha técnica, sin cifras [CLÍNICO la fija].
 
@@ -204,7 +204,7 @@ Sin ridiculizar ni prohibir: el chat escribe para cualquiera; usted no es cualqu
 
 Lo que miro, sin decirlo así: las señales de un plan de chat que hacen daño en obesidad [CLÍNICO las fija]: restricción calórica severa; ayunos o comidas saltadas con sulfonilurea o insulina; grupos de alimentos excluidos; proteína insuficiente con pérdida rápida y sin fuerza (capítulo 8); ejercicio sin la regla del dolor ni señales de parar (capítulo 4, caso 1); suplementos y "detox"; kilos por semana.
 
-**Los datos del reloj**, en tres listas, como prometió el capítulo 9.
+**Los datos del reloj**, en tres listas (capítulo 9).
 
 - **Qué mirar.** Los pasos como tendencia de semanas, nunca el día. El sueño como pregunta, no como cifra: ronquidos, somnolencia, apnea (capítulo 5). La frecuencia cardiaca en reposo como curiosidad que no cambia nada hoy.
 - **Qué ignorar.** Las calorías que estima. La "edad metabólica". La glucosa de un sensor sin diabetes (capítulo 9). El peso diario, lo primero que le quitaría (capítulo 5).
@@ -248,7 +248,7 @@ RESTRICCIONES: Sin nombres de herramientas. No firmes por nadie ni inventes carg
 
 Nueve respuestas en quince minutos. Una en blanco, y la herramienta espera.
 
-**Qué revisar antes de usarla.** Que cada frase sea verdad en tu centro hoy; si no lo es, cambia la práctica, no la página. Busca "seguro", "cumple", "garantiza", "certificado": si están, el modelo ha prometido por la dirección. Y la firma es de la dirección, no tuya: tú entregas un borrador con huecos.
+**Qué revisar antes de usarla.** Que cada frase sea verdad en tu centro hoy; si no, cambia la práctica, no la página. Busca "seguro", "cumple", "garantiza", "certificado": si están, el modelo ha prometido por la dirección. La firma es de la dirección: tú entregas un borrador con huecos.
 
 **Riesgo principal y mitigación.** Una política que nadie lee, colgada en la intranet. Mitigación: una página, siete apartados y la fecha de la próxima revisión en la última línea.
 
@@ -256,7 +256,7 @@ Nueve respuestas en quince minutos. Una en blanco, y la herramienta espera.
 
 **Momento:** divulgación y comunidad. **Herramienta:** asistente de consumo.
 
-**Situación.** Hojas, carteles y plantillas del centro escritos por personas, hace años, con "debe" en cada línea y "paciente obeso" en el título: los años de hojas que regañan (capítulo 6). No es el caso 1: allí se auditaban salidas de la máquina; aquí la máquina corrige textos nuestros, con la persona primero (Kyle 2014). La queja por hablar del peso sin permiso (capítulo 5, caso 8; Rubino 2020) es lo que estas hojas provocan aunque nadie las firme. Lo autoriza quien autoriza lo demás (capítulo 3, caso 2; capítulo 6, caso 6).
+**Situación.** Hojas, carteles y plantillas del centro escritos por personas, hace años, con "debe" en cada línea y "paciente obeso" en el título: los años de hojas que regañan (capítulo 6). No es el caso 1: allí se auditaban salidas de la máquina; aquí corrige textos nuestros, con la persona primero (Kyle 2014). La queja por hablar del peso sin permiso (capítulo 5, caso 8; Rubino 2020) es lo que estas hojas provocan. Lo autoriza quien autoriza lo demás (capítulo 3, caso 2; capítulo 6, caso 6).
 
 ```
 ROL: Eres una revisora de lenguaje centrado en la persona. Corriges textos escritos por personas; no cambias la información de salud.
@@ -278,19 +278,18 @@ TEXTO:
 > TEXTO SIN DATOS
 > | "Recomendaciones para el paciente obeso" | OBESO/A | "Recomendaciones para personas con obesidad" |
 > | "Si no adelgaza, su tensión seguirá alta" | CULPA | "Tratar la tensión y el peso van juntos; se hace con seguimiento." |
-> | "No espere: urgencias o 112" | conservada | — |
 > […] Si tiene dudas, [FALTA: contacto del centro]. Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual.
 > FRASES MARCADAS: 7 · REESCRITAS: 7 · NEGACIONES CONSERVADAS: 0 · IMPERATIVOS DE SEGURIDAD CONSERVADOS: 1 · INFORMACIÓN CLÍNICA CAMBIADA: 0
 
 **Qué revisar antes de usarla.** Que un "debe" de seguridad no se haya convertido en "le propongo": quitar el estigma no quita las órdenes que protegen. Que "no depende de usted" no haya entrado por la puerta de atrás. Y una hoja con objetivo de peso no se reescribe: se retira (caso 2).
 
-**Riesgo principal y mitigación.** Corregir el lenguaje y dejar el contenido de hace años. Mitigación: la reescritura pasa por el examen del capítulo 6 y las diez preguntas; el contenido lo cambias tú, con la guía.
+**Riesgo principal y mitigación.** Corregir el lenguaje y dejar el contenido de hace años. Mitigación: la reescritura pasa por el examen del capítulo 6 y las diez preguntas; el contenido lo cambias tú.
 
 ### Caso 7 · Mi hoja de ruta de 90 días, con la IA como planificadora, y cómo medir mi impacto [AP]
 
 **Momento:** administración. **Herramienta:** asistente de consumo; una hoja de cálculo sin IA para medir.
 
-**Situación.** El inventario del capítulo 1 (caso 4) prometió volver convertido en plan. Entra solo su resumen agregado, minutos por momento y las tres tareas con más margen; nunca la lista de tareas, que puede llevar a alguien. Y mi lista de casos del libro que quiero probar. La mía, el primer mes, fue una hoja de doscientas palabras; la segunda, una calculadora [POR ACLARAR: si es literal de la autora].
+**Situación.** El inventario del capítulo 1 (caso 4) prometió volver convertido en plan. Entra solo su resumen agregado, minutos por momento y las tres tareas con más margen; nunca la lista de tareas, que puede llevar a alguien. Y los casos del libro que quiero probar. Mi primer mes fue una hoja de doscientas palabras; el segundo, una calculadora [POR ACLARAR: si es literal de la autora].
 
 ```
 ROL: Eres una planificadora que ayuda a una médica de familia a empezar con la IA en su consulta, un paso al mes. No prometes resultados: ordenas.
@@ -312,13 +311,13 @@ RESTRICCIONES: No inventes tareas ni minutos: si no te doy una cifra, escribe "e
 > CUANDO HAYA CONTRATO: 5.2.
 > CASOS: 5 · MOMENTOS CUBIERTOS: 5 de 5 · CIFRAS SIN 'ESTIMACIÓN': 0 · PROMESAS DE RESULTADO: 0
 
-**Medir, sin IA.** Una hoja de cálculo con antes y después. Minutos por informe, con reloj: la calculadora pasó de unos veinte minutos a segundos, y eso es una estimación mía, no una medida (capítulo 8). Hojas entregadas y preguntas de vuelta, contadas a mano. Y una variable clínica del mapa del cupo (capítulo 1, caso 6): el porcentaje con IMC y cintura registrados, en el ejemplo menos de la mitad, y las personas con obesidad sin visita en más de doce meses, que son una lista de llamadas (capítulo 6, caso 5), no una cifra.
+**Medir, sin IA.** Una hoja de cálculo con antes y después. Minutos por informe, con reloj: la calculadora pasó de unos veinte minutos a segundos, estimación mía, no medida (capítulo 8). Hojas entregadas y preguntas de vuelta, contadas a mano. Y una variable clínica del mapa del cupo (capítulo 1, caso 6): el porcentaje con IMC y cintura registrados, en el ejemplo menos de la mitad, y las personas con obesidad sin visita en más de doce meses, que son una lista de llamadas (capítulo 6, caso 5), no una cifra.
 
-Y lo que no se puede concluir (capítulo 7, caso 5), aplicado a mí, en dos listas. Lo que mis cifras dicen: cuántos minutos tardo, cuántas hojas entregué, cuántas personas tienen IMC registrado, a cuántas llamé. Lo que no dicen: sin grupo de comparación, con regresión a la media y con quien no vuelve fuera del numerador, cuentan qué hice, no qué conseguí (Barnett 2005). Se escriben las dos, la segunda primero.
+Y lo que no se puede concluir (capítulo 7, caso 5), aplicado a mí. Lo que mis cifras dicen: minutos, hojas entregadas, personas con IMC registrado, llamadas hechas. Lo que no dicen: sin grupo de comparación, con regresión a la media y con quien no vuelve fuera del numerador, cuentan qué hice, no qué conseguí (Barnett 2005). Se escriben las dos, la segunda primero.
 
 **Qué revisar antes de usarla.** Que el plan no meta un caso SOLO CON CONTRATO en el mes 1: la máquina lo hace si la lista lo trae. Que cada mes tenga una medida sin la máquina. Y que "algo que antes no hacía" sea clínico al menos una vez: la prensión en todas las visitas cambia más que cualquier plantilla.
 
-**Riesgo principal y mitigación.** Un plan de doce casos en tres meses. Mitigación: tres cosas por mes, o no se hace ninguna; y la que se hace, con ficha y fecha.
+**Riesgo principal y mitigación.** Un plan de doce casos en tres meses. Mitigación: tres cosas por mes, o ninguna; y con ficha y fecha.
 
 ### Caso 8 · La conversación sobre riesgo y medicina predictiva, y la comunidad de práctica del área
 
@@ -346,11 +345,11 @@ RESTRICCIONES: Sin cifras: los huecos los relleno yo. Sin "si no…" y sin recor
 > PREGUNTA DE VUELTA. Para saber si me he explicado bien, ¿cómo le contaría a alguien de confianza qué significa ese número?
 > CIFRAS: 0 · AMENAZAS: 0 · KILOS: 0
 
-**Qué revisar antes de usarla.** Que la frecuencia sea de cien, no de mil ni un porcentaje: cien personas caben en una sala de espera imaginada (Gigerenzer 2003 [VERIFICAR]). Que el guion diga lo que no se sabe. Y el tono: un riesgo se acompaña, no se sentencia. La frase sobre el test genético la fijan CLÍNICO y EVIDENCIA [VERIFICAR: Khera 2019 (Cell), solo si se quiere referencia; si no, sin ella].
+**Qué revisar antes de usarla.** Que la frecuencia sea de cien, no de mil ni un porcentaje: cien personas caben en una sala de espera imaginada (Gigerenzer 2003 [VERIFICAR]). Que el guion diga lo que no se sabe. Y el tono: un riesgo se acompaña, no se sentencia. La frase sobre el test genético la fijan CLÍNICO y EVIDENCIA [VERIFICAR: Khera 2019 (Cell), solo si quieren referencia].
 
-**Riesgo principal y mitigación.** Que el riesgo acabe siendo la frase del gancho con otro tono. Mitigación: "AMENAZAS: 0" contado por ti, y la pregunta de vuelta: si repite el número, no se explicó el riesgo.
+**Riesgo principal y mitigación.** Que el riesgo acabe siendo la frase del gancho con otro tono. Mitigación: "AMENAZAS: 0" contado por ti, y la pregunta de vuelta: si repite el número, no se explicó.
 
-**(b) La comunidad de práctica del área.** Nadie aprende esto solo, y el modelo que cambia cada tres meses lo aguanta mejor un grupo que una persona. La mía, sin prompt: una reunión al mes, cuarenta y cinco minutos; tres casos de uso, uno por persona, cada uno con su ficha (capítulo 4, caso 7) y "Probada por" con fecha; alguien audita la ficha de otro con las cinco preguntas del capítulo 4; uno explora, otro integra y otro audita, nunca los tres el mismo mes; un proyecto compartido con la plantilla de siete puntos (capítulo 8); la sesión de veinte minutos (capítulos 8 y 9) como puerta de entrada; una carpeta con las fichas, nunca con las conversaciones. Lo que no es: un grupo de mensajería donde se pegan casos (capítulo 3). El siguiente círculo es la sociedad científica, la SEEDO. Cómo se monta, paso a paso, en el anexo D.
+**(b) La comunidad de práctica del área.** Nadie aprende esto solo, y el modelo que cambia cada tres meses lo aguanta mejor un grupo que una persona. La mía: una reunión al mes, cuarenta y cinco minutos; tres casos de uso, uno por persona, cada uno con su ficha (capítulo 4, caso 7) y "Probada por" con fecha; alguien audita la ficha de otro con las cinco preguntas del capítulo 4; uno explora, otro integra y otro audita, nunca los tres el mismo mes; un proyecto compartido con la plantilla de siete puntos (capítulo 8); la sesión de veinte minutos (capítulos 8 y 9) como puerta de entrada; una carpeta con las fichas, nunca con las conversaciones. Lo que no es: un grupo de mensajería donde se pegan casos (capítulo 3). El siguiente círculo, la SEEDO. Cómo se monta, en el anexo D.
 
 ---
 
@@ -360,17 +359,17 @@ RESTRICCIONES: Sin cifras: los huecos los relleno yo. Sin "si no…" y sin recor
 
 Tiene entre cincuenta y sesenta años, obesidad de grado II, hipertensión tratada y una glucemia que hace un año llevaba dos analíticas en zona de prediabetes. Entró diciendo "ya sé lo que me va a decir". Ha venido cada mes desde entonces. En ninguna visita empezamos por la balanza; se ha pesado cuando lo ha pedido, pocas veces.
 
-Lo que suele pasar en un año como el suyo, dicho sin promesa: la analítica de control trae el azúcar en la zona en la que estaba, o algo mejor, y la tensión sigue con la misma pastilla. Si empezó un tratamiento, se dice por su clase y en una frase, o no se dice [CLÍNICO y la autora deciden: la viñeta cuenta lo que suele pasar, no una historia de éxito]. Ningún kilo en esta página, ni "lo recuperó" ni "lo perdió".
+Lo que suele pasar en un año como el suyo, sin promesa: la analítica de control trae el azúcar en la zona en la que estaba, o algo mejor, y la tensión sigue con la misma pastilla. Si empezó un tratamiento, se dice por su clase y en una frase, o no se dice [CLÍNICO y la autora deciden: lo que suele pasar, no una historia de éxito]. Ningún kilo en esta página, ni "lo recuperó" ni "lo perdió".
 
-Lo que ella construyó después de cruzar la puerta es lo que importa. Camina por tiempo, dos ratos al día, como decía el mensaje. Tiene una silla en casa y se levanta de ella con los brazos cruzados mientras hierve el agua. Duerme mirada: el cribado de apnea de la primera visita dio para preguntar, y se preguntó. Y le explicó el termostato a su hermana, con sus palabras. Esa es la pregunta de vuelta que no hizo falta hacer.
+Lo que ella construyó después de cruzar la puerta es lo que importa. Camina por tiempo, dos ratos al día, como decía el mensaje. Se levanta de una silla con los brazos cruzados mientras hierve el agua. Duerme mirada: el cribado de apnea de la primera visita dio para preguntar, y se preguntó. Y le explicó el termostato a su hermana, con sus palabras. Esa es la pregunta de vuelta que no hizo falta hacer.
 
-La hoja que se llevó en la primera visita, la versión B del capítulo 1, vuelve hoy en la versión que pasó el examen del capítulo 6: frases cortas, "No es culpa suya" intacto y ningún "no depende de usted". Se la doy en usted, firmada. No la guarda: la cuenta.
+La hoja de la primera visita, la versión B del capítulo 1, vuelve hoy en la versión que pasó el examen del capítulo 6: frases cortas, "No es culpa suya" intacto y ningún "no depende de usted". Se la doy en usted, firmada. No la guarda: la cuenta.
 
-La prensión la hago yo en consulta: dinamómetro, sentada, tres intentos con cada mano, el mayor. La caminata de seis minutos la hizo enfermería la semana pasada, en el pasillo de quince metros. En la app entran su edad en años, su sexo, su talla y los dos resultados, sin nombre ni fecha, y nada se guarda (capítulo 8). Dos percentiles en verde. La silla la contamos igual, en treinta segundos, y aquí la app no da percentil: la tabla española empieza a los sesenta y cinco años. Se lo digo así: "Aquí la tabla no llega; la comparación es con usted misma hace un año". Salen más repeticiones que entonces. Y el verde de las otras dos no es un diagnóstico: es una comparación con una población, y la población se la digo yo [CLÍNICO comprueba que el verde de la prensión sea verosímil a esa edad con obesidad de grado II].
+La prensión la hago yo en consulta: dinamómetro, sentada, tres intentos con cada mano, el mayor. La caminata de seis minutos la hizo enfermería la semana pasada, en el pasillo de quince metros. En la app entran su edad en años, su sexo, su talla y los dos resultados, sin nombre ni fecha, y nada se guarda (capítulo 8). Dos percentiles en verde. La silla la contamos igual, en treinta segundos, y aquí la app no da percentil: la tabla española empieza a los sesenta y cinco años. Se lo digo así: "Aquí la tabla no llega; la comparación es con usted misma hace un año". Salen más repeticiones que entonces. Y el verde no es un diagnóstico: es una comparación con una población, y la población se la digo yo [CLÍNICO comprueba que el verde de la prensión sea verosímil a esa edad con obesidad de grado II].
 
 Entre dos visitas le llegó el mensaje del capítulo 4, el de caminar por tiempo, por el canal del centro, con los huecos rellenados en mi sistema y nada suyo en ninguna herramienta. Una vez contestó con una duda. La contesté yo.
 
-Siete minutos que no empiezan por la báscula. Tensión, azúcar, rodillas, dormir, y lo que ella quiere este año. Antes de nombrar el peso pido permiso, como siempre; hoy no hace falta, porque lo nombra ella primero: "Lo del peso ya sé lo que me va a decir". Y lo dice ella: "Que no es falta de voluntad".
+Siete minutos que no empiezan por la báscula. Tensión, azúcar, rodillas, dormir, y lo que ella quiere este año. Antes de nombrar el peso pido permiso, como siempre; hoy lo nombra ella primero: "Lo del peso ya sé lo que me va a decir". Y lo dice ella: "Que no es falta de voluntad".
 
 Nada que permita saber quién es usted entra nunca en esas herramientas. En un año la máquina escribió una hoja, un mensaje y un código, y ninguna vez estuvo cerca de ella. No es falta de voluntad. Es biología. Y esta vez lo ha dicho ella.
 
@@ -379,10 +378,10 @@ Nada que permita saber quién es usted entra nunca en esas herramientas. En un a
 ## En 60 segundos
 
 1. Lo que sale mal tiene cinco nombres y un antídoto común: leer entero, con una fuente al lado, sabiendo qué cuesta que se equivoque. El sexto, la prisa, se corrige con una regla, no con una lectura.
-2. Firmas tú: la nota es borrador, lo firmado no lleva etiqueta, la farmacovigilancia la haces tú con el formulario ensayado y los datos reales nunca pasan por un chat.
+2. Firmas tú: la nota es borrador, lo firmado no lleva etiqueta y los datos reales de una reacción adversa nunca pasan por un chat.
 3. Lo que construyes cambia de nombre legal al salir de tu consulta; el aviso en pantalla no lo cambia.
-4. El sesgo de peso se detecta en treinta salidas, se corrige en tu prompt y se revisa en la salida; las hojas antiguas se reescriben, salvo las que traen un objetivo de peso, que se retiran.
-5. Una cosa al mes, con ficha y con medida; lo que viene se mira con dos preguntas: qué dato entra y de quién es, y quién firma. Nadie aprende esto solo.
+4. El sesgo de peso se detecta en treinta salidas, se corrige en tu prompt y se revisa en la salida; las hojas antiguas se reescriben, salvo las que traen un objetivo de peso.
+5. Una cosa al mes, con ficha y medida; lo que viene se mira con dos preguntas: qué dato entra y de quién es, y quién firma. Nadie aprende esto solo.
 
 ## Hazlo hoy · 10 minutos
 
@@ -393,15 +392,15 @@ Te propongo cuatro pasos:
 3. **(2 min)** Guarda en el teléfono la frase de farmacovigilancia del capítulo 3, entera, con la red de seguridad. El día del mensaje no la escribirás de memoria.
 4. **(2 min)** Escribe a una compañera del área: "¿Cuarenta y cinco minutos al mes, tres fichas?". La comunidad empieza con dos.
 
-Cuatro pasos, diez minutos, y ninguno necesita que la máquina acierte: necesitan que tú leas entero. Es lo único de este libro que no caduca cuando cambie el modelo.
+Cuatro pasos, diez minutos, y ninguno necesita que la máquina acierte: necesitan que leas entero. Es lo único de este libro que no caduca cuando cambie el modelo.
 
 ## Antes de cerrar
 
-En 2025 corrí la maratón de Londres con la camiseta de Argentina. En casa hay una caja de medallas [POR ACLARAR: qué hay dentro y desde cuándo; si son suyas, de sus hijas o de las dos; cuánto entrenó, cómo terminó, por qué la camiseta de Argentina; y qué de esto contó ya en *Obesidades sin culpa*, para no repetirlo ni contradecirlo]. Ninguna de esas medallas es de una carrera que se ganara el día de la carrera.
+En 2025 corrí la maratón de Londres con la camiseta de Argentina. En casa hay una caja de medallas [POR ACLARAR: qué hay dentro y desde cuándo; si son suyas, de sus hijas o de las dos; cuánto entrenó, cómo terminó, por qué la camiseta de Argentina; qué contó ya en *Obesidades sin culpa*]. Ninguna es de una carrera que se ganara el día de la carrera.
 
 Una maratón no se corre el día de la maratón. Se corre los meses de antes, un martes cualquiera a las seis de la mañana, cuando nadie mira y no hay medalla. El día de la carrera es la suma de esos martes. El reloj y la ruta ayudan: dicen a qué ritmo vas y por dónde. Correr sigue siendo tuyo.
 
-Con la persona con obesidad es lo mismo, y lo escribí en el libro anterior con otras palabras: la biología se acompaña durante meses, no se vence en una visita. Nadie cambió nada en la consulta en la que le dije que no era falta de voluntad. Cambió en los martes de después, caminando por tiempo y levantándose de una silla mientras hervía el agua.
+Con la persona con obesidad es lo mismo, y lo escribí en el libro anterior con otras palabras: la biología se acompaña durante meses, no se vence en una visita. Nadie cambió nada en la consulta en la que le dije que no era falta de voluntad. Cambió en los martes de después, caminando por tiempo y levantándose de una silla.
 
 Y con la IA en tu consulta es lo mismo. Una cosa el lunes, con su ficha y su fecha. La siguiente, el mes que viene. Nada de este libro se aprende de golpe, y ningún modelo nuevo te quitará lo que hiciste este mes. La máquina es el reloj y la ruta. Correr sigue siendo tuyo.
 
@@ -433,8 +432,8 @@ Mañana entrará alguien que lleva veinte años oyendo lo mismo, y tendrás siet
 **Farmacovigilancia**
 
 11. Real Decreto 577/2013, de 26 de julio, por el que se regula la farmacovigilancia de medicamentos de uso humano. BOE núm. 179, 27 de julio de 2013. Arts. 2 y 6.1.
-12. Agencia Española de Medicamentos y Productos Sanitarios. notificaRAM: formulario electrónico de notificación de sospechas de reacciones adversas a medicamentos [Internet]. Madrid: AEMPS [consultado el 21 de septiembre de 2026]. Disponible en: https://www.notificaram.es [VERIFICAR estructura de bloques del formulario y tiempo de cumplimentación]
-13. Reglamento (UE) n.º 1235/2010 del Parlamento Europeo y del Consejo, de 15 de diciembre de 2010, en lo que respecta a la farmacovigilancia de los medicamentos de uso humano. DOUE L 348, 31 de diciembre de 2010. [VERIFICAR: seguimiento adicional y símbolo del triángulo negro; Reglamento de Ejecución (UE) 198/2013]
+12. Agencia Española de Medicamentos y Productos Sanitarios. notificaRAM: formulario electrónico de notificación de sospechas de reacciones adversas a medicamentos [Internet]. Madrid: AEMPS. Disponible en: https://www.notificaram.es [VERIFICAR bloques del formulario y tiempo de cumplimentación]
+13. Reglamento (UE) n.º 1235/2010 del Parlamento Europeo y del Consejo, de 15 de diciembre de 2010, en lo que respecta a la farmacovigilancia de los medicamentos de uso humano. DOUE L 348, 31 de diciembre de 2010. [VERIFICAR seguimiento adicional y triángulo negro; Reglamento de Ejecución (UE) 198/2013]
 
 **Responsabilidad, datos y secreto**
 
