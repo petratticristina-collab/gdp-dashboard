@@ -63,3 +63,12 @@ Decisiones del ORQUESTADOR:
 - **Secreto profesional:** excepción por peligro grave para terceros como último recurso (Código 2022, cap. V [VERIFICAR]; CP 199.2), tras el escalón clínico, con la comisión de deontología, consta, nunca en un chat; párrafo condicionado a la autora.
 - **Referencias verificadas:** las 20 del capítulo (menos las retiradas) y las nuevas de EVIDENCIA; sin referencia de sesgo de peso en modelos de lenguaje (ninguna comprobada en adultos).
 - **Estado:** capítulo 10 en v2; con la v3 el libro queda completo en borrador (10 capítulos) a falta de las aprobaciones de la autora, los anexos A-D y la pasada final de remisiones.
+
+## F · Decisiones tras la v2 (ORQUESTADOR, 21-09-2026)
+
+La v2 tiene 11.841 palabras (`wc -w`): 2.773 de código, unas 780 de referencias y unas 8.300 de prosa. La prosa obligatoria de A y B pesó unas 1.000 palabras, no 600.
+
+1. **Extensión: tope ad hoc de la v3 en 11.000 palabras**, como el capítulo 8 (el 10 fusiona los antiguos 13 y 14 y cierra veintiocho arcos del libro); decisión del orquestador pendiente de la autora. Traslados adicionales al anexo D, sin tocar seguridad (los aplica ESTILO, con remisión de una línea en el capítulo): "La herramienta nueva en quince minutos" del caso 5 (≈ 90); las tres listas del reloj del caso 4 (≈ 150; en el capítulo queda "el aviso de ritmo irregular no se ignora; la tensión sin manguito y la grasa de la báscula, sí"); las entradas legales largas de la lista de referencias con remisión al capítulo 3 (≈ 250; la 11 partida en 11a-11c si hace falta). ESTILO comprime además unas 350 palabras de prosa de enlace y "riesgo y mitigación".
+2. **Aceptado sin cambios:** "sin peso" en el caso 8; GIRO 2024 y Mancia 2023 por remisión sin entrada; RD 1416/1994 en la lista del capítulo (entrada 20) con el anexo D remitiendo; el corchete de D7 en una línea; la reescritura del revisor del caso 1 se conserva (decisión 8); la nota ¹ cerrada en "una sola vez, en el caso 3".
+3. **Frase final B (para la autora; la v2 lleva la A):** "Ella construye lo suyo después de cruzar la puerta; tú, lo tuyo, una cosa cada lunes. La máquina te devuelve los minutos. Lo que cabe en ellos, con la persona delante, no lo hace por ti: lo haces tú. No es falta de voluntad. Es biología."
+4. **Opcionales no aplicados (CLÍNICO 14 matices; CLÍNICO 19 "o le subieron la dosis"):** quedan fuera por extensión; se registran en la biblia como disponibles si la autora los quiere.
