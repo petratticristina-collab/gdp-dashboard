@@ -1,6 +1,6 @@
-# Capítulo 10 · Material trasladado a los anexos (v2, REDACTOR, 21-09-2026)
+# Capítulo 10 · Material trasladado a los anexos (v2, REDACTOR, 21-09-2026; v3, ESTILO, 21-09-2026)
 
-> Traslados preautorizados por el plan del ARQUITECTO ("Presupuesto y qué va a los anexos") y por las decisiones 5 y 16 del ORQUESTADOR (`revisiones/cap10_consolidado.md`). Cada bloque lleva el rótulo del anexo destino y el capítulo conserva la remisión escrita. Novedades de la v2: la hoja de auditoría del caso 2 va entera al anexo B (en el capítulo quedan la regla y los ejemplos (a) y (b)); la tabla legal lleva la corrección de los arts. 4 y 26 y el nombre legal fijado por COMPLIANCE (D4); la plantilla de 90 días queda en cinco filas sin cifras inventadas. Las normas que cita este material están en la lista de referencias del capítulo 10 y, las que no, en la del capítulo 3.
+> Traslados preautorizados por el plan del ARQUITECTO ("Presupuesto y qué va a los anexos") y por las decisiones 5 y 16 del ORQUESTADOR (`revisiones/cap10_consolidado.md`). Cada bloque lleva el rótulo del anexo destino y el capítulo conserva la remisión escrita. Novedades de la v2: la hoja de auditoría del caso 2 va entera al anexo B (en el capítulo quedan la regla y los ejemplos (a) y (b)); la tabla legal lleva la corrección de los arts. 4 y 26 y el nombre legal fijado por COMPLIANCE (D4); la plantilla de 90 días queda en cinco filas sin cifras inventadas. Las normas que cita este material están en la lista de referencias del capítulo 10 y, las que no, en la del capítulo 3. Novedades de la v3 (decisión F.1 del ORQUESTADOR, `revisiones/cap10_consolidado.md`): al anexo D van las tres listas del reloj del caso 4, "La herramienta nueva en quince minutos" del caso 5 y las entradas legales completas de la lista de referencias (9, 11a-11c y 12-20), con remisión de una línea en el capítulo.
 
 ---
 
@@ -81,3 +81,49 @@ La hoja de cálculo para medir, sin IA, tiene cuatro columnas por mes: minutos p
 - **Lo que no es.** Un grupo de mensajería donde se pegan casos: ahí no entra nada de nadie (capítulo 3). Tampoco un lugar donde se comparte una app para que otros la usen con pacientes (capítulo 8, tercera parte).
 - **El siguiente círculo.** La sociedad científica (SEEDO): grupos de trabajo, jornadas y quien lleva años haciendo esto con menos herramientas y más criterio.
 - **Cuando cambia el modelo.** La primera reunión después de un cambio de modelo se dedica a repasar las fichas más usadas: es lo que un grupo aguanta mejor que una persona.
+
+---
+
+## Anexo D · Recursos · Los datos del reloj, en tres listas (traslado 5; capítulo 10, caso 4)
+
+Del caso 4 del capítulo 10, que se queda con la regla corta: el aviso de ritmo irregular no se ignora, y tampoco una frecuencia en reposo que sube de forma sostenida tras empezar un tratamiento de esa clase; la tensión sin manguito y la grasa de la báscula, sí. Aquí, las tres listas completas.
+
+**Los datos del reloj**, en tres listas (capítulo 9).
+
+- **Qué mirar.** Los pasos como tendencia de semanas, nunca el día. El sueño como pregunta, no como cifra: ronquidos, somnolencia, apnea (capítulo 5). La frecuencia cardiaca en reposo como curiosidad que no cambia nada hoy, salvo que suba de forma sostenida tras empezar un tratamiento de esa clase [VERIFICAR CIMA, secciones 4.4 y 4.8] o el reloj avise de ritmo irregular: eso es un pulso y un electro en consulta, no un dato de la nube.
+- **Qué ignorar.** Las calorías que estima. La "edad metabólica". La glucosa de un sensor sin diabetes (capítulo 9). La tensión del reloj sin manguito: la que vale es la de casa con aparato validado y manguito de su talla (capítulo 9). El porcentaje de grasa de la báscula de impedancia. El peso diario, lo primero que le quitaría (capítulo 5).
+- **Qué no meter en ningún chat.** La exportación de la app, la captura de pantalla, la foto de la analítica: datos de salud de una persona aunque los traiga ella; "anonimizados", también (capítulo 3).
+
+---
+
+## Anexo D · Recursos · La herramienta nueva en quince minutos (traslado 6; capítulo 10, caso 5)
+
+Del caso 5 del capítulo 10, sin prompt. Se rellena en papel antes de que la herramienta se acerque a nadie; la ficha (capítulo 4, caso 7) guarda las nueve respuestas con fecha.
+
+**La herramienta nueva en quince minutos**, sin prompt. Las seis preguntas del capítulo 2 (modelo y versión, plan, cuánto cabe, herramientas activas, acuerdo de tratamiento de datos, coste de error) y tres de este libro:
+
+- **¿Qué nombre legal tiene lo que hace?** (capítulo 10, tercera parte).
+- **¿Quién firma lo que sale?** Con nombre.
+- **¿Ha pasado el examen de diez casos y tres trampas** (capítulo 8, caso 5) antes de acercarse a alguien?
+
+Nueve respuestas en quince minutos. Una en blanco, y la herramienta espera.
+
+---
+
+## Anexo D · Referencias legales completas del capítulo 10 (traslado 7; lista de referencias)
+
+La lista del capítulo 10 cita estas normas en forma corta y remite al capítulo 3, cuya lista las lleva completas (todas menos la 11, que solo está aquí). Numeración de la lista del capítulo 10.
+
+9. Real Decreto 577/2013, de 26 de julio, por el que se regula la farmacovigilancia de medicamentos de uso humano. BOE núm. 179, de 27 de julio de 2013. Arts. 2, 6 y 12.5 [VERIFICAR numeración del 12.5].
+11a. Reglamento (UE) n.º 1235/2010 del Parlamento Europeo y del Consejo, de 15 de diciembre de 2010, que modifica, en lo que respecta a la farmacovigilancia, el Reglamento (CE) n.º 726/2004 y el Reglamento (CE) n.º 1394/2007. DOUE L 348, de 31 de diciembre de 2010. Art. 23 del Reglamento (CE) n.º 726/2004.
+11b. Directiva 2010/84/UE del Parlamento Europeo y del Consejo, de 15 de diciembre de 2010, que modifica, en lo que respecta a la farmacovigilancia, la Directiva 2001/83/CE. DOUE L 348, de 31 de diciembre de 2010 [VERIFICAR art. 102.e, nombre comercial y lote de los biológicos, y su transposición en el RD 577/2013].
+11c. Reglamento de Ejecución (UE) n.º 198/2013 de la Comisión, de 7 de marzo de 2013, relativo a la selección de un símbolo de identificación de los medicamentos sujetos a un seguimiento adicional. DOUE L 65, de 8 de marzo de 2013 [VERIFICAR página; en CIMA, la versión vigente de las fichas técnicas].
+12. Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias. BOE núm. 280, de 22 de noviembre de 2003. Art. 4.7.
+13. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. BOE núm. 274, de 15 de noviembre de 2002. Arts. 4, 7, 8 y 15.
+14. Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. BOE núm. 294, de 6 de diciembre de 2018. Art. 34.1.l).
+15. Consejo General de Colegios Oficiales de Médicos. Código de Deontología Médica. Madrid: CGCOM; 2022 (aprobado por la Asamblea General en diciembre de 2022). Capítulo V, arts. 29-31 (secreto profesional y sus excepciones) [VERIFICAR apartado del art. 31 en el PDF oficial]. Disponible en: https://www.cgcom.es/sites/main/files/files/2022-03/codigo_deontologia_medica.pdf
+16. Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal. BOE núm. 281, de 24 de noviembre de 1995. Art. 199.2.
+17. Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial (Reglamento de Inteligencia Artificial). DOUE L, 12 de julio de 2024. Arts. 3.60, 4, 6.1, 14, 26, 50.4 y 113.
+18. Reglamento (UE) 2026/1744 del Parlamento Europeo y del Consejo, de 8 de julio de 2026, por el que se modifican los Reglamentos (UE) 2024/1689, (UE) 2018/1139 y (UE) 2023/1230 en lo que respecta a la simplificación de la aplicación de normas armonizadas en materia de inteligencia artificial (Ómnibus digital sobre IA). DOUE L, 24 de julio de 2026 (en vigor el 27 de julio de 2026). Art. 113 nuevo: anexo III desde el 2 de diciembre de 2027, anexo I desde el 2 de agosto de 2028; el art. 50, desde el 2 de agosto de 2026 [VERIFICAR en EUR-Lex antes de imprimir].
+19. Reglamento (UE) 2017/745 del Parlamento Europeo y del Consejo, de 5 de abril de 2017, sobre los productos sanitarios. DOUE L 117, de 5 de mayo de 2017. Arts. 2.1 y 5.5; anexo VIII, regla 11 [VERIFICAR clase y régimen con la AEMPS y el servicio de salud].
+20. Real Decreto 1416/1994, de 25 de junio, por el que se regula la publicidad de los medicamentos de uso humano. BOE núm. 180, de 29 de julio de 1994. Arts. 5 y 7 [VERIFICAR literal en BOE]. Citado en el anexo D.
