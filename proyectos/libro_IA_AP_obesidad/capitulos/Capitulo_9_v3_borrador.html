@@ -1,0 +1,463 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Capítulo 9</title><style>@page{size:A4;margin:20mm 19mm 22mm 19mm}
+body{font-family:Georgia,"Times New Roman",serif;font-size:11pt;line-height:1.5;color:#1b2a34;margin:0}
+h1{font-size:22pt;color:#0d7377;margin:0 0 6px} h2{font-size:15pt;color:#0d7377;margin:22px 0 6px;page-break-after:avoid} h3{font-size:12.5pt;color:#163a3f;margin:16px 0 4px;page-break-after:avoid}
+p{margin:0 0 9px;text-align:justify} li{margin:0 0 3px} blockquote{border-left:3px solid #0d7377;margin:8px 0;padding:6px 14px;background:#f3f7f7}
+pre{background:#f3f7f7;border:1px solid #d9e3e4;border-radius:6px;padding:10px 12px;font-size:9pt;white-space:pre-wrap;font-family:"Courier New",monospace;page-break-inside:avoid}
+code{font-family:"Courier New",monospace;font-size:9.5pt} table{border-collapse:collapse;width:100%;font-size:9.5pt;margin:6px 0 10px} th,td{border:1px solid #d9e3e4;padding:4px 8px;text-align:left} th{background:#f3f7f7}
+hr{border:0;border-top:1px solid #d9e3e4;margin:18px 0}
+.head{font-size:9pt;color:#7d9490;margin-bottom:14px}</style></head><body><div class="head">IA en la consulta: la revolución que cabe en diez minutos · Aplicación práctica para el médico de familia ante la obesidad · Dra. Cristina Petratti · Capítulo 9, versión de estilo v3 (21-09-2026) · Borrador para revisión de la autora</div><h1>Capítulo 9 · La jornada del médico de familia: momentos, contenido audiovisual y automatizaciones realistas</h1>
+<p><strong>Los cinco momentos, la matriz herramienta × momento, lo que se ve y se escucha, y las cinco preguntas antes de encender un agente.</strong></p>
+<p>A las ocho abro la agenda: treinta y cuatro pacientes, seis huecos de urgencias, dos domicilios, una sesión y el correo de la inspección. Aquí es donde la IA tiene que caber. Si no cabe aquí, no sirve.</p>
+<p>En esa agenda la máquina entra en algunas cosas; en otras, solo un filtro del correo; en la mayoría no entra nadie más que yo. Este capítulo dice cuál es cuál.</p>
+<p><em>Como todas las escenas de consulta de este libro, la agenda es una composición de jornadas; las cifras son verosímiles, no las de un día concreto.</em></p>
+<h2>Lo que te vas a llevar</h2>
+<ul>
+<li>Los cinco momentos y la matriz herramienta × momento que resume el libro, para el corcho. Su regla: cuanto más cerca de la persona, más verificación y menos automatismo.</li>
+<li>Audio para quien no lee, vídeo para lo que se explica con las manos, imagen para lo que se recuerda con los ojos. Las herramientas producen; validar, firmar, licenciar y no estigmatizar lo pones tú.</li>
+<li>Un modelo responde, un razonador se para a pensar y un agente actúa. Cinco preguntas antes de encenderlo; si una queda sin respuesta, no se enciende. Las automatizaciones realistas no tocan datos de nadie.</li>
+</ul>
+<hr />
+<h2>Primera parte · La agenda de un martes</h2>
+<p>Los cinco momentos los definí en el capítulo 1 (caso 4): <strong>consulta</strong>, <strong>seguimiento de crónicos</strong>, <strong>administración</strong>, <strong>docencia</strong> y <strong>divulgación y comunidad</strong>, lo que sale del centro hacia fuera: charlas, redes, el cartel.</p>
+<p>Un martes los mezcla. Y el reel que me debo desde hace un mes es divulgación y no cabe en ningún hueco: lo hago en casa.</p>
+<p>¿Qué parte admite máquina? Tres.</p>
+<p>Lo que no toca a nadie: plantillas, sesiones, divulgación, búsquedas. La máquina entra sola y el coste de su error lo pago yo leyendo.</p>
+<p>Lo que toca a una persona a través de un texto que leo entero antes: la hoja, el mensaje entre visitas, ahora el audio. La máquina escribe; yo firmo.</p>
+<p>Lo que toca a una persona sin mí: hoy, nada. Ningún caso de este libro llega a nadie sin pasar por mis ojos.</p>
+<p>El escenario con contrato llegará: una herramienta con acuerdo de tratamiento de datos, dada por el servicio de salud, que escribe la nota mientras hablo, con el consentimiento de la persona (Tierney 2024; capítulo 5). Ese día los mismos prompts sirven con datos reales: cambia la columna, no la gramática. Hasta entonces, herramientas de consumo y ningún dato de nadie.</p>
+<p>Y el coste. Cuando escribo esto, casi todo lo que hace este libro cabe en las versiones gratuitas de los tres asistentes que nombro. No caben el asistente propio con archivos grandes (capítulo 8), el razonador sin cupo ni, según el plan, la voz, la imagen y las tareas programadas de este capítulo. Una suscripción cuesta lo que una plataforma de series al mes; la pago yo, como el ordenador: gasto, no vínculo (capítulo 3).</p>
+<hr />
+<h2>Segunda parte · La página del corcho</h2>
+<p>Una tabla resume el libro. Filas, los cinco momentos. Columnas, los niveles del capítulo 2 (caso 4) más uno, el de este capítulo. En cada celda, los casos, como capítulo.caso. Las celdas vacías son lo que el libro no enseña; una está tachada.</p>
+<table>
+<thead>
+<tr>
+<th>Momento</th>
+<th>PAPEL</th>
+<th>GRATUITA</th>
+<th>DE PAGO O RAZONADOR</th>
+<th>ASISTENTE PROPIO CON FUENTES (cap. 8)</th>
+<th>AUTOMATIZACIÓN O AGENTE (este capítulo)</th>
+<th>SOLO CON CONTRATO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Consulta</strong></td>
+<td>3.1 · 3.5 · 3.6</td>
+<td>1.1 · 1.2 · 1.5 · 4.1 · 4.5 · 5.1 · 5.7 · 6.1 · 6.2 · 6.3 · 7.1 · 7.4 · 9.8</td>
+<td>4.4 · 8.1 · 9.3 (voz: según plan)</td>
+<td>2.3 · 7.2 · 8.2</td>
+<td>~~nada, hoy ni mañana~~</td>
+<td>5.1 · 5.7</td>
+</tr>
+<tr>
+<td><strong>Seguimiento de crónicos</strong></td>
+<td>9.7</td>
+<td>3.7 · 4.3 · 4.6 · 5.2 · 5.4 · 5.5 · 5.6 · 6.4 · 6.5 · 8.3 · 8.4</td>
+<td>7.5 · 8.6</td>
+<td>8.1 · 8.6</td>
+<td>9.6b · 9.7 (en papel)</td>
+<td>5.2 · 5.4 · 5.6 · 9.7 si se construye dentro</td>
+</tr>
+<tr>
+<td><strong>Administración</strong></td>
+<td>2.6 · 4.7 · 9.6a</td>
+<td>1.4 · 2.4 · 3.2 · 4.2 · 5.3 · 5.8 · 9.1</td>
+<td>1.6</td>
+<td>8.2 con documentos internos</td>
+<td>9.6a (sin IA)</td>
+<td>5.3 · 5.8</td>
+</tr>
+<tr>
+<td><strong>Docencia</strong></td>
+<td></td>
+<td>2.1 · 2.2 · 3.4 · 6.7 · 7.6 · 7.7 · 8.7</td>
+<td>2.5 · 7.3</td>
+<td>1.3 · 8.5</td>
+<td>9.6c</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Divulgación y comunidad</strong></td>
+<td>9.5 (el montaje)</td>
+<td>3.3 · 6.6 · 7.4 · 9.2 · 9.4</td>
+<td>9.4 · 9.5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Tres notas. La calculadora y el formulario (8.1 y 8.6) son herramientas tuyas con fuentes publicadas, no asistentes. La columna de la derecha son los prompts del capítulo 5 con datos reales, el día del contrato. Y 9.6b está en automatización porque el texto es uno, lo leí entero y lo manda el sistema del centro.</p>
+<p>La celda tachada es la regla de la matriz: consulta por automatización, lo que la máquina escribiría cada vez y llegaría a la persona sin que lo hayas leído. No hay caso, y no lo habrá. Cuanto más cerca de la persona, más verificación y menos automatismo; con contrato entran datos reales, no entra nadie a decidir por ti.</p>
+<p>Debajo, la regla del coste de error del capítulo 2 (BAJO, MEDIO, ALTO).</p>
+<p>Y la escalera. Un modelo responde: le pides y escribe. Un razonador se para a pensar antes (capítulo 2). Un agente actúa: cerebro, el modelo; memoria, lo que recuerda entre paso y paso; herramientas, lo que puede tocar: buscar en internet, escribir en una agenda, mandar un correo. Por primera vez la máquina hace algo sin que lo leas antes. Por eso las cinco preguntas van aquí.</p>
+<ul>
+<li><strong>Autonomía.</strong> ¿Qué haría solo, sin que nadie lo lea antes?</li>
+<li><strong>Responsabilidad.</strong> ¿Quién responde cuando falle? Con nombre.</li>
+<li><strong>Supervisión.</strong> ¿Quién lo mira, cuándo y con qué tiempo?</li>
+<li><strong>Consentimiento.</strong> ¿Sabe la persona qué entra, adónde va y ha dicho que sí por escrito?</li>
+<li><strong>Equidad.</strong> ¿Funciona igual para quien no tiene reloj, no lee o no habla español?</li>
+</ul>
+<p>Si una queda sin respuesta, no se enciende. Ni "en pequeño", ni "para probar", ni "solo conmigo": se diseña en papel (caso 7).</p>
+<p>De mi formación en IA y en compliance me traje tres listas, aquí con mis palabras: la escalera de tres peldaños con sus cinco preguntas, las siete cosas que dejo fuera de todo lo que publico y las comprobaciones de antes de publicar que el caso 4 convierte en auditor.</p>
+<hr />
+<h2>Tercera parte · Lo que se ve y lo que se escucha</h2>
+<p>Casi la mitad de las personas de los ocho países de la encuesta europea tenía dificultades con la información de salud; en España, casi seis de cada diez (Sørensen 2015; el matiz, en el capítulo 6). Una hoja que pasa el examen sigue siendo una hoja, y hay quien no la leerá: por hábito, por gafas, por tiempo o por idioma.</p>
+<p>Cada mensaje tiene su formato. Audio para quien no lee: dicho, el mismo texto se recuerda mejor cuando leer cuesta (Meppelink 2015). Vídeo de un minuto para lo que se explica con las manos: un termostato, una puerta que se abre. Imagen para lo que se recuerda con los ojos: el cartel que se lee sin que nadie lo dé. Con baja alfabetización, las imágenes ayudan a atender y a recordar (Houts 2006).</p>
+<p>Las herramientas producen; lo que sigue lo pones tú. Cuatro reglas:</p>
+<ul>
+<li><strong>El audio y el vídeo leen un texto que ya pasó el examen</strong> (capítulo 6, caso 1). No lo resumen ni lo "explican": reinterpretar es escribir de nuevo, y lo nuevo no ha pasado por nadie.</li>
+<li><strong>Todo lo que llega a la persona lleva las tres líneas</strong> (capítulo 4): contacto como hueco, urgencias solo si toca síntomas y el aviso de material informativo. También dichas, en el mismo orden.</li>
+<li><strong>Lo que se publica lleva lo del capítulo 3</strong> (nunca marca; disclaimers; vínculos aunque no haya patrocinio; la frase preparada para el efecto adverso) y, además, papel firmado de quien aparezca, licencia de lo que suene y etiqueta si es sintético.</li>
+<li><strong>Sin estigma en la imagen.</strong> Sin cuerpos en lo del centro, por criterio mío; con criterios si aparece alguien (Rubino 2020; guías de medios).</li>
+</ul>
+<p>Las herramientas cambian: cada caso nombra la suya y ninguna la recomiendo; comprueba la versión vigente.</p>
+<hr />
+<h2>Ocho casos para que quepa en la agenda</h2>
+<p>Mismo molde que en los capítulos 4 a 8; ninguno admite datos identificables. Sin acuerdo de tratamiento de datos, como la mayoría: entran plantillas, textos ya validados, casos sintéticos de cero, descripciones de imágenes y búsquedas públicas; ninguna persona. Conversación nueva y memoria apagada; la tarea programada del caso 6 vive en la suya.</p>
+<p>Se pegan en Gemini, ChatGPT y Claude cuando escribo esto. El 3 necesita voz; el 5, imagen; el 6, tareas programadas; y no los tres tienen las tres cosas (Claude no genera imágenes [VERIFICAR]): comprueba la tuya. Ficha del capítulo 4, caso 7; la del 6 lleva tres líneas más.</p>
+<h3>Caso 1 · La burocracia de Atención Primaria en plantillas [AP]</h3>
+<p><strong>Momento:</strong> administración. <strong>Herramienta:</strong> asistente de consumo; plantillas sin datos.</p>
+<p><strong>Situación.</strong> El capítulo 5 escribió los documentos clínicos y dejó fuera tres textos que me comen la mañana: el correo al hospital por un informe que no llegó o para adelantar una cita; la respuesta a gerencia o inspección que pide actividad; y la carta a gerencia pidiendo huecos de quince minutos para primeras visitas de obesidad, con los recuentos del mapa del cupo (capítulo 1, caso 6). Se escriben una vez, sin datos, y se rellenan en mi sistema.</p>
+<p>Lo que no hace: justificantes, que los saca el sistema con los datos de la persona; interconsultas, informes a petición y quejas (capítulo 5, casos 2, 3 y 8). Ninguna plantilla lleva "generado con IA": las firmo yo.</p>
+<pre><code>ROL: Eres una redactora administrativa al servicio de una médica de familia en España. Escribes plantillas genéricas que ella completa, firma y envía desde su sistema; nunca un documento sobre alguien.
+
+CONTEXTO: Tres textos, sin ningún dato de nadie. (A) Correo a un servicio hospitalario; ELIJO: [pedir un informe que no ha llegado / adelantar una cita]; el motivo va como hueco. (B) Respuesta a gerencia o inspección que pide actividad de mi consulta: solo recuentos agregados, que pondré yo al rellenar, y esta línea literal dentro de la plantilla: &quot;Recuentos por trimestre; los menores de cinco se expresan como &lt;5.&quot; (C) Carta a gerencia solicitando huecos de quince minutos para primeras visitas de obesidad, con RECUENTOS DE MI CUPO, ya agregados y con &quot;&lt;5&quot; donde toque, que pego yo: [por ejemplo: personas con obesidad: [n]; con dos o más comorbilidades: [n]; más de un año sin visita: [n]; primeras visitas al mes: [n]].
+
+TAREA: Las tres plantillas, en impersonal, sin firma ni fecha. Todo dato que no te haya dado va como hueco con su nombre dentro: &quot;[FALTA: número de historia]&quot;. Ninguna frase afirma que algo se hizo, se envió o se recibió, ni con un hueco al final: &quot;se envió el [FALTA: fecha]&quot; está prohibida. En (C), el argumento es el tiempo que exige la primera visita de una enfermedad crónica, con los recuentos; sin cifras de peso, sin &quot;por la presión asistencial&quot; ni ninguna queja sobre la agenda.
+
+FORMATO: (0) Primera línea: &quot;PLANTILLAS SIN DATOS&quot; o &quot;TEXTO CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si lo que te pego trae nombre, número de historia, fecha completa, municipio o cualquier dato de una persona; en ese caso, para. Después (A), (B) y (C), máximo 120 palabras cada una sin contar los huecos, y nada más. Sin ninguna línea de &quot;generado con IA&quot;: las firmo yo. Última línea, literal: &quot;PALABRAS: [n] / [n] / [n] · HUECOS: [n] · CIFRAS, FECHAS O NOMBRES FUERA DE UN HUECO: [n]&quot;: la última cuenta cada número, mes, día, nombre de persona o de servicio que no esté dentro de un [FALTA: …], salvo &quot;quince minutos&quot;, &quot;&lt;5&quot; y los recuentos que pegué; tiene que ser 0.
+
+RESTRICCIONES: Sin fármacos ni nombres comerciales. Sin adjetivos sobre nadie. Sin plazos inventados: &quot;[FALTA: plazo]&quot;. Sin disculpas. Usa &quot;persona con obesidad&quot;. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>PLANTILLAS SIN DATOS
+(A) Se solicita el informe de la consulta de [FALTA: servicio] de la persona identificada como [FALTA: número de historia], atendida el [FALTA: fecha de la visita], que no consta en Atención Primaria. [FALTA: motivo].
+(B) […] Recuentos por trimestre; los menores de cinco se expresan como &lt;5. […]
+(C) […]
+PALABRAS: 41 / 96 / 118 · HUECOS: 11 · CIFRAS, FECHAS O NOMBRES FUERA DE UN HUECO: 0</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Cuenta tú los números fuera de un corchete: "en el último trimestre" y "en fecha reciente" afirman sin ser huecos, y "se envió la petición el [FALTA: fecha]" afirma que se envió: la forma nueva de inventar (capítulo 5). Que "por la presión asistencial" no aparezca en (C) ni disfrazado ("dada la carga de trabajo"): la carta pide tiempo, no se queja (capítulo 5, caso 8). En (B) y (C), cuenta tú los recuentos menores de 5 y pregunta antes al delegado de protección de datos (capítulo 7, caso 5); pega cifras, nunca el listado del que salen.</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que la plantilla, de tan pulida, se firme sin leer. Mitigación: con un hueco sin rellenar, no sale de tu bandeja.</p>
+<h3>Caso 2 · El calendario mensual de divulgación y el guion de un reel sanitario [AP]</h3>
+<p><strong>Momento:</strong> divulgación y comunidad. <strong>Herramienta:</strong> asistente de consumo.</p>
+<p><strong>Situación.</strong> Divulgar sin calendario es publicar cuando hay rabia o cuando hay hueco, y ninguna de las dos es buena hora. Cuatro piezas al mes bastan, con lo que ya tengo escrito.</p>
+<p><strong>(a) El calendario.</strong> Una tabla, no un segundo prompt: tema, formato, disclaimer y si toca un área con vínculo (capítulo 3). Este mes, del propio libro:</p>
+<table>
+<thead>
+<tr>
+<th>Pieza</th>
+<th>Tema</th>
+<th>Formato</th>
+<th>Disclaimer</th>
+<th>Vínculo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>"No es falta de voluntad. Es biología" (capítulo 1)</td>
+<td>Reel, 45 s</td>
+<td>General; de derivación (toca una enfermedad que se trata)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>2</td>
+<td>La función antes que el peso (capítulo 8)</td>
+<td>Carrusel</td>
+<td>General; de derivación (habla de pruebas)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>3</td>
+<td>"Comer menos y moverse más", refutado</td>
+<td>Texto</td>
+<td>General; de derivación (nombra el tratamiento)</td>
+<td>Sí: roza los fármacos; declaro dentro aunque no haya patrocinio, con una línea concreta: "Transparencia: colaboro con [empresa]; el detalle, en mi post fijado".¹</td>
+</tr>
+<tr>
+<td>4</td>
+<td>La pregunta de vuelta (capítulo 6)</td>
+<td>Reel, 45 s</td>
+<td>General, en la bio</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Declaración de transparencia: mantengo vínculos con Novo Nordisk, detallados al inicio del libro. En este capítulo no se nombra ningún fármaco, ni por clase: los tratamientos para la obesidad aparecen como tema de una pieza del calendario, en el comentario con un efecto adverso del "después de publicar" y en la línea de tratamiento que el audio de una hoja no lleva; ninguna decisión de este capítulo sustituye a la guía ni a la médica.</p>
+<p>Patrocinado, ninguno este mes. Si lo hubiera, se dice primero y se acumulan los tres (capítulo 3).</p>
+<p><strong>(b) El guion del reel.</strong> Cuarenta y cinco segundos en tres tiempos: situación de entrada, un solo mensaje en clave de población, un cierre que se puede hacer. El disclaimer de derivación lo decido yo en una variable, y se dice y se subtitula; si toca síntomas o efectos adversos, lleva además la línea de urgencias. Las siete cosas que dejo fuera de todo lo que publico van como restricciones, con mis palabras.</p>
+<pre><code>ROL: Eres una guionista de divulgación sanitaria para redes, al servicio de una médica de familia en España. Escribes para una población, nunca para una persona.
+
+CONTEXTO: Un reel de 45 segundos. TEMA, con mis palabras: [por ejemplo: la obesidad es una enfermedad crónica; el cuerpo defiende su peso tras una pérdida; no es falta de voluntad]. TOCA, lo decido yo: [no / tratamientos / síntomas o efectos adversos]. VÍNCULO EN ESTE TEMA, una línea literal mía o &quot;ninguno&quot;: [ninguno]. PATROCINIO: [ninguno].
+
+TAREA: (1) GUION con tiempos: 0-3 s, una situación cotidiana, sin alarma; 3-35 s, un solo mensaje, en clave de población, con una imagen concreta; 35-45 s, un cierre que se pueda hacer, sin prometer nada; máximo 110 palabras dichas. (2) TEXTO EN PANTALLA: una línea por tiempo; si TOCA no es &quot;no&quot;, esta línea subtitulada y dicha, literal: &quot;Si reconoces en ti algo de esto, coméntalo con tu médico o profesional de referencia: solo una valoración individual puede orientarte&quot;; si TOCA es &quot;síntomas o efectos adversos&quot;, además, literal: &quot;Si es urgente, no esperes: urgencias o 112&quot;. (3) CAPTION: tres frases, sin hashtags ni emoticonos; las mismas líneas literales al final, si tocan; si PATROCINIO no es &quot;ninguno&quot;, &quot;Publicidad&quot; como primera palabra del caption y en pantalla toda la pieza; si VÍNCULO no es &quot;ninguno&quot;, su línea al principio del caption, tras el patrocinio si lo hubiera.
+
+FORMATO: (0) Primera línea: &quot;GUION SIN DATOS&quot; o &quot;TEMA CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si el TEMA trae un nombre, una edad exacta, un lugar o una historia que parezca de alguien; en ese caso, para. Después (1), (2) y (3), nada más. Última línea, literal: &quot;PALABRAS DICHAS: [n] · MARCAS: 0 · CIFRAS O ESTUDIOS: 0 · CONSEJOS INDIVIDUALES: 0 · CASOS O PERSONAS: 0&quot;: cuenta marcas; números, porcentajes y &quot;los estudios dicen&quot;; &quot;tú deberías&quot;, &quot;en tu caso&quot; y &quot;prueba a&quot;; y cada caso, anécdota o &quot;una paciente&quot;; los tiempos del guion no cuentan; los cuatro tienen que ser 0.
+
+RESTRICCIONES: Nada que suene a consejo para quien lo ve. Fármacos, si el TEMA los toca, por clase o principio activo y desde cómo actúan, nunca por marca. Ninguna persona reconocible: ni caso, ni &quot;una paciente que vino&quot;, ni rasgos que sumados identifiquen. No propongas imagen, voz ni vídeo de nadie, ni básculas, cintas, comida ni &quot;antes y después&quot; en ninguna escena. Sin música ni imágenes con derechos: escribe &quot;MÚSICA: de librería con licencia o ninguna&quot;. Solo lo que trato en consulta. Sin &quot;obeso&quot;, sin culpa. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida</strong> (pieza 1; TOCA: tratamientos).</p>
+<blockquote>
+<p>GUION SIN DATOS
+0-3 s: Alguien apaga el despertador y, antes de levantarse, ya tiene hambre.
+3-35 s: Cuando bajas de peso, el cuerpo cree que hay escasez. Sube el hambre, baja la saciedad, gasta menos. Es un termostato, y lo defiende. TEXTO: "No es falta de voluntad. Es biología."
+35-45 s: Quien lo ha vivido no ha fallado. Es una enfermedad crónica y se acompaña. TEXTO: "Si reconoces en ti algo de esto, coméntalo con tu médico o profesional de referencia…" […]
+PALABRAS DICHAS: 96 · MARCAS: 0 · CIFRAS O ESTUDIOS: 0 · CONSEJOS INDIVIDUALES: 0 · CASOS O PERSONAS: 0</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Cuenta las palabras dichas con el dedo: más de 110 no caben en 45 segundos (capítulo 1: 150 palabras, un minuto), y el modelo cuenta 96 donde hay 118. Busca "tú deberías", "en tu caso", "prueba a" y "si esto te suena": consejos individuales que el recuento no ve. Busca "#", emoticonos, un porcentaje o "los estudios" en el caption: aparecen aunque se prohíban. Mira la escena de entrada como la imagen del caso 5: una báscula en los tres primeros segundos se quita. "Un fármaco como…" en un reel que no va de tratamientos es una recomendación disfrazada; el auditor del caso 4 la marca en (4).</p>
+<p><strong>(c) Después de publicar.</strong> Bajo la pieza 3, un comentario: "Yo empecé con lo del peso hace un mes y no paro de vomitar, ¿es normal?". Describe un efecto adverso de un tratamiento para la obesidad, sin nombrarlo, y no es paciente mía. No contesto clínicamente ni pregunto más: contesto la frase preparada del capítulo 3, en su variante para quien no es paciente mía: "Gracias por contármelo. Esto hay que valorarlo en consulta: coméntalo con tu médico o farmacéutico de referencia. Si no toleras líquidos, tienes dolor fuerte de tripa, te mareas o te encuentras mal, no esperes: urgencias o 112. Si quieres, también puedes registrarlo en notificaRAM.es, el sistema oficial de farmacovigilancia."</p>
+<p>Y notifico yo, si puedo. Una notificación necesita el medicamento sospechoso, la reacción y lo mínimo de quién es, y este comentario no trae el medicamento. Si lo nombra, aquí o en otro comentario, notifico con lo que haya: una sospecha basta (RD 577/2013, art. 6.1); si es de un laboratorio con el que colaboro, mi contrato dice a quién avisar ese mismo día (capítulo 3). Si no lo nombra, la remisión a notificaRAM.es es la notificación que sí puede hacerse: la suya. Nada se pega en un chat: los datos reales van directos a notificaRAM.es, y el formulario se ensaya con un caso inventado (capítulo 10). Si en la pieza había un error, lo corrijo donde lo dije, a la vista: una pieza que desaparece no corrige nada.</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que la pieza más compartida sea la menos revisada. Mitigación: el auditor del caso 4 pasa por las cuatro piezas del mes.</p>
+<h3>Caso 3 · Audio para quien no lee [AP]</h3>
+<p><strong>Momento:</strong> consulta. <strong>Herramienta:</strong> la voz del asistente o una herramienta de texto a voz.</p>
+<p><strong>Situación.</strong> Tiene entre cuarenta y cinco y cincuenta años, obesidad de grado II y cuida de su madre y de dos hijos; no ha leído un libro desde el colegio y no lo dice. La hoja del capítulo 6 se la llevó y no la abrió. Es una escena inventada: rasgos de muchas cuidadoras atendidas a lo largo de los años, y ninguna es una persona con dos datos cambiados; circunstancias y frases inventadas; sin municipio, fechas ni cifras que permitan trazar a nadie.</p>
+<p>Lo que sí hizo fue escuchar. La hoja "¿Por qué recupero el peso?", ya examinada (capítulo 6, caso 1), dura dos minutos. Va sin las dos frases de tratamiento, para que el audio no nombre fármacos; la idea de que hay tratamiento y seguimiento se queda, porque sin ella "es biología" suena a "no depende de mí". La escuchó mientras cocinaba, dos veces, y volvió con una pregunta que la hoja no contestaba: "¿Y si me da hambre por la noche, es eso del termostato?". Es la pregunta de vuelta (capítulo 6), y llegó sola.</p>
+<p>La regla del capítulo, aquí: el audio lee un texto validado; no es un pódcast. Las herramientas que convierten un documento en una charla entre dos voces valen para estudiar, nunca para la persona: reinterpretan. La línea de urgencias la trae la hoja o no la trae; esta no, porque no toca síntomas ni tratamiento. Con las dos frases de tratamiento llevaría la del capítulo 6 (caso 4); una hoja de ejercicio, la de dolor en el pecho, falta de aire o mareo. El audio la dice entera.</p>
+<pre><code>ROL: Eres una redactora que adapta textos ya validados para ser leídos en voz alta. No cambias lo que dicen: cambias cómo suenan.
+
+CONTEXTO: Te pego una hoja GENÉRICA para personas con obesidad que ya pasó un examen de legibilidad; no lleva ningún dato de nadie ni ninguna línea de tratamiento. Quiero el mismo texto como guion para una voz sintética. TRATO: usted. Si la hoja trae una línea de urgencias, con &quot;urgencias o 112&quot;, se lee literal en su sitio; si no la trae, no añadas nada de urgencias, síntomas ni &quot;consulte con su médico&quot;, aunque te parezca prudente.
+
+HOJA (la del caso 1 del capítulo 6, sin la línea de tratamiento, sin sus tres líneas finales, que aquí se vuelven a poner, y sin nombre, centro ni teléfono): [hoja]
+
+TAREA: (1) GUION DE AUDIO: una línea por cada frase de la hoja, en el mismo orden y con la misma idea; una frase larga se parte en dos dentro de su línea; frases de doce palabras como máximo; sin listas ni paréntesis; las cifras en letras, salvo el 112, que se escribe &quot;112&quot;; una línea en blanco donde la voz deba parar. (2) Al final, en este orden, literal y una sola vez aunque la hoja ya las traiga: &quot;Si tiene dudas, [FALTA: contacto del centro].&quot;; la línea de urgencias de la hoja, solo si la trae; &quot;Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual.&quot;; y una última línea, literal: &quot;Esta voz es una voz generada por ordenador.&quot;
+
+FORMATO: (0) Primera línea: &quot;HOJA SIN DATOS&quot; o &quot;HOJA CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si trae nombre, fecha, centro, teléfono o cualquier dato individual; en ese caso, para. Después el guion y sus líneas finales, nada más. Última línea, literal: &quot;FRASES DE LA HOJA: [n] · LÍNEAS DEL GUION: [n] · AÑADIDAS: 0&quot;: las líneas finales no cuentan; los dos primeros números tienen que coincidir y el tercero, que cuenta cada línea del guion que no sale de una frase de la hoja, ser 0.
+
+RESTRICCIONES: No expliques, no resumas, no ejemplifiques, no suavices ni refuerces: la hoja ya dice lo que dice. Sin fármacos, ni por marca ni por principio activo ni por clase. Sin frases de ánimo. No rellenes el marcador: el hueco lo relleno yo antes de la voz. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>HOJA SIN DATOS
+Su cuerpo defiende su peso. Cuando baja kilos, le da más hambre. Y gasta menos energía.</p>
+<p>No es culpa suya. Es biología.
+[…]
+Si tiene dudas, [FALTA: contacto del centro]. Material informativo generado con apoyo de IA y revisado por su profesional sanitario. No sustituye la valoración clínica individual. Esta voz es una voz generada por ordenador.
+FRASES DE LA HOJA: 12 · LÍNEAS DEL GUION: 12 · AÑADIDAS: 0</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Con la hoja al lado, línea por línea: el recuento coincide y a veces miente. Lo que más se cuela es una frase de ánimo al final; lo que más se pierde es "se trata y se acompaña", y sin ella la persona se queda con la biología y sin el siguiente paso. Las líneas finales suenan una sola vez y con las mismas palabras. Rellena el hueco del contacto antes de pegar en la voz, con el que el centro autorice, nunca el tuyo: una voz lee "FALTA" en voz alta. Copia solo el guion y sus líneas finales; si no, la voz lee también la primera línea y el recuento. Escúchalo entero antes que nadie: una voz sintética pone énfasis donde no toca, "no espere" puede sonar a cortesía y el 112 tiene que sonar a "ciento doce" o "uno uno dos".</p>
+<p>La última línea la dejo por honestidad: la ley solo la exige cuando la voz imita a alguien real, la mía incluida (Reglamento (UE) 2024/1689, art. 50.4 [VERIFICAR]); una voz genérica que lee no es nadie, pero quien la escucha tiene derecho a saber que no soy yo.</p>
+<p>En otro idioma, solo sobre la traducción validada por un hablante (capítulo 6, caso 2), que escucha también el audio; las tres líneas validadas se pegan. El árabe escrito no es el idioma de casa de muchas personas del Magreb (capítulo 6). El audio en dariya lo graba el mediador leyendo la traducción validada, no improvisando, con permiso escrito para que circule su voz; otro hablante o el teléfono de interpretación lo escucha antes de entregarlo. Sin traducción validada no hay audio: se explica en consulta con el mediador delante, y consta en la historia (Ley 41/2002, art. 4.1).</p>
+<p>La entrega: en consulta, al teléfono de la persona o por el enlace del centro, autorizado como el cartel (capítulo 6, caso 6); nunca por mi WhatsApp (capítulo 3).</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que el audio "mejore" la hoja. Mitigación: "AÑADIDAS: 0" contado por ti, y la pregunta de vuelta: lo que la hoja no decía, lo dijo la máquina.</p>
+<h3>Caso 4 · Vídeo de sesenta segundos "qué es la adaptación metabólica"</h3>
+<p><strong>Momento:</strong> divulgación y comunidad. <strong>Herramienta:</strong> asistente de consumo para auditar; el teléfono o un avatar.</p>
+<p><strong>Situación.</strong> El texto ya existe: las 150 palabras del capítulo 1 (caso 2) duran un minuto largo a ritmo normal. Escribirlo es el caso 2; aquí se produce y se audita. Se graba una vez y se enseña nueve veces.</p>
+<p>Producirlo, sin prompt. El guion a plano: qué se ve mientras se dice cada frase; manos, una puerta, un termostato; sin cuerpos, sin comida, sin básculas. Subtítulos obligatorios: mucha gente ve sin sonido y hay quien no oye; y dos líneas de texto alternativo para quien no ve.</p>
+<p>Vídeo propio: sin pacientes, sin sala de espera con gente, sin la pantalla de la historia detrás, sin pulsera ni fecha en ningún plano. Consentimiento firmado de quien aparezca, también de la compañera que sale de fondo, que el capítulo 3 no dijo. El consentimiento es expreso, se puede retirar y no admite el tácito (LO 1/1982, art. 2 [VERIFICAR apartados]; RGPD, art. 4.11 y considerando 32); si lo retira, la pieza se retira.</p>
+<p>Avatar o voz clonada de mí misma: etiqueta en pantalla y en el caption, "vídeo generado con IA", toda la pieza. Desde el 2 de agosto de 2026 el reglamento europeo obliga a quien publica un vídeo o una voz que imita a una persona real a decir que es artificial (Reglamento (UE) 2024/1689, art. 50.4 [VERIFICAR literal en EUR-Lex]). Avatar de otra persona, nunca. Música: de librería con licencia, o ninguna. Como el vídeo toca la recuperación de peso, el cierre lleva la línea de derivación, dicha y escrita, como la pieza 1 del calendario.</p>
+<p>El prompt es el auditor: con la pieza y lo que solo yo sé, devuelve mis diez comprobaciones con SÍ, NO o NO LO SÉ. No arregla nada: señala.</p>
+<pre><code>ROL: Eres una auditora de piezas de divulgación sanitaria. No reescribes: compruebas y señalas.
+
+CONTEXTO: Te pego GUION, TEXTO EN PANTALLA y CAPTION de una pieza de una médica de familia en España, sin datos de nadie. LO QUE TRATO: [obesidad en adultos y lo que la acompaña, desde Atención Primaria]. Y lo que solo yo sé: QUIÉN APARECE Y SI HA FIRMADO: [por ejemplo: solo yo]; VOZ O IMAGEN SINTÉTICA: [no / sí, etiquetada toda la pieza]; PATROCINIO: [no / sí, dicho primero y en pantalla]; MÚSICA: [ninguna / con licencia]; SUBTÍTULOS: [sí, toda la pieza / no]; DISCLAIMER GENERAL EN LA BIO: [sí / no].
+
+TAREA: Contesta mis diez comprobaciones, cada una con SÍ, NO o NO LO SÉ y la frase que lo sostiene; NO LO SÉ solo para lo que no está ni en el texto ni en mis líneas. ANTES DE ESCRIBIR: (1) ¿Trata de LO QUE TRATO? (2) ¿Habla de una población y no aconseja a quien lo ve? (3) ¿No hay ninguna persona reconocible, ni caso, ni rasgos que sumados identifiquen? (4) ¿Ningún fármaco por marca ni recomendación de tratamiento? ANTES DE GRABAR: (5) ¿Todo el que aparece o se oye ha firmado, también de fondo? (6) ¿Lo que suena y se ve tiene licencia o es propio? (7) Si hay voz o imagen sintética, ¿lleva etiqueta toda la pieza, en pantalla y en el caption? ANTES DE PUBLICAR: (8) Si alguien la paga, ¿se dice primero, en texto y en pantalla? (9) ¿Lleva subtítulos, disclaimer general en la bio y, si toca síntomas o tratamientos, la línea de derivación dicha y escrita? SÍ solo si todo. (10) ¿La firmaría delante de mi colegio? SÍ solo si (1) a (9) son SÍ; si no, NO.
+
+FORMATO: (0) Primera línea: &quot;PIEZA SIN DATOS&quot; o &quot;PIEZA CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si traen nombre, edad exacta, lugar o una historia que parezca de alguien; para. Después las diez líneas, nada más. Penúltima línea, literal: &quot;SÍ: [n] · NO: [n] · NO LO SÉ: [n]&quot;, y suman diez. Última línea, con mi regla, la primera que se cumpla: &quot;NO SE PUBLICA&quot; si hay un NO o un NO LO SÉ en (1) a (4); &quot;SE CORRIGE Y SE VUELVE A PASAR&quot; si lo hay en (5) a (10); &quot;PUBLICABLE&quot; solo con diez SÍ.
+
+RESTRICCIONES: No reescribas ninguna frase ni propongas la versión &quot;correcta&quot;. NO LO SÉ cuenta como NO: no lo conviertas en SÍ. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>PIEZA SIN DATOS
+(1) SÍ: obesidad en adultos. (2) SÍ: no hay "en tu caso". (3) SÍ. (4) SÍ: no nombra tratamientos. (5) SÍ, según tu línea. (6) SÍ: "MÚSICA: ninguna". (7) SÍ: no aplica. (8) SÍ: no hay patrocinio. (9) NO: el TEXTO EN PANTALLA no trae la línea de derivación que el guion dice. (10) NO, porque (9) no es SÍ.
+SÍ: 8 · NO: 2 · NO LO SÉ: 0
+SE CORRIGE Y SE VUELVE A PASAR</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Que no haya arreglado nada: "propongo añadir…" en (9) es auditar y editar a la vez. Que (10) no diga SÍ con un NO o un NO LO SÉ arriba. Un NO LO SÉ solo cabe en lo que ni el texto ni tus líneas dicen; en algo que se ve, es un NO disfrazado.</p>
+<p>Y lo que solo tú sabes: el modelo no ve el papel firmado; si escribes "ha firmado" sin tenerlo, la auditoría miente contigo; lo que tratas, los subtítulos y la bio los contestas con la cuenta abierta delante. Aquí no hay nota: nueve síes y un no en el consentimiento no es un notable, es una denuncia.</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que circule una cara al fondo que no firmó, o mi voz sintética sin etiqueta. Mitigación: (5) y (7) las contestas tú con el papel delante; con un NO LO SÉ, la pieza no sale.</p>
+<h3>Caso 5 · Imágenes sin estigma y el cartel de sala de espera diseñado [AP]</h3>
+<p><strong>Momento:</strong> divulgación y comunidad. <strong>Herramienta:</strong> el generador de imágenes del asistente; una herramienta de diseño para el montaje, sin IA.</p>
+<p><strong>Situación.</strong> Dos mitades. La primera es el cartel del capítulo 6 (caso 6): el texto ya está escrito; faltan la imagen y el montaje. La imagen, sin cuerpos, por criterio mío: una puerta abierta, una silla, un pasillo con luz, dos tazas. Nada que señale a quien está sentado debajo. El prompt describe la escena en positivo, vacía, y después enumera lo que un generador hace mal, por su nombre. No lleva rol, porque casi ninguna herramienta de imagen lo admite, y la comprobación vuelve como lista.</p>
+<pre><code>Imagen para un cartel de sala de espera de un centro de salud en España, en formato vertical (9:16), con fondo claro y la mitad superior casi vacía, para escribir texto encima después; la escena, en la mitad inferior.
+
+Lo que se ve, y nada más: [por ejemplo: una puerta de consulta entreabierta, con luz cálida saliendo por la rendija, y una silla sencilla al lado, en un pasillo tranquilo y vacío]. Estilo: fotografía natural o ilustración plana sencilla; colores suaves; sin estilo de anuncio ni de catálogo.
+
+Lo que no debe aparecer, y lo compruebo yo: (1) texto, letras o números; (2) personas o partes de personas: manos, siluetas, sombras con forma humana; (3) comida o bebida; (4) báscula, cinta métrica o ropa; (5) logotipos, marcas o cruz sanitaria; (6) objetos médicos reconocibles: bata, fonendo, pastillas; (7) nada que sugiera &quot;antes y después&quot;; (8) estilo de anuncio.
+
+Genera tres variantes distintas de la misma escena. Después de las imágenes, si puedes escribir texto, una lista con el título &quot;LO QUE NO DEBE APARECER&quot; con los ocho puntos, uno por línea, para que yo marque cada uno en cada variante. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>[tres imágenes de la escena, con el fondo claro arriba]
+LO QUE NO DEBE APARECER: (1) texto, letras o números · (2) personas o partes de personas · (3) comida o bebida · (4) báscula, cinta o ropa · (5) logotipos, marcas o cruz · (6) objetos médicos · (7) "antes y después" · (8) estilo de anuncio.</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Mira la imagen como quien está sentado debajo del cartel (capítulo 6), con el tiempo de una sala de espera. Busca letras: los generadores escriben palabras inventadas en los carteles del fondo. Busca una mano en el pomo, una sombra, un plato: aparecen aunque los prohíbas; una persona "de espaldas" o "borrosa" es el punto (2). Con cualquiera de los ocho puntos, la variante se descarta entera; no se recorta. Si tu herramienta no devuelve la lista, imprímela de aquí. Y describe un sitio, no tu sitio: "la puerta de mi consulta", con número y centro, es un dato que sobra.</p>
+<p>El montaje se hace a mano, en la herramienta de diseño: la variante elegida del texto, la línea de contacto y ningún pie de disclaimer, porque un cartel no es material para una persona (capítulo 6, caso 6). En letra pequeña, "imagen generada con IA": si la imagen parece una fotografía, es obligatorio (Reglamento (UE) 2024/1689, art. 50.4 [VERIFICAR]); si es un dibujo, es honesto; va siempre. Lo autoriza quien autoriza lo demás (capítulo 3, caso 2).</p>
+<p><strong>(b) Si aparece una persona.</strong> En redes o en una diapositiva a veces hace falta alguien. Criterios, en lista:</p>
+<ul>
+<li><strong>Persona entera y vestida, con cara</strong>, en una actividad cotidiana y en un sitio normal: no en una consulta ni delante de una báscula.</li>
+<li><strong>Sin comida basura, sin cinta métrica, sin "antes y después"</strong>, y nunca un torso sin cabeza: la imagen que el consenso llama estigmatizante (Rubino 2020) y que las guías de medios de la Obesity Action Coalition y el Rudd Center (2014) describen punto por punto. Y la persona primero, también en el pie de foto (Kyle 2014).</li>
+<li><strong>Una persona generada no es nadie</strong> y no necesita consentimiento, pero puede estigmatizar igual: se mira con la misma lista. Y un banco de imágenes con licencia y criterios vale más que un generador: los de World Obesity y de la coalición europea de pacientes con EASO, gratuitos con crédito.</li>
+<li><strong>Etiqueta y parecido.</strong> Una persona generada que parece una fotografía lleva "imagen generada con IA" en la pieza, en pantalla y en el texto (Reglamento (UE) 2024/1689, art. 50.4 [VERIFICAR]); y si se parece a alguien real, ya no es nadie: se descarta.</li>
+</ul>
+<p><strong>Riesgo principal y mitigación.</strong> Que el cartel señale con una imagen "neutra" que no lo es. Mitigación: sin cuerpos, y los ocho puntos marcados a mano en cada variante.</p>
+<h3>Caso 6 · Automatizaciones sin datos clínicos [AP]</h3>
+<p><strong>Momento:</strong> administración, seguimiento de crónicos y docencia. <strong>Herramienta:</strong> reglas del correo, sin IA; el sistema de citación del centro; las tareas programadas de un asistente.</p>
+<p><strong>Situación.</strong> Tres automatizaciones, de menos a más IA. La lección es que la primera no lleva ninguna.</p>
+<p><strong>(a) El buzón administrativo.</strong> Inspección, gerencia, formación, el laboratorio del centro: cada remitente y cada asunto van a una etiqueta, y lo que no urge, a una carpeta "para el jueves". Ningún correo de un paciente entra en una regla, porque una regla no sabe qué urge; y ningún correo, de nadie, se reenvía a un asistente de consumo: son datos de terceros (capítulo 3). La IA solo diseñó las reglas, una tarde, con los tipos de correo descritos y ninguno pegado. Sin prompt: el capítulo 4 basta.</p>
+<p><strong>(b) El recordatorio del taller grupal.</strong> Un texto genérico: fecha, lugar, qué traer, cuánto dura. Nunca el diagnóstico, el tratamiento ni "su peso", tampoco en el nombre del taller: quien lea la pantalla no tiene por qué saber por qué va (capítulo 6, caso 5). Lo manda el sistema de citación del centro, que ya tiene los teléfonos y el contrato; o se entrega en consulta como tarjeta con un código al calendario público del centro:</p>
+<blockquote>
+<p>Taller [FALTA: nombre del taller, sin enfermedad ni peso en el nombre] el [FALTA: día y hora] en [FALTA: lugar]. Dura unos [FALTA: minutos]. Traiga ropa cómoda y agua.
+Si no puede venir, avise en [FALTA: contacto del centro].</p>
+</blockquote>
+<p>Lleva el contacto como hueco y no lleva el aviso de material informativo: no es material clínico, es una cita del centro, como cualquier SMS de cita. Un recordatorio que se manda solo desde mi teléfono, con un listado de números, es lo que este libro no enseña.</p>
+<p><strong>(c) La búsqueda programada de evidencia.</strong> La alerta fiable y gratuita sigue siendo la de PubMed (My NCBI; capítulo 7, caso 6): busca lo que existe, sin el ranking de nadie, y no inventa. Esta es la segunda. Cuando escribo esto, los tres asistentes que nombro admiten tareas programadas que se ejecutan solas: en uno también en el plan gratuito, con pocas tareas; en los otros dos, solo de pago. Comprueba la versión vigente. Si el tuyo las admite, la instrucción es esta, escrita para ejecutarse sin nadie delante.</p>
+<pre><code>ROL: Eres una documentalista clínica que ejecuta cada lunes, sin nadie delante, una búsqueda de evidencia para una médica de familia en España. No lees los artículos: localizas y clasificas.
+
+CONTEXTO: Tarea programada semanal. Busca solo en fuentes públicas (PubMed, registros de guías, sociedades científicas) lo publicado en los últimos siete días sobre obesidad en adultos desde Atención Primaria. REGLA DE RELEVANCIA, mía: PUEDE CAMBIAR LO QUE HAGO = las cuatro a la vez: ensayo aleatorizado, revisión sistemática o guía; en adultos; con desenlace clínico; algo que se hace desde Atención Primaria en España. CONVIENE SABERLO = observacional o desenlace intermedio que puede aparecer en consulta. NO APLICA = animales, laboratorio, técnica quirúrgica o de unidad especializada, población que no atiendo. PERMISOS: leer; escribir, enviar o guardar: ninguno.
+
+TAREA: (1) Por cada resultado: primer autor, año, revista, DOI; qué se estudió y en quién; el resultado principal si el resumen lo da; la etiqueta y, si es PUEDE CAMBIAR LO QUE HAGO, las cuatro condiciones con SÍ o NO; sin DOI, nunca esa etiqueta. (2) Ordena por etiqueta; NO APLICA solo con título y DOI. (3) Lo que no encaja en mi regla y crees que debería, en &quot;FUERA DE MI LISTA: …&quot;, nunca en una etiqueta. (4) Sin nada de los últimos siete días: solo el título, la línea literal y &quot;ENCONTRADOS: 0&quot;, sin estudios anteriores.
+
+FORMATO: (0) Primera línea: &quot;FUENTES PÚBLICAS · SIN DATOS DE PERSONAS&quot; o &quot;RESULTADO CON DATOS DE PERSONAS: NO LO INCLUYAS&quot; si algún texto recuperado trae datos de alguien; omítelo y sigue. Después, una página en español, títulos en su idioma, de máximo 350 palabras sin contar NO APLICA, titulada &quot;Evidencia de la semana · [semana y año]&quot; y debajo, literal: &quot;Resumen de resúmenes: nadie ha leído aún los artículos. Antes de cambiar nada, se lee el artículo entero.&quot; Última línea: &quot;ENCONTRADOS: [n] · PUEDE CAMBIAR LO QUE HAGO: [n] · CONVIENE SABERLO: [n] · NO APLICA: [n] · SIN DOI: [n] · FUERA DE MI LISTA: [n]&quot;: los tres del medio suman el primero.
+
+RESTRICCIONES: Solo los resúmenes públicos: no completes ni añadas estudios. Sin DOI inventados: si falta, &quot;SIN DOI&quot;. Sin nombres comerciales: principio activo o clase. Sin recomendaciones. La página queda en esta conversación: no la envíes a ningún otro sitio ni la guardes en memoria. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>FUENTES PÚBLICAS · SIN DATOS DE PERSONAS
+Resumen de resúmenes: nadie ha leído aún los artículos. Antes de cambiar nada, se lee el artículo entero.
+PUEDE CAMBIAR LO QUE HAGO. [Primer autor], [año], [revista], doi:[del resumen]. Ensayo aleatorizado en adultos con obesidad, en Atención Primaria; [resultado]. Ensayo SÍ · adultos SÍ · desenlace clínico SÍ · Atención Primaria SÍ. […]
+ENCONTRADOS: 7 · PUEDE CAMBIAR LO QUE HAGO: 1 · CONVIENE SABERLO: 2 · NO APLICA: 4 · SIN DOI: 1 · FUERA DE MI LISTA: 1</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Las cinco preguntas caben aquí en una línea: sola solo busca en lo público; respondo yo; la leo el lunes; no hay persona que deba consentir; y quien no la lea no pierde nada que no tenga en My NCBI. Antes de encenderla: sin permisos de escribir en ningún sitio, quitados en la configuración de la herramienta y no solo en el prompt; salida que caduca; y tres líneas más en la ficha del capítulo 4: "PERMISOS: leer / escribir: ninguno", "CADUCIDAD DE LA SALIDA: siete días" y "Última prueba: [fecha] con [modelo]".</p>
+<p>Cada lunes: que los números sumen y que cada DOI de "PUEDE CAMBIAR LO QUE HAGO" se abra a mano y el artículo se lea entero (capítulo 7, caso 3). Una semana con "ENCONTRADOS: 0" es una semana normal; una página llena una semana vacía es la máquina rellenando. Con más de diez, acota la cadena, como en My NCBI. Cuando cambie el modelo, la primera página se contrasta entera con la alerta de PubMed, sin esperar al mes. Es una página que se lee y nunca se reenvía; publicada para otros equipos, cambiaría de nombre legal (capítulo 8, tercera parte).</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que la segunda alerta sustituya a la primera y un ranking que no conoces decida lo que lees. Mitigación: My NCBI sigue encendida y se contrastan una vez al mes.</p>
+<h3>Caso 7 · Diseñar en papel un agente de seguimiento, y cuándo no usar ninguno [AP]</h3>
+<p><strong>Momento:</strong> seguimiento de crónicos. <strong>Herramienta:</strong> un razonador de consumo, como abogado del diablo; el resto, papel.</p>
+<p><strong>Situación.</strong> Tiene treinta y cinco años, obesidad de grado I, un reloj inteligente y tres aplicaciones, y me pide "algo que me vigile y me diga qué comer cada día". Es una escena inventada: rasgos de muchas personas jóvenes con reloj atendidas estos años, y ninguna es una persona con dos datos cambiados; circunstancias, aplicaciones, frases y edad exacta inventadas; sin municipio ni fechas. Lo que trae en el reloj y qué mirar va al capítulo 10 (caso 4).</p>
+<p>Desde la consulta, las cinco preguntas. ¿Qué haría solo? Leer su peso, sus pasos, su glucosa, su ánimo, y escribirle cada día. ¿Quién responde si le dice "hoy no comas" un día que está mareada? ¿Quién lo mira, con qué tiempo? Yo, con treinta y cuatro en la agenda, no. ¿Ha dicho que sí por escrito a lo que entra y adónde va? Sabe que "va a la nube". ¿Y quien no tiene reloj, no lee o no habla español? No.</p>
+<p>Y dos cosas que no son de la nube: la glucosa de un sensor sin diabetes no me dice nada que yo pueda usar, y pesarse cada día es lo primero que le quitaría, con o sin reloj (capítulo 5).</p>
+<p>En papel, las cinco líneas del prompt dan la conclusión: fuera del sistema del servicio de salud, con herramientas de consumo, hoy no se construye. Si un día se construye dentro, con contrato, consentimiento y alguien que lo mire con tiempo, será un agente de aviso, no de decisión; y aun dentro tendrá nombre legal: software con finalidad médica (capítulo 3; capítulo 8, tercera parte). Publicado para que otros lo usaran con pacientes, con más razón.</p>
+<p>Un aviso a las tres de la mañana necesita a alguien despierto que lo lea, y hoy ese alguien existe sin agente. Si escribe "no quiero seguir" o se marea de verdad, es el 112 o las urgencias del centro, y se lo digo en esa consulta.</p>
+<p>El prompt hace lo contrario de lo que ella me pide: rellena el diseño en papel y contesta las cinco preguntas solo con lo que la descripción dice.</p>
+<pre><code>ROL: Eres una revisora de diseños de sistemas automáticos en salud. No diseñas ni mejoras: rellenas y compruebas con lo que te doy.
+
+CONTEXTO: Soy médica de familia en España. HERRAMIENTA CON ACUERDO DE TRATAMIENTO DE DATOS: [no]. Te pego la DESCRIPCIÓN de un agente que alguien querría, sin ninguna persona: [por ejemplo: &quot;un programa que lea cada día el peso, los pasos, la glucosa y el ánimo de una persona desde su reloj y sus aplicaciones, y le escriba qué comer y cuánto moverse ese día, y avise si algo va mal&quot;]. Es un ejercicio de diseño en papel; nada se va a construir con esta conversación.
+
+TAREA: (1) DISEÑO EN PAPEL, cinco líneas rellenadas solo con lo que la descripción dice: QUÉ HARÍA SOLO; QUÉ DATOS NECESITARÍA y de quién son; QUIÉN LO SUPERVISA, cuándo y con qué tiempo; QUÉ PASA CON UN DATO ALARMANTE A LAS TRES DE LA MAÑANA; QUIÉN FIRMA. Si la descripción no lo dice, &quot;SIN RESPUESTA&quot;, a solas: sin paréntesis, sin &quot;presumiblemente&quot; ni &quot;implícitamente&quot;. (2) CINCO PREGUNTAS, cada una contestada solo con la descripción o &quot;SIN RESPUESTA&quot;: autonomía (qué haría sin que nadie lo lea); responsabilidad (quién responde cuando falle); supervisión (quién mira, cuándo, cuánto tiempo); consentimiento (qué entra, adónde va, sí por escrito); equidad (quien no tiene reloj, no lee o no habla español). (3) Penúltima línea, literal: &quot;PREGUNTAS SIN RESPUESTA: [n] · DATOS DE PERSONAS QUE NECESITA: SÍ/NO&quot;: n cuenta las de (2); SÍ si algún dato de (1) es de una persona. (4) Si n es mayor que 0, o si es SÍ y HERRAMIENTA es &quot;no&quot;, la línea siguiente, literal: &quot;NO SE ENCIENDE&quot;. (5) Última línea, literal, en cualquier caso: &quot;DECISIÓN: la médica&quot;.
+
+FORMATO: (0) Primera línea: &quot;DESCRIPCIÓN SIN DATOS&quot; o &quot;DESCRIPCIÓN CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si trae nombre, edad exacta, cifras de una persona o cualquier dato individual; en ese caso, para. Después (1) a (5), sin frases fuera.
+
+RESTRICCIONES: No propongas cómo construirlo, ni &quot;en pequeño&quot;, ni &quot;para probar&quot;, ni qué herramienta usar. No rellenes un SIN RESPUESTA con supuestos. No digas si es buena idea. Sin fármacos, sin dietas, sin cifras objetivo. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>DESCRIPCIÓN SIN DATOS
+QUÉ HARÍA SOLO: leer peso, pasos, glucosa y ánimo cada día; escribir qué comer y cuánto moverse; avisar "si algo va mal". QUÉ DATOS: cuatro, diarios, todos de una persona, todos de salud. QUIÉN LO SUPERVISA: SIN RESPUESTA. DATO ALARMANTE A LAS TRES: SIN RESPUESTA. QUIÉN FIRMA: SIN RESPUESTA.
+Autonomía: escribiría cada día sin que nadie lo lea. Las otras cuatro: SIN RESPUESTA.
+PREGUNTAS SIN RESPUESTA: 4 · DATOS DE PERSONAS QUE NECESITA: SÍ
+NO SE ENCIENDE
+DECISIÓN: la médica</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> "SIN RESPUESTA" va sola: un "presumiblemente la médica" detrás es el diseño colándose, porque un razonador sabe cómo se completaría. Que "NO SE ENCIENDE" salga de la regla, no de su opinión: "podría encenderse si…" es diseñar. Pásale también la tarea del caso 6: si sale una SIN RESPUESTA en quién la lee y cuándo, la incompleta es tu ficha, no la tarea; se completa y vuelve con cero. Es la única forma de ver que la regla también deja encender. Y la última línea: no construirlo también es una decisión, y es mía.</p>
+<p>Lo que sí le ofrezco hoy: el mensaje entre visitas (capítulo 4, caso 6), la llamada de enfermería si deja de venir (capítulo 6, caso 5) y el taller de los martes.</p>
+<p>Siete situaciones en las que el automatismo cuesta más de lo que ahorra, en mi lista:</p>
+<ul>
+<li><strong>Cuando la persona necesita ser oída.</strong> "Algo que me vigile" pide que alguien la mire.</li>
+<li><strong>Cuando el dato es de una persona y la herramienta, de consumo.</strong></li>
+<li><strong>Cuando el error llegaría a la persona sin pasar por ti.</strong> La celda tachada.</li>
+<li><strong>Cuando la tarea cambia cada vez.</strong> Automatizar lo que nunca es igual es automatizar el error.</li>
+<li><strong>Cuando la regla cabe en un filtro del correo.</strong></li>
+<li><strong>Cuando nadie va a leer la salida.</strong> Una página que nadie lee es una tarea que no existe.</li>
+<li><strong>Cuando nadie firma.</strong> Sin nombre debajo hay un riesgo con horario.</li>
+</ul>
+<p><strong>Riesgo principal y mitigación.</strong> Que el diseño en papel se lea como un plan y alguien lo construya "por ahora, solo conmigo". Mitigación: "NO SE ENCIENDE" en la ficha, con fecha; con las cinco respondidas dentro del sistema, se vuelve al papel.</p>
+<h3>Caso 8 · Antes del domicilio [AP]</h3>
+<p><strong>Momento:</strong> consulta. <strong>Herramienta:</strong> asistente de consumo; caso sintético de cero.</p>
+<p><strong>Situación.</strong> Los dos domicilios del gancho. Uno es una mujer de setenta y cinco a ochenta años, obesidad de grado III, movilidad reducida desde una fractura, con una cuidadora. Caso sintético, construido de cero; no una persona con dos datos cambiados. Antes de salir quiero mi lista ordenada por bloques, no inventada: el prompt ordena lo que le doy y separa lo que él añada; lo que no espera lo escribo yo, y él no lo decide. Y la fractura sigue siendo mía después del alta: el calmante que la deja dormida, el estreñimiento, y que no vuelva a romperse.</p>
+<p>Dos cosas de la lista se explican. El manguito grande, con la tensión sentada y con el brazo apoyado, porque un manguito pequeño en un brazo grueso da una tensión alta (Mancia 2023). Y la báscula, que se queda en el centro si el peso no cambia nada hoy. Cambia una cosa: la grúa y la cama que pida Trabajo social tienen carga máxima, y un tratamiento dosificado por peso también. Eso sale del último peso de la historia o de una estimación que consta como tal, no de una báscula en el dormitorio. Y no se habla del peso sin permiso (capítulo 4, caso 5).</p>
+<pre><code>ROL: Eres médica de familia con experiencia en atención domiciliaria. Ordenas la lista de otra médica; no la escribes ni la completas.
+
+CONTEXTO: Caso sintético, construido de cero: mujer de 75-80 años, obesidad de grado III, movilidad reducida tras una fractura, con cuidadora, en su domicilio. Sin ninguna persona real. MI LISTA, literal, veintinueve puntos separados por punto y coma: (E) EXPLORAR: piel, pliegues y humedad; continencia; presión en apoyos; edemas y linfedema; disnea al hablar y al tumbarse; somnolencia y ronquido; dolor: dónde, cuánto, qué lo alivia; transferencias cama-silla y caídas; ánimo. (P) PREGUNTAR: quién prepara la comida y qué come; qué toma y quién lo maneja: calmantes, sedantes, anticoagulante; días sin deposición; si se atraganta al beber; orientación y memoria; vacunas; ayudas técnicas y barreras de la casa; quién cuida a la cuidadora; aislamiento. (L) LLEVAR: manguito grande; pulsioxímetro; glucómetro si hay diabetes; báscula, no. (N) NO HACER: hablar del peso sin permiso. (NE) NO ESPERA, mío: saturación baja en aire con disnea; una sola pierna hinchada y dolorosa; dolor en el pecho; fiebre con piel roja o úlcera con mal olor; confusión nueva; no tolera líquidos.
+
+TAREA: (1) Mis veintinueve puntos, con mis palabras, en el orden de una visita de cuarenta minutos: el bloque (NE) entero y literal, primero; el resto agrupado por postura o momento (al llegar, sentada; en la cama; la casa), cada punto con la letra de su bloque; sin quitar ninguno ni cambiarlo de bloque; un punto partido en dos momentos cuenta una vez. (2) Debajo, &quot;FUERA DE MI LISTA: …&quot;, una línea por cosa que tú añadirías, con su letra; ahí y solo ahí. (3) &quot;COORDINAR&quot;: tres líneas literales, &quot;Enfermería: plan de cuidados [FALTA: lo que se acuerde]&quot;, &quot;Trabajo social: [FALTA: ayudas, grúa, cama articulada y su carga máxima, lo que proceda]&quot; y &quot;Rehabilitación: [FALTA: fisioterapia a domicilio para transferencias, si procede]&quot;. (4) Última línea, literal: &quot;DECISIÓN: la médica&quot;.
+
+FORMATO: (0) Primera línea: &quot;CASO SINTÉTICO&quot; o &quot;CASO CON DATOS: BORRA ESTA CONVERSACIÓN&quot; si el contexto trae nombre, dirección, edad exacta, fecha o cualquier dato de una persona; en ese caso, para. Después (1) a (4), nada más. Penúltima línea, literal: &quot;PUNTOS DE MI LISTA: [n] · PUNTOS FUERA DE MI LISTA: [n] · DIAGNÓSTICOS, PROBABILIDADES O PAUTAS: [n]&quot;: el primero tiene que ser 29; el último cuenta cada diagnóstico, cada &quot;probable&quot;, &quot;sugiere&quot; o &quot;compatible con&quot; y cada tratamiento o consejo a la persona o a la cuidadora, también dentro de FUERA DE MI LISTA y de COORDINAR; tiene que ser 0.
+
+RESTRICCIONES: Sin diagnósticos, sin &quot;probablemente&quot;, sin pauta, sin fármacos. Sin consejos a la persona ni a la cuidadora: ni &quot;moverse más&quot;, ni dieta. Sin cifras de peso ni de tensión. Usa &quot;persona con obesidad&quot;. No incluyas ni pidas datos de personas.
+</code></pre>
+<p><strong>Ejemplo abreviado de salida.</strong></p>
+<blockquote>
+<p>CASO SINTÉTICO
+(NE) NO ESPERA, mío: los seis, literales.
+AL LLEGAR, SENTADA: (E) ánimo; (E) orientación y memoria; (P) qué toma y quién lo maneja; […]; (L) manguito grande; (L) pulsioxímetro; (L) glucómetro si hay diabetes.
+EN LA CAMA: (E) piel, pliegues y humedad; (E) continencia; […]; (E) transferencias cama-silla y caídas.
+LA CASA: (P) ayudas técnicas y barreras. (N) NO HACER: hablar del peso sin permiso. (L) NO LLEVAR: báscula.
+FUERA DE MI LISTA: (L) guantes y crema de barrera; (P) sueño de la cuidadora.
+COORDINAR: Enfermería: plan de cuidados [FALTA: lo que se acuerde]. […]
+PUNTOS DE MI LISTA: 29 · PUNTOS FUERA DE MI LISTA: 2 · DIAGNÓSTICOS, PROBABILIDADES O PAUTAS: 0
+DECISIÓN: la médica</p>
+</blockquote>
+<p><strong>Qué revisar antes de usarla.</strong> Que NO ESPERA salga entero y con mis palabras; si el modelo lo ha "completado", es diagnóstico por la puerta de atrás. Cuenta los veintinueve con el dedo y con su letra: si falta uno (el glucómetro es el que se pierde), no leyó la lista entera. Que no mande a la persona "moverse más" ni a la cuidadora "cuidarse": el recuento dice cero y la frase se cuela en "COORDINAR"; "recomendar cambios posturales" es una pauta aunque vaya detrás de "Enfermería".</p>
+<p>Lo de "FUERA DE MI LISTA" no se copia a la historia sin explorarlo; si merece entrar en mi lista, entra por mí: así entró el dolor. Coordinar es la mitad de la visita: enfermería (capítulo 5, caso 5), trabajo social, rehabilitación; nada de eso lo hace una máquina.</p>
+<p><strong>Riesgo principal y mitigación.</strong> Que la lista sea tan completa que la visita sea un formulario. Mitigación: la primera pregunta en la casa no está en la lista: cómo está.</p>
+<hr />
+<h2>Caso ilustrativo, no real: arquetipo compuesto</h2>
+<blockquote>
+<p>Esta viñeta combina rasgos de personas con trabajos de horarios rotatorios y turnos atendidas en esta consulta a lo largo de los años. La profesión concreta, la empresa, la ruta, las horas y la edad exacta son inventadas; no hay municipio ni fechas; ninguna es una persona con dos datos cambiados. Las herramientas son las de los casos 1 y 6; ninguna lleva un dato suyo.</p>
+</blockquote>
+<p>Tiene cincuenta y cinco años, es conductor profesional de un camión de reparto, obesidad de grado II, hipertensión tratada y unos ronquidos con somnolencia que nadie ha estudiado. Un martes, en cuatro momentos.</p>
+<p><strong>Consulta, 08:40.</strong> Viene por "cansancio". Ronca, dice su mujer; se duerme en los semáforos, dice él; el cuello es ancho. Le hago el STOP-Bang (Chung 2008; capítulo 5), la escala de Epworth y las dos preguntas que no están en ninguna escala: si se ha dormido alguna vez conduciendo y si ha tenido un susto al volante. La tensión, con el manguito grande, no está donde debería con lo que toma; con la apnea delante, cuadra (Mancia 2023). Antes de nombrar el peso pido permiso (capítulo 4, caso 5); me lo da, y hablamos dos minutos de que apnea y peso van juntos.</p>
+<p>Lo que le digo sobre conducir es mío y es clínico: dormirse en un semáforo es somnolencia al volante; no conduzca hasta que la unidad de sueño lo estudie, menos aún por trabajo ni de noche; como en el capítulo 5, con más razón. Se lo digo, se lo escribo y consta en la historia (Ley 41/2002, art. 4.1). Diez minutos, ninguna máquina, y una derivación preferente a la unidad de sueño: un conductor profesional con somnolencia al volante no espera en la lista ordinaria [VERIFICAR consenso español de apnea del sueño 2022 antes de citar]. Si tu área deja pedir la poligrafía domiciliaria desde el centro de salud, se pide hoy. Al levantarse: "Doctora, necesito un informe para el carnet".</p>
+<p><strong>Administración, 11:30.</strong> El informe para el centro de reconocimiento de conductores es un documento firmado, desde la plantilla de mi sistema, con sus datos, sin IA: los modelos oficiales quedan fuera (capítulo 5, caso 3) y lo que se firma no lleva "generado con IA". Dice lo que dice la historia, sospecha de apnea pendiente de estudio, porque un informe no se escribe para que salga bien el carnet; se lo entrego a él y él decide a quién se lo da: al centro de reconocimiento no llamo yo, y a su empresa no le cuento nada. Lo que la IA hizo, meses antes, fue la plantilla del caso 1 y el correo genérico a la unidad de sueño para adelantar la cita, que hoy relleno en mi sistema. Lo del permiso no es opinión mía: el reglamento de conductores dice que, con sospecha de apnea moderada o grave, hace falta un dictamen médico antes de expedir o renovar el permiso y que mientras tanto se puede aconsejar no conducir hasta que se confirme el diagnóstico; con tratamiento eficaz e informe favorable de la unidad de sueño se renueva con vigencia acortada, tres años en el grupo 1 y uno en el grupo 2, el de los camiones grandes [POR ACLARAR: si el suyo supera los 3.500 kg, es grupo 2] (RD 1055/2015, anexo IV, apartado 7.2 [VERIFICAR literal y plazos en el BOE núm. 279, 21-11-2015]; Terán-Santos 2017 para la sospecha)). Yo no decido si es apto: mi informe dice lo que hay y lo que falta.</p>
+<p><strong>Coordinación con enfermería, 13:00.</strong> El plan de cuidados compartido (capítulo 5, caso 5) no se reescribe: tensión en casa con un aparato validado y un manguito de su talla, y si no lo tiene, enfermería le enseña cuál (Mancia 2023). Y el taller de los martes. El recordatorio le llegará por el SMS de citación del centro, con el texto del caso 6, sin enfermedad ni peso en el nombre del taller; nada suyo entra en ninguna herramienta de consumo.</p>
+<p><strong>Sesión del centro, 14:30.</strong> Su caso no entra en la sesión: entra uno construido de cero con la misma pregunta clínica (apnea, conducción y obesidad en un trabajador con turnos), en la sesión de veinte minutos del capítulo 8. La comunidad de práctica mensual del área queda para el capítulo 10.</p>
+<p>Y la frase de siempre: nada que permita saber quién es usted entra nunca en esas herramientas. La máquina entró en el martes tres veces: una plantilla escrita hace meses, un correo genérico y un recordatorio que manda el centro. En ninguna estuvo cerca de él. No es falta de voluntad. Es biología, y es un permiso de conducir. Las dos cosas se cuidan.</p>
+<hr />
+<h2>En 60 segundos</h2>
+<ol>
+<li>La IA no sirve si no cabe en la agenda de un martes: cabe en lo que no toca a nadie y en lo que toca a alguien a través de un texto que lees entero.</li>
+<li>La matriz del corcho es el libro en una página: cuanto más cerca de la persona, más verificación y menos automatismo; la celda tachada no se rellena.</li>
+<li>El audio y el vídeo leen un texto que ya pasó el examen; nunca lo reinterpretan. Las tres líneas, también dichas, una sola vez.</li>
+<li>Lo que se publica lleva lo del capítulo 3 y, además, papel firmado, licencia de lo que suena, etiqueta si es sintético y ninguna imagen que señale; el auditor no puntúa.</li>
+<li>Un agente actúa sin que lo leas antes: cinco preguntas; si una queda sin respuesta, no se enciende.</li>
+</ol>
+<h2>Hazlo hoy · 10 minutos</h2>
+<ol>
+<li><strong>(3 min)</strong> Imprime la matriz, pégala en el corcho y marca los tres casos que ya usas.</li>
+<li><strong>(2 min)</strong> Si divulgas, pon en la bio o en el post fijado el disclaimer general y la línea de vínculos del capítulo 3. Sin eso, hoy no publicas.</li>
+<li><strong>(3 min)</strong> Crea una regla del correo corporativo para inspección y gerencia, con una carpeta "para el jueves".</li>
+<li><strong>(2 min)</strong> Pega la hoja del capítulo 6, sin tu nombre, tu centro ni tu teléfono, en la voz de tu asistente y escúchala: decide si suena a persona, y si la última línea dice que es una máquina.</li>
+</ol>
+<p>Mañana a las ocho la agenda será otra. La máquina habrá entrado en lo que no toca a nadie. Lo que toca a alguien seguirá siendo tuyo, y ahora tienes los minutos para hacerlo.</p>
+<hr />
+<h2>Referencias</h2>
+<p><strong>Alfabetización en salud y formato</strong></p>
+<ol>
+<li>Sørensen K, Pelikan JM, Röthlin F, Ganahl K, Slonska Z, Doyle G, et al. Health literacy in Europe: comparative results of the European health literacy survey (HLS-EU). Eur J Public Health. 2015;25(6):1053-8. doi:10.1093/eurpub/ckv043 [VERIFICAR cifra española en la figura 2, como en el capítulo 6]</li>
+<li>Houts PS, Doak CC, Doak LG, Loscalzo MJ. The role of pictures in improving health communication: a review of research on attention, comprehension, recall, and adherence. Patient Educ Couns. 2006;61(2):173-90. doi:10.1016/j.pec.2005.05.004</li>
+<li>Meppelink CS, van Weert JCM, Haven CJ, Smit EG. The effectiveness of health animations in audiences with different health literacy levels: an experimental study. J Med Internet Res. 2015;17(1):e11. doi:10.2196/jmir.3979</li>
+</ol>
+<p><strong>Estigma y representación</strong></p>
+<ol start="4">
+<li>Rubino F, Puhl RM, Cummings DE, Eckel RH, Ryan DH, Mechanick JI, et al. Joint international consensus statement for ending stigma of obesity. Nat Med. 2020;26(4):485-97. doi:10.1038/s41591-020-0803-x [VERIFICAR página del apartado sobre imágenes en medios]</li>
+<li>Kyle TK, Puhl RM. Putting people first in obesity. Obesity (Silver Spring). 2014;22(5):1211. doi:10.1002/oby.20727</li>
+<li>Obesity Action Coalition, Rudd Center for Food Policy &amp; Obesity, The Obesity Society, Obesity Medicine Association, American Society for Metabolic and Bariatric Surgery. Guidelines for media portrayals of individuals affected by obesity [Internet]. Tampa (FL): OAC; 2014 [consultado el 21 de septiembre de 2026]. Disponible en: https://uconnruddcenter.org/wp-content/uploads/sites/2909/2020/07/MediaGuidelines_PortrayalObese.pdf</li>
+<li>World Obesity Federation. World Obesity Image Bank [Internet]. Londres: World Obesity Federation; 2015 [consultado el 21 de septiembre de 2026]. Uso gratuito con crédito a la World Obesity Federation. Disponible en: https://www.worldobesity.org/resources/image-bank</li>
+<li>European Coalition for People Living with Obesity (ECPO); European Association for the Study of Obesity (EASO). ECPO Image Bank (Obesity Image Bank) [Internet]. [consultado el 21 de septiembre de 2026]. Más de 250 fotografías de uso gratuito con crédito a ECPO. Disponible en: https://easo.org/easo-resources/obesity-image-bank/ [VERIFICAR año de lanzamiento]</li>
+</ol>
+<p><strong>Clínica de la viñeta y del domicilio</strong></p>
+<ol start="9">
+<li>Chung F, Yegneswaran B, Liao P, Chung SA, Vairavanathan S, Islam S, et al. STOP questionnaire: a tool to screen patients for obstructive sleep apnea. Anesthesiology. 2008;108(5):812-21. doi:10.1097/ALN.0b013e31816d83e4</li>
+<li>Mancia G, Kreutz R, Brunström M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for the management of arterial hypertension. J Hypertens. 2023;41(12):1874-2071. doi:10.1097/HJH.0000000000003480</li>
+<li>Terán-Santos J, Egea Santaolalla C, Montserrat JM, Masa Jiménez F, Librada Escribano MV, Mirabet E, et al. Apnea del sueño y conducción de vehículos. Recomendaciones para la interpretación del nuevo Reglamento General de Conductores en España. Arch Bronconeumol. 2017;53(6):336-41. doi:10.1016/j.arbres.2016.11.007 [VERIFICAR contenido sobre la fase de sospecha]</li>
+<li>Real Decreto 1055/2015, de 20 de noviembre, por el que se modifica el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo. BOE núm. 279, de 21 de noviembre de 2015. Anexo IV, apartado 7.2 (síndrome de apnea obstructiva del sueño; grupos 1 y 2). En vigor desde el 31 de diciembre de 2015. [VERIFICAR literal del apartado 7.2 en el BOE]</li>
+</ol>
+<p><strong>Escenario con contrato y alertas</strong></p>
+<ol start="13">
+<li>Tierney AA, Gayre G, Hoberman B, Mattern B, Ballesca M, Kipnis P, et al. Ambient artificial intelligence scribes to alleviate the burden of clinical documentation. NEJM Catal Innov Care Deliv. 2024;5(3). doi:10.1056/CAT.23.0404</li>
+<li>National Library of Medicine. PubMed y My NCBI [Internet]. Bethesda (MD): NLM [consultado el 21 de septiembre de 2026]. Disponible en: https://pubmed.ncbi.nlm.nih.gov</li>
+</ol>
+<p><strong>Normativa</strong></p>
+<ol start="15">
+<li>Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. BOE núm. 274, de 15 de noviembre de 2002. Art. 4.1.</li>
+<li>Real Decreto 577/2013, de 26 de julio, por el que se regula la farmacovigilancia de medicamentos de uso humano. BOE núm. 179, de 27 de julio de 2013. Arts. 2 y 6.1.</li>
+<li>Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (Reglamento General de Protección de Datos). DOUE L 119, de 4 de mayo de 2016. Art. 4.11 y considerando 32.</li>
+<li>Ley Orgánica 1/1982, de 5 de mayo, de protección civil del derecho al honor, a la intimidad personal y familiar y a la propia imagen. BOE núm. 115, de 14 de mayo de 1982. Art. 2 [VERIFICAR apartados; y si la voz queda cubierta].</li>
+<li>Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial (Reglamento de Inteligencia Artificial). DOUE L, 12 de julio de 2024. Arts. 3.60 (ultrasuplantación), 50.2, 50.4 y 113; modificado por el Reglamento (UE) 2026/1744, de 8 de julio de 2026 (DOUE L, 24 de julio de 2026), que mantiene la aplicación del art. 50 desde el 2 de agosto de 2026. [VERIFICAR literal en EUR-Lex antes de imprimir]</li>
+</ol></body></html>
