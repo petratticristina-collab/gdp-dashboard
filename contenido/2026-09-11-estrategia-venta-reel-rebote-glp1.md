@@ -2,7 +2,7 @@
 
 Fecha: 11 de septiembre de 2026 · Canal: Instagram @crispetratti → DM / WhatsApp Business → Calendly
 Activo de conversión: Sesión de valoración (45 min, Zoom, sin coste) · https://calendly.com/metodopetratti-info/30min
-Oferta final: Método Petratti `[confirmar nombre del programa, formato, duración y precio]`
+Oferta final: Programa de 4 meses (4 consultas, analíticas, composición corporal, tratamiento y seguimiento, plan de alimentación y ejercicio, informe final). Precio oficial 1.400 €; promocional 998 € en pago único, medicación y analítica aparte.
 
 ---
 

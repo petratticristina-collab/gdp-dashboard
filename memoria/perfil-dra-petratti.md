@@ -19,7 +19,9 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Libros | «Pierde peso» (bestseller) · «Obesidades sin culpa. No es falta de voluntad. Es biología» (2026) |
 | Canales | Instagram @crispetratti · YouTube @dra.cristinapetratti · Threads @crispetratti · LinkedIn · web cristinapetratti.com · podcast «Quiérete mucho» `[confirmar]` |
 | Herramientas de práctica | WhatsApp Business, DietoPro, tablero de ventas `[inferido de captura de pantalla]` |
-| Consulta | Alicante (presencial) y online para España y Latinoamérica (sept. 2026) |
+| Consulta | Clinic Now Rehab, Alicante (presencial) y online para España y Latinoamérica |
+| Colegiación | Nº 03-28-809-78 (firma como «Dra. Cristina B. Petratti») |
+| Programa clínico | «Programa de 4 meses» (propuesta de tratamiento): 4 consultas, analíticas, composición corporal en cada consulta, prescripción y seguimiento farmacológico, plan de alimentación, pauta de ejercicio, contacto entre consultas, informe final. Precio oficial 1.400 €; promocional 998 € (pago único; medicación y analítica no incluidas). Documentos con encabezado «Dra. Cristina B. Petratti · Método Petratti · Medicina de la Obesidad y Salud Metabólica» |
 | Podcast | Conversaciones con expertos en obesidad, ejercicio, menopausia e IA aplicada a la salud (nombre y plataforma `[confirmar]`) |
 | Ámbito regulatorio | España (colegiación autonómica, OMC, LOPS, RGPD/LOPDGDD) |
 
