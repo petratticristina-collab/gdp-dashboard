@@ -19,6 +19,8 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Libros | «Pierde peso» (bestseller) · «Obesidades sin culpa. No es falta de voluntad. Es biología» (2026) |
 | Canales | Instagram @crispetratti · YouTube @dra.cristinapetratti · Threads @crispetratti · LinkedIn · web cristinapetratti.com · podcast «Quiérete mucho» `[confirmar]` |
 | Herramientas de práctica | WhatsApp Business, DietoPro, tablero de ventas `[inferido de captura de pantalla]` |
+| Consulta | Alicante y online (según guion del tráiler de YouTube, sept. 2026) |
+| Podcast | Conversaciones con expertos en obesidad, ejercicio, menopausia e IA aplicada a la salud (nombre y plataforma `[confirmar]`) |
 | Ámbito regulatorio | España (colegiación autonómica, OMC, LOPS, RGPD/LOPDGDD) |
 
 ### Identidad visual (logos oficiales, verificados en su Google Drive)
@@ -69,6 +71,10 @@ es su diferencial y debe trasladarse a los guiones.
 - Se autodefine como **líder de opinión digital** en obesidad y salud metabólica. Ya no solo «médica con
   Instagram»: es una voz de referencia que divulga con marco normativo, declara conflictos y fija criterio.
 - Quiere un **vídeo «quién soy» fijado en el perfil** que transmita este posicionamiento nuevo.
+- **YouTube (sept. 2026):** tráiler del canal «Diriges tu empresa. Tu metabolismo no recibe órdenes.» Apunta a
+  directivas/directivos; tres pilares del canal: evidencia explicada · mitos desmontados · podcast con expertos.
+  Tesis del canal: «perder peso no es suficiente: grasa visceral, músculo, riesgo cardiovascular». Formato
+  semanal: «cada semana desmontamos un mito con ciencia». Copy en `contenido/2026-09-21-copy-youtube-trailer-canal.md`.
 - Ha entrado una **nueva comunidad** `[confirmar: origen, tamaño, plataforma, qué la trajo]` a la que quiere
   enganchar con una serie amplia de reels (ella habla de «mil reels» = producción en serie, sistemática).
 
