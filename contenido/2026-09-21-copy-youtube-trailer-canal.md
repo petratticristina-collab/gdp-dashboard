@@ -80,23 +80,62 @@ entendemos la ciencia juntos.
 
 ---
 
-## POST DE COMUNIDAD (pestaña Comunidad, con miniatura del vídeo)
+## POST PARA INSTAGRAM (anuncio del nuevo vídeo a la comunidad)
 
-Nuevo en el canal: el vídeo por el que empezar.
+### Feed · caption (enlace en la bio)
 
-Diriges tu empresa. Tu metabolismo no recibe órdenes. En 2 minutos te cuento quién soy, qué vas a encontrar
-aquí y por qué perder peso no es suficiente.
+**Versión A · para tu comunidad de Instagram (mujer que lo ha intentado todo)**
 
-Sin dietas milagro. Sin antes y después. Con ciencia.
+Diriges tu casa, tu trabajo, tu familia, tu agenda. Y tu metabolismo no recibe órdenes.
 
-👉 [enlace al vídeo]
+Hoy abro el canal de YouTube con el vídeo por el que empezar: quién soy, qué vas a encontrar y por qué
+perder peso no es suficiente. Lo que cambia tu salud es la grasa visceral, el músculo y el riesgo
+cardiovascular. Y la obesidad no es un fallo de carácter: es una enfermedad crónica, y tiene tratamiento.
 
-Encuesta opcional para el mismo post:
-¿Cuál de estos mitos te han dicho más veces?
-· «Es falta de voluntad»
-· «Come menos y muévete más»
-· «Es solo estética»
-· «Es para toda la vida»
+Sin dietas milagro. Sin antes y después. Con ciencia, cada semana.
+
+👉 Enlace en la bio → «Empieza por aquí».
+
+Contenido divulgativo. No sustituye la valoración de tu médico/a.
+
+#obesidad #obesidadsinculpa #saludmetabolica #grasavisceral #menopausia #metodopetratti #youtube
+
+**Versión B · gancho literal del vídeo (público directivo)**
+
+Diriges tu empresa. Tu metabolismo no te hace ni caso.
+
+Si eso te ha pasado por la cabeza alguna vez, hoy tienes un canal. En 2 minutos te cuento quién soy, qué vas
+a encontrar y por qué perder peso no es suficiente: grasa visceral, músculo y riesgo cardiovascular.
+
+Sin dietas milagro. Sin antes y después. Con ciencia, cada semana.
+
+👉 Enlace en la bio.
+
+Contenido divulgativo. No sustituye la valoración de tu médico/a.
+
+#obesidad #saludmetabolica #grasavisceral #directivos #obesidadsinculpa #metodopetratti
+
+### Reel / short de 25 s · caption
+
+Tu metabolismo no recibe órdenes.
+Nuevo canal de YouTube: perder peso no es suficiente. Empieza por aquí → enlace en la bio.
+Contenido divulgativo. No sustituye la valoración de tu médico/a.
+
+Comentario fijado del reel: «El vídeo completo (2 min) está en YouTube: enlace en la bio. Cuéntame aquí qué
+mito te han repetido más veces: será el primero que desmontemos.»
+
+### Stories · secuencia de 3
+
+1. Portada del vídeo + texto «Hoy abro el canal de YouTube» + sticker de enlace «Empieza por aquí».
+2. Clip de 10 s del gancho («Diriges tu empresa… tu metabolismo no recibe órdenes») + sticker de encuesta:
+   «¿Te ha pasado?» Sí / Demasiadas veces.
+3. Texto sobre fondo turquesa: «Cada semana, un mito desmontado con ciencia. Suscríbete y activa la campana.»
+   + sticker de enlace al canal.
+
+### Broadcast channel / comunidad de WhatsApp (si la usas)
+
+Hoy abro el canal de YouTube con el vídeo por el que empezar. Dos minutos: quién soy, qué vas a encontrar y
+por qué perder peso no es suficiente. [enlace] Si me dices qué mito te han repetido más, lo desmonto primero.
 
 ---
 
