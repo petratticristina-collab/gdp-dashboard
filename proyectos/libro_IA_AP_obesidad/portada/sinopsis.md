@@ -29,7 +29,7 @@ Todo con una idea en el centro, la misma que en *Obesidades sin culpa*: no es fa
 - Un plan de noventa días y una comunidad de práctica para no aprender esto sola.
 
 **Biografía de la autora (unas 80 palabras):**
-Cristina B. Petratti es médica de familia, especialista en obesidad y salud metabólica, con más de veinticinco años de consulta. Miembro de la SEEDO (Grupo de Trabajo de Ejercicio Físico y Obesidad; coautora de SEEDO GO!), creadora del Método Petratti y autora de *Obesidades sin culpa* (2026). Se formó en 2026 en un programa estructurado de inteligencia artificial generativa para profesionales sanitarios y en compliance para la divulgación científica digital. Corrió la maratón de Londres en 2025. Ejerce en Alicante.
+Cristina B. Petratti es médica de familia, especialista en obesidad y salud metabólica, con más de veinticinco años de consulta. Miembro de la SEEDO (Grupo de Trabajo de Ejercicio Físico y Obesidad; coautora de SEEDO GO!), creadora del Método Petratti y autora de *Obesidades sin culpa* (2026). Se formó en 2026 en un programa estructurado de inteligencia artificial generativa para profesionales sanitarios y en compliance para la divulgación científica digital. Corrió la maratón de Londres en 2025. Ejerce en Alicante y, en consulta online, con pacientes de Argentina.
 
 **Declaración breve (pie de contratapa):**
 La autora declara vínculos con la industria farmacéutica, detallados al inicio del libro. Ningún medicamento de prescripción aparece con nombre comercial.

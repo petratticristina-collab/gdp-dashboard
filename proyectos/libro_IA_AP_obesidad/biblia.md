@@ -6,7 +6,7 @@
 **Título (decisión de la autora, 11-09-2026):** *IA en la consulta: la revolución que cabe en diez minutos.*
 **Subtítulo:** *Aplicación práctica para el médico de familia ante la obesidad.*
 (Título de trabajo anterior: "Inteligencia artificial en la consulta de Atención Primaria: guía práctica para el abordaje de la obesidad". Comprobado el 11-09-2026 que no coincide con ningún título en Amazon/Kindle.)
-**Autora:** Dra. Cristina Petratti. Médica de familia, especialista en obesidad. Más de 25 años de consulta. Miembro de la SEEDO. Consulta en la provincia de Alicante (El Campello). Formada en el programa *AI-Powered Metabolic Medicine* (8 módulos de IA generativa, 2026) y en el *Programa de Líderes en divulgación científica digital*.
+**Autora:** Dra. Cristina Petratti. Médica de familia, especialista en obesidad. Más de 25 años de consulta. Miembro de la SEEDO. Consulta en la provincia de Alicante (El Campello) y consulta online con pacientes de Argentina (dato de la autora, 22-09-2026). Formada en el programa *AI-Powered Metabolic Medicine* (8 módulos de IA generativa, 2026) y en el *Programa de Líderes en divulgación científica digital*.
 
 ## Tesis
 La IA generativa no sustituye el juicio clínico: devuelve tiempo y capacidad al médico de familia para hacer lo que solo él puede hacer con la persona con obesidad: escuchar, decidir y acompañar. La obesidad es una enfermedad crónica, compleja y con biología detrás. **"Es biología, no falta de voluntad."** Esta frase es de la autora y es el eje del libro.

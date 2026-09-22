@@ -44,7 +44,8 @@ Cada semana produce una cosa que se puede tocar (un correo enviado, un capítulo
 2. **Centros de salud:** la sesión de veinte minutos es el mejor vendedor. Cada sesión, un código de descuento y treinta libros.
 3. **Redes:** cuatro reels y dos carruseles en doce semanas, todos con disclosure y checklist. Sin comprar seguidores ni reseñas.
 4. **Lista de correo:** el capítulo 1 gratis convierte mejor que cualquier anuncio. Un correo cada dos semanas, nunca más.
-5. **Libro anterior:** *Obesidades sin culpa* y este se venden en pareja (paciente y profesional): mención cruzada en la contracubierta y en los talleres.
+5. **Argentina:** su consulta online con pacientes argentinos abre un segundo mercado: ebook en Amazon.com.ar y contacto con la SAOTA (Sociedad Argentina de Obesidad y Trastornos Alimentarios) y sociedades de medicina familiar para una reseña o un taller online.
+6. **Libro anterior:** *Obesidades sin culpa* y este se venden en pareja (paciente y profesional): mención cruzada en la contracubierta y en los talleres.
 
 ## Qué medir (y qué no concluir)
 

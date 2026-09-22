@@ -1,0 +1,35 @@
+# Prompts para hacer las tapas en Canva
+
+> Tres formas de usarlos: (1) en Canva, "Diseño mágico" o "Crear un diseño con IA": pega el prompt entero; (2) en el generador de imágenes de Canva para crear solo el motivo gráfico y luego montar el texto a mano; (3) como brief para un diseñador. Medidas: tapa 150 × 230 mm más 3 mm de sangrado por lado; contratapa igual; lomo [POR ACLARAR: según páginas y papel, unos 18-22 mm]. Colores de marca: verde azulado #1AA5A5, verde azulado profundo #0E5F63, verde #8DC63F, verde claro #C5D96B, gris #8A9299. Tipografías sugeridas en Canva: Playfair Display o Lora (serif, título) e Inter o Montserrat (sans, resto). Sube el logotipo "Método Dra. Petratti" (mariposa) como PNG antes de empezar. Ningún texto lleva nombres de fármacos ni fotos de pacientes.
+
+## Prompt 1 · Tapa, versión reloj (la del PDF principal)
+
+Crea la portada de un libro profesional de medicina, formato vertical 150 × 230 mm con 3 mm de sangrado. Fondo degradado en verde azulado profundo (#0E5F63 a #083F42). Arriba a la izquierda, en mayúsculas pequeñas espaciadas y color verde claro (#C5D96B): "Continuación profesional de Obesidades sin culpa". Título muy grande en serif (Playfair Display, blanco, dos líneas): "IA en / la consulta". Debajo, subtítulo en cursiva serif blanca, con "diez minutos" en negrita verde claro: "la revolución que cabe en diez minutos". Debajo, línea pequeña en mayúsculas espaciadas verde (#8DC63F): "Aplicación práctica para el médico de familia ante la obesidad". Motivo gráfico en la mitad inferior derecha, grande y parcialmente cortado por el borde: un reloj minimalista de líneas finas blancas semitransparentes con un sector de diez minutos relleno en verde (#8DC63F) y la etiqueta "10 min" en verde claro. Abajo a la izquierda: "Dra." en peso ligero y "Cristina B. Petratti" en negrita sans (Inter) blanca, y debajo, en mayúsculas espaciadas verde claro: "Médica de familia · Especialista en obesidad". Pie de portada, muy pequeño y separado por una línea fina: "Prólogo de [nombre]". Estilo editorial, limpio, sin fotos, sin iconos de robots ni cerebros digitales, sin brillos ni efectos 3D. Deja el logotipo de la mariposa (que subiré) en la esquina inferior derecha, pequeño.
+
+## Prompt 2 · Tapa, versión clara con la mariposa
+
+Portada de libro profesional 150 × 230 mm, fondo blanco roto (#FBFCFA) con una franja vertical de 9 mm en el borde izquierdo degradada de verde azulado (#1AA5A5) a verde (#8DC63F). Título en serif negrita verde azulado profundo (#083F42), muy grande, dos líneas: "IA en / la consulta". Subtítulo en cursiva serif verde azulado (#0E5F63): "la revolución que cabe en diez minutos", con "diez minutos" en negrita (#1AA5A5). Línea en mayúsculas espaciadas gris (#8A9299): "Aplicación práctica para el médico de familia ante la obesidad". Motivo: en la mitad inferior derecha, la mariposa del logotipo "Método Dra. Petratti" (cuatro formas de hoja en verde azulado, verde, verde claro y verde azulado profundo) reinterpretada grande y abstracta, sin contorno, como si fuera el logotipo ampliado, con un pequeño arco de reloj en el centro. Abajo a la izquierda, autora en sans: "Dra." ligero, "Cristina B. Petratti" negrita, y "Médica de familia · Especialista en obesidad" en mayúsculas pequeñas verde azulado. Pie: "Prólogo de [nombre]". Aspecto de manual clínico moderno, mucho aire, tipografía protagonista, sin fotografías.
+
+## Prompt 3 · Tapa, versión tipográfica con el 10
+
+Portada de libro 150 × 230 mm, fondo plano verde azulado (#1AA5A5). Un número "10" gigante en sans extra negrita (Inter Black), blanco al 14 % de opacidad, ocupando el tercio superior derecho y cortado por el borde; junto a él, en cursiva serif verde claro, la palabra "minutos". Título en sans extra negrita blanca, muy grande: "IA en / la consulta". Subtítulo en cursiva serif blanca: "la revolución que cabe en diez minutos" con "diez minutos" en verde claro (#C5D96B). Línea en mayúsculas espaciadas blancas: "Aplicación práctica para el médico de familia ante la obesidad". Bloque inferior a sangre en verde azulado profundo (#083F42) con la autora: "Dra." ligero, "Cristina B. Petratti" negrita blanca, "Médica de familia · Especialista en obesidad" en mayúsculas pequeñas verde (#8DC63F), y el pie "Prólogo de [nombre]". Diseño plano, contundente, tipo colección de ensayo, sin imágenes.
+
+## Prompt 4 · Contratapa (vale para las tres versiones)
+
+Contratapa de libro 150 × 230 mm, fondo blanco con una franja vertical de 6 mm verde azulado (#1AA5A5) en el borde exterior. Arriba, frase de apertura en serif negrita verde azulado profundo, tamaño grande: "Treinta y cuatro pacientes, seis huecos de urgencias, dos domicilios y siete minutos por persona. Ahí es donde la inteligencia artificial tiene que caber. Si no cabe ahí, no sirve." Debajo, la sinopsis en serif regular (texto en `sinopsis.md`, tres párrafos). Después, tres viñetas cortas con marcador verde. Abajo, un bloque con la foto de la autora a la izquierda (24 × 30 mm) y la biografía breve a la derecha en sans pequeña (termina con: "Ejerce en Alicante y, en consulta online, con pacientes de Argentina"). En el pie: a la izquierda el logotipo "Método Dra. Petratti" con la línea "Medicina de la obesidad · Salud metabólica" y la declaración de vínculos en gris muy pequeño; a la derecha, el espacio del ISBN y el código de barras (38 × 22 mm). Sin imágenes decorativas.
+
+## Prompt 5 · Lomo
+
+Lomo de [POR ACLARAR] mm × 230 mm, fondo verde azulado profundo (#083F42). Texto girado 90 grados, de arriba abajo: "IA en la consulta" en serif negrita blanca y, tras un espacio, "Dra. Cristina B. Petratti" en sans regular blanca. En la parte inferior, el logotipo de la mariposa pequeño, centrado.
+
+## Prompt 6 · Solo el motivo gráfico (generador de imágenes de Canva)
+
+Ilustración vectorial plana, minimalista, sobre fondo transparente: un reloj de líneas finas blancas con un sector de diez minutos relleno en verde lima (#8DC63F) y una aguja en verde claro (#C5D96B); sin números, sin sombras, sin degradados, estilo pictograma editorial. Alternativa: una mariposa abstracta de cuatro formas de hoja en verde azulado (#1AA5A5), verde (#8DC63F), verde claro (#C5D96B) y verde azulado profundo (#0E5F63), sin contorno, sobre fondo transparente, estilo logotipo plano.
+
+## Checklist antes de exportar desde Canva
+
+- Exportar en PDF de imprenta con sangrado y marcas de corte; CMYK si la imprenta lo pide.
+- Comprobar que "Médica de familia · Especialista en obesidad" y el nombre son idénticos en tapa, lomo y contratapa.
+- ISBN, precio, prólogo y foto sustituidos; ningún corchete [POR ACLARAR] a la vista.
+- Contraste del texto sobre fondo (blanco sobre #0E5F63 y #083F42 cumple; blanco sobre #1AA5A5 solo en cuerpos grandes).
+- Declaración de vínculos presente en la contratapa.

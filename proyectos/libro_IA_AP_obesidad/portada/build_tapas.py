@@ -90,7 +90,7 @@ CONTRA = '''<div class="page contra">
   </ul>
   <div class="bio">
     <div class="foto">Foto de la autora<br>[POR ACLARAR]</div>
-    <p><b>Cristina B. Petratti</b> es médica de familia, especialista en obesidad y salud metabólica, con más de veinticinco años de consulta. Miembro de la SEEDO (Grupo de Trabajo de Ejercicio Físico y Obesidad; coautora de SEEDO GO!), creadora del Método Petratti y autora de <i>Obesidades sin culpa</i> (2026). Se formó en 2026 en inteligencia artificial generativa para profesionales sanitarios y en compliance para la divulgación científica digital. Corrió la maratón de Londres en 2025. Ejerce en Alicante.</p>
+    <p><b>Cristina B. Petratti</b> es médica de familia, especialista en obesidad y salud metabólica, con más de veinticinco años de consulta. Miembro de la SEEDO (Grupo de Trabajo de Ejercicio Físico y Obesidad; coautora de SEEDO GO!), creadora del Método Petratti y autora de <i>Obesidades sin culpa</i> (2026). Se formó en 2026 en inteligencia artificial generativa para profesionales sanitarios y en compliance para la divulgación científica digital. Corrió la maratón de Londres en 2025. Ejerce en Alicante y, en consulta online, con pacientes de Argentina.</p>
   </div>
   <div class="tecnico">
     <div>
