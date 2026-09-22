@@ -23,6 +23,7 @@ body { margin:0; font-family: Inter, Arial, sans-serif; color: var(--ink); -webk
 .tapa .autor { margin-top:auto; }
 .tapa .autor .dra { font-weight:300; font-size: 12pt; letter-spacing: 1px; color:#DDEFEF; }
 .tapa .autor .nombre { font-weight: 800; font-size: 20pt; letter-spacing: .3px; line-height: 1.05; }
+.tapa .autor .desc { font-size: 8.5pt; letter-spacing: 1.6px; text-transform: uppercase; color: var(--light); margin-top: 2mm; font-weight:600; }
 .tapa .pie { margin-top: 5mm; font-size: 7.5pt; color: #B9D8D9; line-height: 1.5; border-top: 1px solid rgba(255,255,255,.25); padding-top: 3mm; }
 /* CONTRATAPA */
 .contra { background:#fff; padding: 14mm 14mm 12mm; display:flex; flex-direction:column; border-left: 6mm solid var(--teal); }
@@ -71,7 +72,7 @@ TAPA = f'''<div class="page tapa">
   <h2>la revolución que cabe<br>en <b>diez minutos</b></h2>
   <div class="pos">Aplicación práctica para el médico de familia ante la obesidad</div>
   {RELOJ}
-  <div class="autor"><div class="dra">Dra.</div><div class="nombre">Cristina B. Petratti</div></div>
+  <div class="autor"><div class="dra">Dra.</div><div class="nombre">Cristina B. Petratti</div><div class="desc">Médica de familia · Especialista en obesidad</div></div>
   <div class="pie">Prólogo de [POR ACLARAR: nombre y cargo] · Más de setenta casos de uso con prompts listos para pegar, sin datos de ningún paciente</div>
 </div>'''
 
@@ -100,7 +101,7 @@ CONTRA = '''<div class="page contra">
   </div>
 </div>'''
 
-LOMO_HTML = '<div class="lomo"><div class="txt"><b>IA en la consulta</b> Cristina B. Petratti</div><div class="logo"></div></div>'
+LOMO_HTML = '<div class="lomo"><div class="txt"><b>IA en la consulta</b> Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad</div><div class="logo"></div></div>'
 
 def html(body, w, h):
     return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{CSS}

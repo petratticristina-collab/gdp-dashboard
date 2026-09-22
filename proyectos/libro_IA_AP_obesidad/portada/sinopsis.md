@@ -8,6 +8,7 @@
 **Subtítulo de cubierta:** la revolución que cabe en diez minutos
 **Línea de posicionamiento:** Aplicación práctica para el médico de familia ante la obesidad
 **Autora:** Dra. Cristina B. Petratti
+**Descriptor bajo el nombre:** Médica de familia · Especialista en obesidad
 **Línea inferior:** Prólogo de [POR ACLARAR: nombre y cargo] · Continuación profesional de *Obesidades sin culpa*
 
 ## Contratapa (sinopsis)
@@ -37,7 +38,7 @@ La autora declara vínculos con la industria farmacéutica, detallados al inicio
 
 ## Lomo
 
-IA en la consulta · Cristina B. Petratti · [logo]
+IA en la consulta · Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad · [logo]
 
 ## Solapas (si la edición las lleva)
 
