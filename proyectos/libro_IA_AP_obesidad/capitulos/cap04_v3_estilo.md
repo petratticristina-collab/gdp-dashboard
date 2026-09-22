@@ -383,7 +383,7 @@ Tres reglas:
 - **Un nombre que diga lo que hace:** `consejo-breve-7min_v2.md`. Nada de "prompt final definitivo 3".
 - **Comparte la ficha, nunca la conversación.** El prompt no lleva datos; la conversación puede llevarlos. Una carpeta del centro con las fichas es una biblioteca de equipo.
 
-**Qué revisar antes de usarla.** Que cada ficha tenga "Datos que admite" y "Qué revisar" rellenos. Sin "Probada por" con fecha, no entra en la carpeta del centro. Una vez al trimestre, comprueba el modelo de las que más usas. Los cincuenta prompts del anexo A usan esta ficha.
+**Qué revisar antes de usarla.** Que cada ficha tenga "Datos que admite" y "Qué revisar" rellenos. Sin "Probada por" con fecha, no entra en la carpeta del centro. Una vez al trimestre, comprueba el modelo de las que más usas. Los setenta prompts del anexo A usan esta ficha.
 
 **Riesgo principal y mitigación.** Que alguien use una ficha sin leer "Qué revisar", porque "si está en la carpeta, funciona". Mitigación: el riesgo en la cabecera y la firma de quien la probó.
 
