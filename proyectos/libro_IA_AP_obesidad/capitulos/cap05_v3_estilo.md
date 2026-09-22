@@ -63,7 +63,7 @@ Conversación nueva, memoria apagada, y se borran al terminar; el 2 y el 8 con m
 
 **Momento:** consulta. **Herramienta:** consumo, con notas de un caso sintético.
 
-**Situación.** Lo que escribo en la visita no son frases: abreviaturas, cifras y flechas. Aquí entra ese desorden, con notas inventadas; a los diez casos, tus apuntes nacen ya ordenados. La salida es un borrador; la nota de tu historia la escribes tú (capítulo 13).
+**Situación.** Lo que escribo en la visita no son frases: abreviaturas, cifras y flechas. Aquí entra ese desorden, con notas inventadas; a los diez casos, tus apuntes nacen ya ordenados. La salida es un borrador; la nota de tu historia la escribes tú (capítulo 10).
 
 ```
 ROL: Eres médica de familia con experiencia en obesidad y en documentación clínica. Ejercicio con notas inventadas; no hay ninguna persona real.
@@ -288,7 +288,7 @@ Si añades un tratamiento nuevo, entra la tercera línea, literal y entre las ot
 
 **Momento:** administración. **Herramienta:** consumo, con el hecho resumido en una línea.
 
-**Situación.** La queja la escribió la persona, lleva su nombre y no se pega. La más frecuente que conozco en obesidad: hablar del peso sin que la persona lo pidiera; por eso el capítulo 4 pide permiso antes, y el capítulo 13 vuelve sobre el estigma (Rubino 2020). En la sanidad valenciana entra por el Servicio de Atención e Información al Paciente (SAIP; Decreto 2/2002; Orden 6/2018 [VERIFICAR número del DOGV]) y se contesta en un mes, con un informe interno que firma la dirección o la respuesta que firmas tú: el prompt sirve para los dos.
+**Situación.** La queja la escribió la persona, lleva su nombre y no se pega. La más frecuente que conozco en obesidad: hablar del peso sin que la persona lo pidiera; por eso el capítulo 4 pide permiso antes, y el capítulo 10 vuelve sobre el estigma (Rubino 2020). En la sanidad valenciana entra por el Servicio de Atención e Información al Paciente (SAIP; Decreto 2/2002; Orden 6/2018 [VERIFICAR número del DOGV]) y se contesta en un mes, con un informe interno que firma la dirección o la respuesta que firmas tú: el prompt sirve para los dos.
 
 ```
 ROL: Eres médica de familia con experiencia en obesidad y en responder por escrito a quejas con respeto y sin ponerte a la defensiva.

@@ -103,7 +103,7 @@ Tres canales, tres reglas. Por el portal del paciente es una consulta: contesto 
 - **Redirige con una frase preparada.** Si es paciente mía: "Gracias por contármelo. Esto hay que valorarlo en consulta: pide cita y lo vemos, o te llamo yo. Si no toleras líquidos, tienes dolor fuerte de tripa, te mareas o te encuentras mal, no esperes: urgencias o 112. Si quieres, también puedes registrarlo en notificaRAM.es, el sistema oficial de farmacovigilancia." La llamada es consulta telefónica y queda registrada. Si no es paciente mía, cambio una frase: "Esto hay que valorarlo en consulta: coméntalo con tu médico o farmacéutico de referencia". La línea de urgencia se queda.
 - **Notifica tú.** Si es un desconocido, con lo que tenga: fármaco, reacción y quién es en mínimos. Si es tu paciente, se completa en consulta desde la historia. Cinco minutos en notificaRAM.es o en el formulario de tu historia clínica. Con el triángulo negro en el prospecto, con más razón: la agencia quiere todas [VERIFICAR: EVIDENCIA]. Si colaboras con ese laboratorio, tu contrato dirá a quién avisar: el mismo día.
 
-Lo que más falla no es la norma, es el instinto: la frase que tranquiliza es la que te compromete (lo aprendí en mi formación en compliance). Y ese mensaje no se pega en ningún chat: el formulario se ensaya con un caso inventado en el capítulo 13; los datos reales van directos a notificaRAM.es.
+Lo que más falla no es la norma, es el instinto: la frase que tranquiliza es la que te compromete (lo aprendí en mi formación en compliance). Y ese mensaje no se pega en ningún chat: el formulario se ensaya con un caso inventado en el capítulo 10; los datos reales van directos a notificaRAM.es.
 
 ### El estigma también es ética
 
@@ -264,7 +264,7 @@ RESPUESTA 4:
 
 **Qué revisar antes de usarla.** La regla de lectura es la del paréntesis. Una buena B dice todo lo que dice A y, además, que el peso es un factor tratable de ese dolor, sin culpa y sin cifra. Si B no habla del peso con IMC 36, también es un hallazgo: infratratamiento.
 
-**Riesgo principal y mitigación.** Que te tranquilice, o que veas sesgo donde solo hay azar. Mitigación: dos por brazo, otro motivo, otro modelo; y pasar el prompt de comparación por tus propias hojas (auditoría completa en el capítulo 13).
+**Riesgo principal y mitigación.** Que te tranquilice, o que veas sesgo donde solo hay azar. Mitigación: dos por brazo, otro motivo, otro modelo; y pasar el prompt de comparación por tus propias hojas (auditoría completa en el capítulo 10).
 
 ### Caso 5 · "¿Doctora, usted usa IA?" [AP]
 
@@ -381,7 +381,7 @@ Regla del minuto, otra vez. Las preguntas 1, 3, 6 y 9 son eliminatorias: un solo
 
 ## Caso ilustrativo, no real: arquetipo compuesto
 
-> Esta viñeta combina rasgos de varias mujeres jóvenes que me han preguntado en consulta por su privacidad. La edad es aproximada; no hay profesión, contexto familiar, fechas, lugares ni cifras. El antecedente de trastorno de la conducta alimentaria aparece, en mi experiencia, en muchas de las personas que hacen esa pregunta; no es de ninguna en concreto. Vuelve en el capítulo 13.
+> Esta viñeta combina rasgos de varias mujeres jóvenes que me han preguntado en consulta por su privacidad. La edad es aproximada; no hay profesión, contexto familiar, fechas, lugares ni cifras. El antecedente de trastorno de la conducta alimentaria aparece, en mi experiencia, en muchas de las personas que hacen esa pregunta; no es de ninguna en concreto. Vuelve en el capítulo 10.
 
 Tiene entre veinticinco y treinta años, obesidad de grado I y, en la adolescencia, un trastorno de la conducta alimentaria del que salió con ayuda y del que no habla. Al final, con la mano en la puerta, lo suelta: "Lo del peso, ¿puede que no conste en ningún sitio? ¿Y mis datos van a parar a una máquina de esas?"
 
@@ -391,7 +391,7 @@ La segunda es la de este capítulo. Le cuento en veinte segundos el guion del ca
 
 Le pregunto si quiere que hablemos de lo del peso, hoy o más adelante. Quiere, "pero sin balanza". Le pregunto, como siempre, si hay atracones, si vomita o compensa de algún modo, cómo duerme y cómo anda de ánimo. Hoy no hay nada activo. Si lo hubiera, lo primero sería salud mental, no el peso (capítulo 8). Sin objetivos de peso ni pesajes salvo que ella los pida; sí tensión, analítica y cómo se encuentra. Le doy la hoja del caso 2, en usted y con mi firma; ni una cifra. La cito en tres semanas.
 
-"¿Van a parar a una máquina?" me lo preguntan cada vez más. Ahora lo agradezco: es la única forma de que alguien que ya sufrió por su cuerpo confíe lo suficiente para volver. En el capítulo 13, una hoja sin revisar llega a alguien como ella.
+"¿Van a parar a una máquina?" me lo preguntan cada vez más. Ahora lo agradezco: es la única forma de que alguien que ya sufrió por su cuerpo confíe lo suficiente para volver. En el capítulo 10, una hoja sin revisar llega a alguien como ella.
 
 ---
 

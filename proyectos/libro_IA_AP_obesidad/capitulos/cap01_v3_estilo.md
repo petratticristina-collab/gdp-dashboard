@@ -233,7 +233,7 @@ LISTA:
 
 **Qué revisar antes de usarla.** Que las categorías coincidan con tu realidad: si la mitad de tu "consulta" es burocracia con la persona delante, anótalo así. Y "SÍ SOLO CON CONTRATO" son tareas que hoy siguen siendo tuyas: ese tiempo no se recupera todavía, se apunta.
 
-**Riesgo principal y mitigación.** Medir solo lo visible y perderte el tiempo de sombra: lo que haces en casa, lo que dura tres minutos. Mitigación: repite el inventario a las dos semanas y anota también lo pequeño. Vuelve en el capítulo 14 convertido en plan.
+**Riesgo principal y mitigación.** Medir solo lo visible y perderte el tiempo de sombra: lo que haces en casa, lo que dura tres minutos. Mitigación: repite el inventario a las dos semanas y anota también lo pequeño. Vuelve en el capítulo 10 convertido en plan.
 
 ### Caso 5 · "¿Por qué recupero el peso?" en tres niveles
 
@@ -303,7 +303,7 @@ RESTRICCIONES: No inventes datos ni rellenes huecos. Mantén "<5" como "<5"; si 
 
 ## Caso ilustrativo, no real: arquetipo compuesto
 
-> Esta viñeta, igual que la mujer de las 12:40 que abre el capítulo, combina rasgos de varias pacientes con recuperación de peso tras dietas restrictivas. Se han modificado la edad exacta, el número y el orden de las dietas y las comorbilidades. No contiene fechas, lugares ni cifras que permitan reconocer a nadie. En el capítulo 14 seguirá siendo la misma figura compuesta.
+> Esta viñeta, igual que la mujer de las 12:40 que abre el capítulo, combina rasgos de varias pacientes con recuperación de peso tras dietas restrictivas. Se han modificado la edad exacta, el número y el orden de las dietas y las comorbilidades. No contiene fechas, lugares ni cifras que permitan reconocer a nadie. En el capítulo 10 seguirá siendo la misma figura compuesta.
 
 Tiene entre cincuenta y sesenta años. Obesidad de grado II, hipertensión tratada y una glucemia que lleva dos analíticas en zona de prediabetes. Ha hecho cuatro o cinco intentos serios de bajar de peso: una dieta de sobres, dos de un famoso, una con una dietista-nutricionista que le cayó bien y otra "por su cuenta". En todas bajó entre ocho y quince kilos. En todas los recuperó, y en las últimas dos, algo más.
 
@@ -315,7 +315,7 @@ Le cuento el termostato del caso 2 en un minuto, con mis palabras: cada vez que 
 
 Ahí empieza la consulta de verdad. Le mido la cintura. Le pregunto por los atracones y por cómo duerme; hoy no toca más. Anoto obesidad como problema activo, que no lo estaba, con IMC y perímetro. Le entrego la hoja del caso 5, versión B, firmada. La cito en dos o tres semanas, y después cada mes. No hablamos de kilos: de tensión, de azúcar, de rodillas y de dormir. La analítica que le falta y las opciones de tratamiento, que las hay, van en el capítulo 8.
 
-Seis minutos, y mucho quedó para la siguiente. Pero esta vez hay una siguiente: la primera consulta en veinte años en la que no le han dicho que coma menos. Volverá en el capítulo 14: lo que suele pasar después, en muchas personas como ella, es la mejor razón que tengo para haber escrito este libro.
+Seis minutos, y mucho quedó para la siguiente. Pero esta vez hay una siguiente: la primera consulta en veinte años en la que no le han dicho que coma menos. Volverá en el capítulo 10: lo que suele pasar después, en muchas personas como ella, es la mejor razón que tengo para haber escrito este libro.
 
 ---
 
