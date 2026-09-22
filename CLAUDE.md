@@ -25,6 +25,7 @@ Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `me
 
 ## Proyectos en curso (cont.)
 - `proyectos/potencia_presentacion/`: presentación del proyecto final del programa potencIA (calculadora de condición física, 7 puntos de la plantilla del curso), generada con `build_deck.js`. Charla el lunes 14-09-2026.
+- `proyectos/landing/`: reestructuración de la landing del Método Petratti (22-09-2026) siguiendo el orden problema → quién soy → método → casos → dos CTA, con página de valoración inicial para Calendly (la cuenta `metodopetratti-info` tiene el evento "Sesión de valoración" en inglés, 45 min, enlace `/30min`, dos preguntas; propuesta de cambio pendiente de confirmación de la usuaria) y tabla de decisiones de compliance (RD 1907/1996: sin testimonios ni resultados; arquetipos compuestos). `respuesta_toribio.md`: correo declinando el servicio del consultor de marketing.
 - **Calculadora funcional:** repositorio público `adrsuarez22/calculadora-funcional` (app Streamlit `evaluacion-funcional-pro.streamlit.app`, 3 pruebas: caminata 6 min, prensión, silla; fuentes STAAB 2024, Tomkinson 2024, EXERNET 2012). Diagnóstico del 2026-09-11: interpolación por décadas en caminata, etiqueta errónea bajo P10 en silla, sin disclaimer ni población visible, dependencia supabase sin uso. Clonada en `/home/user/adrsuarez22/calculadora-funcional` (solo lectura en esta sesión).
 
 ## Estilo de respuesta preferido por la usuaria
