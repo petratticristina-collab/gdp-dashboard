@@ -34,7 +34,7 @@ Cristina B. Petratti es médica de familia, especialista en obesidad y salud met
 **Declaración breve (pie de contratapa):**
 La autora declara vínculos con la industria farmacéutica, detallados al inicio del libro. Ningún medicamento de prescripción aparece con nombre comercial.
 
-**Elementos técnicos:** ISBN [POR ACLARAR] · código de barras · editorial o autoedición [POR ACLARAR] · precio [POR ACLARAR] · logotipo Método Dra. Petratti (`logo_metodo_petratti.png`, fondo transparente; mariposa sola en `logo_mariposa.png`) · foto de la autora [POR ACLARAR].
+**Elementos técnicos:** ISBN [POR ACLARAR] · código de barras · editorial o autoedición [POR ACLARAR] · precio [POR ACLARAR] · logotipo Método Dra. Petratti (`logo_metodo_petratti.png`, fondo transparente; mariposa sola en `logo_mariposa.png`) · foto de la autora (`foto_autora_4x5.jpg`, incrustada en la contratapa; versión cuadrada para web en `foto_autora_cuadrada.jpg`).
 
 ## Lomo
 
