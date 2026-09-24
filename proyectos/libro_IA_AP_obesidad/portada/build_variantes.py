@@ -1,6 +1,9 @@
 """Dos variantes de tapa (B: clara y editorial; C: tipográfica con el 10) a 15 x 23 cm. Uso: python3 build_variantes.py"""
-import subprocess, pathlib
+import subprocess, pathlib, base64
 d = pathlib.Path(__file__).parent
+def uri(name):
+    return 'data:image/png;base64,' + base64.b64encode((d / name).read_bytes()).decode()
+LOGO_MARIPOSA = uri('logo_mariposa.png')
 CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 W, H = 150, 230
 
@@ -22,7 +25,7 @@ CSS_B = BASE + '''
 .b h2 { font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400; font-size:18pt; line-height:1.15; margin: 0 0 0 4mm; color: var(--deep); }
 .b h2 b { font-weight:600; color: var(--teal); }
 .b .pos { font-size: 8pt; letter-spacing:2px; text-transform:uppercase; color: var(--grey); margin: 7mm 0 0 4mm; max-width: 78mm; line-height:1.5; }
-.b .alas { position:absolute; right: 8mm; top: 112mm; width: 78mm; height: 78mm; }
+.b .alas { position:absolute; right: 10mm; top: 108mm; width: 72mm; height:auto; }
 .b .autor { margin-top:auto; margin-left:4mm; }
 .b .dra { font-weight:300; font-size:11pt; color: var(--grey); letter-spacing:1px; }
 .b .nombre { font-weight:800; font-size:19pt; color: var(--deeper); line-height:1.05; }
@@ -42,7 +45,7 @@ TAPA_B = f'''<div class="page b"><div class="franja"></div>
 <h1><span>IA en</span><span>la consulta</span></h1>
 <h2>la revolución que cabe<br>en <b>diez minutos</b></h2>
 <div class="pos">Aplicación práctica para el médico de familia ante la obesidad</div>
-{ALAS}
+<img class="alas" src="{LOGO_MARIPOSA}" alt="">
 <div class="autor"><div class="dra">Dra.</div><div class="nombre">Cristina B. Petratti</div><div class="desc">Médica de familia · Especialista en obesidad</div></div>
 <div class="pie">Prólogo de [POR ACLARAR] · Más de setenta casos de uso con prompts listos para pegar, sin datos de ningún paciente</div>
 </div>'''
@@ -62,9 +65,11 @@ CSS_C = BASE + '''
 .c .dra { font-weight:300; font-size:11pt; color:#B9D8D9; letter-spacing:1px; }
 .c .nombre { font-weight:800; font-size:19pt; line-height:1.05; }
 .c .desc { font-size:8pt; letter-spacing:1.6px; text-transform:uppercase; color: var(--green); font-weight:600; margin-top:2mm; }
+.c .mariposa { position:absolute; right: 12mm; bottom: 12mm; width: 14mm; height:auto; }
 .c .pie { margin-top:4mm; font-size:7.3pt; color:#B9D8D9; line-height:1.5; }
 '''
-TAPA_C = '''<div class="page c">
+TAPA_C = f'''<div class="page c">
+<img class="mariposa" src="{LOGO_MARIPOSA}" alt="">
 <div class="diez">10</div><div class="min">minutos</div>
 <div class="kicker">Continuación profesional de <i>Obesidades sin culpa</i></div>
 <h1><span>IA en</span><span>la consulta</span></h1>

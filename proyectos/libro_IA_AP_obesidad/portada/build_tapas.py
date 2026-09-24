@@ -1,9 +1,13 @@
 """Genera tapa.pdf, contratapa.pdf, tapas_completas.pdf y previsualizaciones PNG.
-Formato 15 x 23 cm. Lomo estimado 20 mm [POR ACLARAR]. Uso: python3 build_tapas.py"""
+Formato 15 x 23 cm. Lomo estimado 20 mm [POR ACLARAR]. Logo real incrustado desde logo_metodo_petratti.png / logo_mariposa.png. Uso: python3 build_tapas.py"""
 import subprocess, pathlib
 d = pathlib.Path(__file__).parent
 CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 W, H, LOMO = 150, 230, 20  # mm
+import base64
+def uri(name):
+    return 'data:image/png;base64,' + base64.b64encode((d / name).read_bytes()).decode()
+LOGO_FULL, LOGO_MARIPOSA = uri('logo_metodo_petratti.png'), uri('logo_mariposa.png')
 
 CSS = '''
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap');
@@ -24,7 +28,8 @@ body { margin:0; font-family: Inter, Arial, sans-serif; color: var(--ink); -webk
 .tapa .autor .dra { font-weight:300; font-size: 12pt; letter-spacing: 1px; color:#DDEFEF; }
 .tapa .autor .nombre { font-weight: 800; font-size: 20pt; letter-spacing: .3px; line-height: 1.05; }
 .tapa .autor .desc { font-size: 8.5pt; letter-spacing: 1.6px; text-transform: uppercase; color: var(--light); margin-top: 2mm; font-weight:600; }
-.tapa .pie { margin-top: 5mm; font-size: 7.5pt; color: #B9D8D9; line-height: 1.5; border-top: 1px solid rgba(255,255,255,.25); padding-top: 3mm; }
+.tapa .mariposa { position:absolute; right: 13mm; bottom: 13mm; width: 13mm; height:auto; }
+.tapa .pie { margin-top: 5mm; font-size: 7.5pt; color: #B9D8D9; line-height: 1.5; border-top: 1px solid rgba(255,255,255,.25); padding-top: 3mm; padding-right: 20mm; }
 /* CONTRATAPA */
 .contra { background:#fff; padding: 14mm 14mm 12mm; display:flex; flex-direction:column; border-left: 6mm solid var(--teal); }
 .contra .apertura { font-family: 'Source Serif 4', Georgia, serif; font-size: 13.5pt; line-height: 1.3; color: var(--deep); font-weight: 600; margin: 0 0 6mm; }
@@ -42,12 +47,13 @@ body { margin:0; font-family: Inter, Arial, sans-serif; color: var(--ink); -webk
 .contra .decl { font-size: 6.4pt; color: var(--grey); max-width: 70mm; line-height: 1.35; }
 .contra .isbn { width: 38mm; height: 22mm; border: 1px dashed var(--grey); font-size: 6.5pt; color: var(--grey); display:flex; align-items:center; justify-content:center; text-align:center; }
 .contra .marca { font-size: 8pt; font-weight: 800; color: var(--teal); letter-spacing: .5px; }
+.contra .marca img { width: 34mm; height:auto; display:block; margin-bottom: 1mm; }
 .contra .marca small { display:block; font-weight:400; color: var(--grey); letter-spacing: 1.5px; font-size: 5.8pt; text-transform: uppercase; }
 /* LOMO */
 .lomo { width: %(l)smm; height: %(h)smm; background: var(--deeper); color:#fff; position:relative; }
 .lomo .txt { position:absolute; left:50%%; top:50%%; transform: translate(-50%%,-50%%) rotate(90deg); white-space:nowrap; font-size: 10pt; letter-spacing: 1px; }
 .lomo .txt b { font-family: 'Source Serif 4', Georgia, serif; font-weight:600; margin-right: 8mm; }
-.lomo .logo { position:absolute; bottom: 8mm; left: 50%%; transform: translateX(-50%%); width: 9mm; height: 9mm; border-radius:50%%; background: linear-gradient(135deg, var(--teal), var(--green)); }
+.lomo .logo { position:absolute; bottom: 7mm; left: 50%%; transform: translateX(-50%%); width: 10mm; height:auto; }
 .spread { display:flex; }
 ''' % dict(w=W, h=H, l=LOMO)
 
@@ -74,9 +80,10 @@ TAPA = f'''<div class="page tapa">
   {RELOJ}
   <div class="autor"><div class="dra">Dra.</div><div class="nombre">Cristina B. Petratti</div><div class="desc">Médica de familia · Especialista en obesidad</div></div>
   <div class="pie">Prólogo de [POR ACLARAR: nombre y cargo] · Más de setenta casos de uso con prompts listos para pegar, sin datos de ningún paciente</div>
+  <img class="mariposa" src="{LOGO_MARIPOSA}" alt="">
 </div>'''
 
-CONTRA = '''<div class="page contra">
+CONTRA = f'''<div class="page contra">
   <div class="apertura">Treinta y cuatro pacientes, seis huecos de urgencias, dos domicilios y siete minutos por persona. Ahí es donde la inteligencia artificial tiene que caber. Si no cabe ahí, no sirve.</div>
   <div class="sin">
     <p>Este libro no promete que una máquina vaya a ver a tus pacientes por ti. Promete algo más útil: devolverte minutos y enseñarte qué hacer con ellos cuando la persona que tienes delante lleva veinte años oyendo «coma menos y muévase más».</p>
@@ -94,14 +101,14 @@ CONTRA = '''<div class="page contra">
   </div>
   <div class="tecnico">
     <div>
-      <div class="marca">Método Dra. Petratti<small>Medicina de la obesidad · Salud metabólica</small></div>
+      <div class="marca"><img src="{LOGO_FULL}" alt="Método Dra. Petratti"><small>Medicina de la obesidad · Salud metabólica</small></div>
       <div class="decl" style="margin-top:2mm">La autora declara vínculos con la industria farmacéutica, detallados al inicio del libro. Ningún medicamento de prescripción aparece con nombre comercial.</div>
     </div>
     <div class="isbn">ISBN [POR ACLARAR]<br>código de barras<br>precio [POR ACLARAR]</div>
   </div>
 </div>'''
 
-LOMO_HTML = '<div class="lomo"><div class="txt"><b>IA en la consulta</b> Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad</div><div class="logo"></div></div>'
+LOMO_HTML = f'<div class="lomo"><div class="txt"><b>IA en la consulta</b> Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad</div><img class="logo" src="{LOGO_MARIPOSA}" alt=""></div>'
 
 def html(body, w, h):
     return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{CSS}
