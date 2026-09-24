@@ -6,7 +6,7 @@ Requiere: pip install markdown; Chromium de Playwright en /opt/pw-browsers (Node
 import sys, subprocess, pathlib, markdown, json, glob, os
 src = pathlib.Path(sys.argv[1]); num = sys.argv[2]; etiqueta = sys.argv[3] if len(sys.argv) > 3 else "borrador"
 cuerpo = markdown.markdown(src.read_text(encoding="utf-8"), extensions=["tables", "fenced_code", "sane_lists"])
-head = ("IA en la consulta: la revolución que cabe en diez minutos · Aplicación práctica para el médico de familia "
+head = ("IA en la consulta de salud: la revolución que cabe en diez minutos · Aplicación práctica para el médico de familia "
         f"ante la obesidad · Dra. Cristina Petratti · Capítulo {num}, {etiqueta} · Borrador para revisión de la autora")
 css = """@page{size:A4;margin:20mm 19mm 22mm 19mm}
 body{font-family:Georgia,"Times New Roman",serif;font-size:11pt;line-height:1.5;color:#1b2a34;margin:0}

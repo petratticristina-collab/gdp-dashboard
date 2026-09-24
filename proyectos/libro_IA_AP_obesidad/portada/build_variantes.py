@@ -20,7 +20,7 @@ CSS_B = BASE + '''
 .b { background:#FBFCFA; color: var(--ink); padding: 14mm 14mm 12mm; display:flex; flex-direction:column; }
 .b .franja { position:absolute; left:0; top:0; width: 9mm; height:100%%; background: linear-gradient(180deg, var(--teal), var(--green)); }
 .b .kicker { font-size:7.5pt; letter-spacing:3px; text-transform:uppercase; color: var(--teal); font-weight:600; margin-left: 4mm; }
-.b h1 { font-family:'Source Serif 4', Georgia, serif; font-weight:700; font-size: 44pt; line-height: 1; margin: 12mm 0 4mm 4mm; color: var(--deeper); }
+.b h1 { font-family:'Source Serif 4', Georgia, serif; font-weight:700; font-size: 38pt; line-height: 1; margin: 10mm 0 4mm 4mm; color: var(--deeper); }
 .b h1 span { display:block; }
 .b h2 { font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400; font-size:18pt; line-height:1.15; margin: 0 0 0 4mm; color: var(--deep); }
 .b h2 b { font-weight:600; color: var(--teal); }
@@ -42,7 +42,7 @@ ALAS = '''<svg class="alas" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/
 </svg>'''
 TAPA_B = f'''<div class="page b"><div class="franja"></div>
 <div class="kicker">Continuación profesional de <i>Obesidades sin culpa</i></div>
-<h1><span>IA en</span><span>la consulta</span></h1>
+<h1><span>IA en la</span><span>consulta</span><span>de salud</span></h1>
 <h2>la revolución que cabe<br>en <b>diez minutos</b></h2>
 <div class="pos">Aplicación práctica para el médico de familia ante la obesidad</div>
 <img class="alas" src="{LOGO_MARIPOSA}" alt="">
@@ -56,7 +56,7 @@ CSS_C = BASE + '''
 .c .diez { position:absolute; right: 4mm; top: 92mm; font-weight:900; font-size: 190pt; line-height: .8; color: rgba(255,255,255,.16); letter-spacing:-8px; }
 .c .min { position:absolute; right: 16mm; top: 150mm; font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size: 22pt; color: var(--light); }
 .c .kicker { font-size:7.5pt; letter-spacing:3px; text-transform:uppercase; color: var(--light); font-weight:600; }
-.c h1 { font-weight:900; font-size: 40pt; line-height:.98; margin: 12mm 0 5mm; letter-spacing:-1px; }
+.c h1 { font-weight:900; font-size: 35pt; line-height:.98; margin: 10mm 0 5mm; letter-spacing:-1px; }
 .c h1 span { display:block; }
 .c h2 { font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400; font-size:17pt; line-height:1.15; margin:0; max-width: 90mm; }
 .c h2 b { font-weight:600; color: var(--light); }
@@ -72,7 +72,7 @@ TAPA_C = f'''<div class="page c">
 <img class="mariposa" src="{LOGO_MARIPOSA}" alt="">
 <div class="diez">10</div><div class="min">minutos</div>
 <div class="kicker">Continuación profesional de <i>Obesidades sin culpa</i></div>
-<h1><span>IA en</span><span>la consulta</span></h1>
+<h1><span>IA en la</span><span>consulta</span><span>de salud</span></h1>
 <h2>la revolución que cabe en <b>diez minutos</b></h2>
 <div class="pos">Aplicación práctica para el médico de familia ante la obesidad</div>
 <div class="bloque"><div class="dra">Dra.</div><div class="nombre">Cristina B. Petratti</div><div class="desc">Médica de familia · Especialista en obesidad</div>

@@ -3,7 +3,7 @@
 > Última actualización: 2026-09-15 · Mantenida por el ORQUESTADOR. Todos los agentes la leen antes de trabajar.
 
 ## Obra
-**Título (decisión de la autora, 11-09-2026):** *IA en la consulta: la revolución que cabe en diez minutos.*
+**Título (decisión de la autora, 11-09-2026; cambiado por la autora el 24-09-2026):** *IA en la consulta de salud: la revolución que cabe en diez minutos.* El título corto pasa de "IA en la consulta" a "IA en la consulta de salud" en tapas, lomo, manuscrito, sinopsis, prompts de Canva, plan de lanzamiento y correos. La mención "Hoja de información sobre el uso de IA en la consulta" (capítulo 3, caso 2) es el nombre de un caso, no del libro, y no cambia.
 **Subtítulo:** *Aplicación práctica para el médico de familia ante la obesidad.*
 (Título de trabajo anterior: "Inteligencia artificial en la consulta de Atención Primaria: guía práctica para el abordaje de la obesidad". Comprobado el 11-09-2026 que no coincide con ningún título en Amazon/Kindle.)
 **Autora:** Dra. Cristina Petratti. Médica de familia, especialista en obesidad. Más de 25 años de consulta. Miembro de la SEEDO. Consulta en la provincia de Alicante (El Campello) y consulta online con pacientes de Argentina (dato de la autora, 22-09-2026). Formada en el programa *AI-Powered Metabolic Medicine* (8 módulos de IA generativa, 2026) y en el *Programa de Líderes en divulgación científica digital*.

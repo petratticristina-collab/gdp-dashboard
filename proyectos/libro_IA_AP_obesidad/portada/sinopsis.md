@@ -1,10 +1,10 @@
-# Portada, sinopsis y tapas · *IA en la consulta: la revolución que cabe en diez minutos*
+# Portada, sinopsis y tapas · *IA en la consulta de salud: la revolución que cabe en diez minutos*
 
 > Preparado el 22-09-2026 por el orquestador. Los textos son propuesta para la autora; los huecos [POR ACLARAR] los rellena ella. Los archivos `tapa.pdf`, `contratapa.pdf` y `tapas_completas.pdf` se generan con `build_tapas.py` (formato 15 × 23 cm; lomo estimado [POR ACLARAR: según páginas finales y papel]).
 
 ## Tapa (portada)
 
-**Título:** IA en la consulta
+**Título:** IA en la consulta de salud
 **Subtítulo de cubierta:** la revolución que cabe en diez minutos
 **Línea de posicionamiento:** Aplicación práctica para el médico de familia ante la obesidad
 **Autora:** Dra. Cristina B. Petratti
@@ -38,7 +38,7 @@ La autora declara vínculos con la industria farmacéutica, detallados al inicio
 
 ## Lomo
 
-IA en la consulta · Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad · [logo]
+IA en la consulta de salud · Dra. Cristina B. Petratti · Médica de familia, especialista en obesidad · [logo]
 
 ## Solapas (si la edición las lleva)
 
@@ -47,7 +47,7 @@ IA en la consulta · Dra. Cristina B. Petratti · Médica de familia, especialis
 
 ## Sintaxis de cubierta (jerarquía tipográfica propuesta)
 
-1. Título, muy grande, dos líneas: "IA en la consulta".
+1. Título, muy grande, dos líneas: "IA en la consulta de salud".
 2. Subtítulo en cursiva, una línea: "la revolución que cabe en diez minutos", con "diez minutos" enlazado al motivo gráfico (un reloj con un sector de diez minutos).
 3. Línea de posicionamiento, pequeña, en mayúsculas espaciadas.
 4. Autora, tamaño medio, con "Dra." en peso ligero.

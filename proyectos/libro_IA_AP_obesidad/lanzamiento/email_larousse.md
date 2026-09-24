@@ -18,7 +18,7 @@ Les cuento en tres líneas quién soy. Llevo más de veinticinco años de consul
 Tengo dos propuestas que podrían encajar en su catálogo de salud y bienestar:
 
 1. **Obesidades sin culpa**, ya escrito y publicado en 2026: dieciocho capítulos para personas que llevan años culpándose por algo que no depende de su fuerza de voluntad. Estaría encantada de hablar de una edición con Larousse [POR ACLARAR: según los derechos actuales: reedición, edición ampliada o edición para Latinoamérica].
-2. **IA en la consulta: la revolución que cabe en diez minutos**, manuscrito completo (diez capítulos y cuatro anexos, unas 130.000 palabras), continuación profesional del anterior: cómo usa hoy una médica de familia la inteligencia artificial generativa ante la obesidad, con más de setenta casos de uso y sus prompts, y una regla que atraviesa todo el libro: ningún dato de ningún paciente entra en una herramienta de consumo. Es un manual para médicos, pero está escrito para que lo lea cualquiera que quiera entender qué está pasando en las consultas.
+2. **IA en la consulta de salud: la revolución que cabe en diez minutos**, manuscrito completo (diez capítulos y cuatro anexos, unas 130.000 palabras), continuación profesional del anterior: cómo usa hoy una médica de familia la inteligencia artificial generativa ante la obesidad, con más de setenta casos de uso y sus prompts, y una regla que atraviesa todo el libro: ningún dato de ningún paciente entra en una herramienta de consumo. Es un manual para médicos, pero está escrito para que lo lea cualquiera que quiera entender qué está pasando en las consultas.
 
 Les adjunto la sinopsis y el índice de ambos, un capítulo de muestra, mi biografía y una fotografía. Si este buzón no es el adecuado, les agradecería que lo hicieran llegar a la persona responsable de no ficción o de salud y bienestar; con mucho gusto le envío el manuscrito completo y tengo disponibilidad para una llamada cuando les venga bien.
 
@@ -33,7 +33,7 @@ Autora de *Obesidades sin culpa* · Creadora del Método Petratti
 
 ## Versión corta (si responden y piden un resumen)
 
-Gracias por la respuesta. En una frase: soy médica de familia especialista en obesidad, con veinticinco años de consulta y presencia en España y Argentina, y propongo dos libros: *Obesidades sin culpa* (pacientes, publicado en 2026) e *IA en la consulta* (manuscrito completo, cómo usa la inteligencia artificial una médica de familia ante la obesidad sin exponer datos de nadie). Adjunto sinopsis, índice y capítulo de muestra de cada uno; el manuscrito completo, cuando lo pidan. Un saludo, Cristina Petratti.
+Gracias por la respuesta. En una frase: soy médica de familia especialista en obesidad, con veinticinco años de consulta y presencia en España y Argentina, y propongo dos libros: *Obesidades sin culpa* (pacientes, publicado en 2026) e *IA en la consulta de salud* (manuscrito completo, cómo usa la inteligencia artificial una médica de familia ante la obesidad sin exponer datos de nadie). Adjunto sinopsis, índice y capítulo de muestra de cada uno; el manuscrito completo, cuando lo pidan. Un saludo, Cristina Petratti.
 
 ---
 
@@ -41,7 +41,7 @@ Gracias por la respuesta. En una frase: soy médica de familia especialista en o
 
 | Adjunto | De dónde sale |
 |---|---|
-| Sinopsis, contratapa y biografía de *IA en la consulta* | `portada/sinopsis.md` (exportar a PDF) |
+| Sinopsis, contratapa y biografía de *IA en la consulta de salud* | `portada/sinopsis.md` (exportar a PDF) |
 | Índice de los diez capítulos y anexos | `indice_v2_caps_8-10.md` más el índice de la biblia |
 | Capítulo de muestra: el capítulo 1 | `capitulos/Capitulo_1_v3_borrador.pdf` |
 | Sinopsis e índice de *Obesidades sin culpa* | [POR ACLARAR: archivo de la autora] |

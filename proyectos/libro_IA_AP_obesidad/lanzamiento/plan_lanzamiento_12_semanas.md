@@ -1,4 +1,4 @@
-# Plan de lanzamiento en doce semanas · *IA en la consulta: la revolución que cabe en diez minutos*
+# Plan de lanzamiento en doce semanas · *IA en la consulta de salud: la revolución que cabe en diez minutos*
 
 > Preparado el 22-09-2026 por el orquestador para la Dra. Cristina B. Petratti. Objetivo realista: número uno de su categoría en Amazon la semana de lanzamiento y el libro que se recomienda en las sesiones de los centros de salud dos años después. Todo lo que aquí se publica en redes pasa por el protocolo del Módulo 3 (`memoria/M3_protocolo_creacion_reels_posts.md`): disclosure, siete líneas rojas, checklist antes de publicar. Las cifras de ventas son objetivos de trabajo, no previsiones.
 
@@ -57,11 +57,11 @@ Cada semana produce una cosa que se puede tocar (un correo enviado, un capítulo
 
 ## Plantilla: correo de petición de prólogo
 
-**Asunto:** Prólogo para *IA en la consulta: la revolución que cabe en diez minutos*
+**Asunto:** Prólogo para *IA en la consulta de salud: la revolución que cabe en diez minutos*
 
 Estimado/a [nombre]:
 
-Le escribo para pedirle el prólogo de mi próximo libro, *IA en la consulta: la revolución que cabe en diez minutos*, continuación profesional de *Obesidades sin culpa*. Es un manual para médicos de familia sobre el uso de la inteligencia artificial generativa ante la obesidad: diez capítulos, más de setenta casos de uso con sus prompts, y una regla que atraviesa todo el texto: ningún dato de ningún paciente entra en una herramienta de consumo.
+Le escribo para pedirle el prólogo de mi próximo libro, *IA en la consulta de salud: la revolución que cabe en diez minutos*, continuación profesional de *Obesidades sin culpa*. Es un manual para médicos de familia sobre el uso de la inteligencia artificial generativa ante la obesidad: diez capítulos, más de setenta casos de uso con sus prompts, y una regla que atraviesa todo el texto: ningún dato de ningún paciente entra en una herramienta de consumo.
 
 Le adjunto el manuscrito completo y el capítulo 1 aparte. El prólogo que le pido cabe en dos páginas y puede decir lo que usted quiera; si necesita una fecha, la maquetación cierra el [POR ACLARAR].
 

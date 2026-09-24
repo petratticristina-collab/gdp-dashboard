@@ -57,7 +57,7 @@ section.creditos{font-family:Arial,sans-serif;font-size:9pt;color:#4a5a60;line-h
 .aviso{font-family:Arial,sans-serif;font-size:8.5pt;color:#7d9490;border:1px dashed #b9c9c9;padding:6px 10px;margin-bottom:14px}"""
 
 portada = f"""<section class="portada">
-<div class="t">IA en la consulta:<br>la revolución que cabe en diez minutos</div>
+<div class="t">IA en la consulta de salud:<br>la revolución que cabe en diez minutos</div>
 <div class="s">Aplicación práctica para el médico de familia ante la obesidad</div>
 <div class="pos">Continuación profesional de <i>Obesidades sin culpa</i></div>
 <div class="a">Dra. Cristina B. Petratti</div>
@@ -67,7 +67,7 @@ portada = f"""<section class="portada">
 creditos = f"""<section class="creditos">
 <div class="aviso">Borrador de trabajo. Los capítulos 4, 6, 7, 8, 9 y 10 están pendientes de aprobación de la autora; las marcas [VERIFICAR] y [POR ACLARAR] señalan lo que se comprueba o decide antes de imprimir. Los prompts se pegan en la herramienta vigente cuando se lea; ninguna salida de IA de este libro sustituye la valoración clínica.</div>
 <p>© Cristina B. Petratti, 2026. [POR ACLARAR: editorial, ISBN, depósito legal, edición.]</p>
-<p>Título: <i>IA en la consulta: la revolución que cabe en diez minutos. Aplicación práctica para el médico de familia ante la obesidad.</i></p>
+<p>Título: <i>IA en la consulta de salud: la revolución que cabe en diez minutos. Aplicación práctica para el médico de familia ante la obesidad.</i></p>
 <p>Prólogo: [POR ACLARAR]. Diseño de cubierta: propuesta del orquestador editorial (carpeta <code>portada/</code>).</p>
 <p>Los casos clínicos de este libro son composiciones de varias personas (arquetipos compuestos) o casos sintéticos creados de cero; ninguno corresponde a una persona real. Los fármacos se citan por clase o principio activo, nunca por nombre comercial.</p>
 </section>
@@ -79,7 +79,7 @@ creditos = f"""<section class="creditos">
 <li style="margin-top:10px"><b>Anexos</b></li>{indice_anexos or '<li>[FALTA: anexos A-D]</li>'}
 </ul></section>"""
 
-html = (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>IA en la consulta · manuscrito</title><style>{css}</style></head>'
+html = (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>IA en la consulta de salud · manuscrito</title><style>{css}</style></head>'
         f'<body>{portada}{creditos}{"".join(cuerpo)}</body></html>')
 out_html = out_dir / "IA_en_la_consulta_manuscrito_borrador.html"; out_pdf = out_html.with_suffix(".pdf")
 out_html.write_text(html, encoding="utf-8")

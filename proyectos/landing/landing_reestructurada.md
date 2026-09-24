@@ -67,7 +67,7 @@ Soy Cristina B. Petratti, médica de familia, especialista en obesidad y salud m
 
 - **Formación:** Licenciada en Medicina [POR ACLARAR: universidad y año]. Especialista en Medicina Familiar y Comunitaria. [POR ACLARAR: máster o formación específica en obesidad, ejercicio o nutrición, con institución y año]. En 2026 me formé en inteligencia artificial generativa aplicada a la práctica clínica y en compliance de la divulgación sanitaria digital.
 - **Sociedades:** miembro de la Sociedad Española de Obesidad (SEEDO), en su Grupo de Trabajo de Ejercicio Físico y Obesidad. Coautora de SEEDO GO!, el programa de ejercicio de la sociedad.
-- **Libros:** *Obesidades sin culpa* (2026), para pacientes, y *IA en la consulta: la revolución que cabe en diez minutos* (en preparación), para médicos.
+- **Libros:** *Obesidades sin culpa* (2026), para pacientes, y *IA en la consulta de salud: la revolución que cabe en diez minutos* (en preparación), para médicos.
 - **Dónde:** consulta en Alicante y consulta online con pacientes de toda España y de Argentina.
 - **Colegiada:** nº [POR ACLARAR] del Colegio Oficial de Médicos de [POR ACLARAR].
 

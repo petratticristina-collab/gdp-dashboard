@@ -441,7 +441,7 @@ La plantilla de una página (problema, herramienta, datos, solución, validació
 
 # Título elegido por la autora (11-09-2026)
 
-**IA en la consulta: la revolución que cabe en diez minutos.** *Aplicación práctica para el médico de familia ante la obesidad.*
+**IA en la consulta de salud: la revolución que cabe en diez minutos.** *Aplicación práctica para el médico de familia ante la obesidad.*
 
 # Títulos alternativos considerados
 
