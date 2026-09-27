@@ -3,7 +3,7 @@
 Fecha: 26 de septiembre de 2026 · Instagram @crispetratti · Pilar dominante: ciencia desentrañada
 Idea de la serie: «El número que tu báscula no te da». Un reel al día o uno cada dos días, en este orden.
 Regla común: cintura medida en ayunas, de pie, en el punto medio entre última costilla y cresta ilíaca, tras
-espirar; el umbral divulgativo es cintura < mitad de la talla (ICT < 0,5, NICE 2022 para adultos con IMC < 35).
+espirar; el umbral divulgativo es cintura < mitad de la talla (ICT < 0,5; NICE, actualización de 2022 de CG189, mantenida en NG246 de 2025, para adultos con IMC < 35).
 Compliance de la serie: sin fármacos (no procede declaración de vínculo) · General + Referral en todos ·
 sin casos reales · sin cifras de kilos. CTA rotatorio: guardar → compartir → comentar «CINTA» → seguir → sesión.
 
@@ -23,7 +23,7 @@ CAPTION: Tu báscula no mide dónde guardas la grasa. Una cinta métrica, sí. �
 cintura entre tu altura; el objetivo es quedar por debajo de 0,5. Mañana te enseño a medirte bien, porque el
 90 % lo hace mal. Contenido divulgativo. No sustituye la valoración de tu médico/a. Si te reconoces en esto,
 llévalo a tu consulta. #obesidad #grasavisceral #saludmetabolica #indicecinturatalla #obesidadsinculpa
-FUENTE: NICE NG246 (2022): keep your waist to less than half your height · Ashwell M, Obes Rev 2012 (metaanálisis).
+FUENTE: NICE CG189 (actualización 2022) y NG246 (2025): keep your waist to less than half your height · Ashwell M, Obes Rev 2012 (metaanálisis).
 COMPLIANCE: General + Referral · vínculo: no aplica · caso: no aplica.
 
 ---

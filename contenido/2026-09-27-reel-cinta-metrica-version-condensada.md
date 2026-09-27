@@ -1,5 +1,7 @@
 # Reel · La cinta métrica que no miente (grasa visceral y cintura/altura)
 
+> Versión condensada en un solo reel de la serie de cinco del 26-09-2026 (`2026-09-26-serie-5-reels-indice-cintura-talla.md`), escrita el 27-09-2026 antes de recuperar aquella rama. La serie es la pieza principal: este reel sirve como resumen para TikTok o como pieza suelta si no se publica la serie completa. Corrección de fuente aplicada a ambos: la regla cintura/altura entró en NICE con la actualización de 2022 de la guía CG189 y se mantiene en NG246 (enero de 2025).
+
 **Plataforma y pilar:** Instagram (reel) y TikTok, mismo vídeo · Pilar: Ciencia desentrañada (con apertura de ¿Sabías qué?).
 **Formato y duración:** vídeo vertical 40-45 s, a cámara, con cinta métrica en mano. Subtítulos siempre.
 **Utilería:** cinta métrica; una silueta o tu propio cuerpo para señalar el punto de medida (entre la última costilla y la cresta ilíaca, al final de una espiración normal).
@@ -51,7 +53,7 @@ Comentarios: "¿Te la han medido alguna vez?" · Stories del mismo día: encuest
 - Patrocinado: no.
 
 ## Fuentes (comprobar en el original antes de publicar)
-1. NICE. Overweight and obesity management (NG246), 2025: recomienda la razón cintura/altura junto al IMC; 0,5-0,59 adiposidad central aumentada; 0,6 o más, alta.
+1. NICE. Overweight and obesity management (NG246), enero de 2025 (la razón cintura/altura entró en la actualización de septiembre de 2022 de CG189): recomienda cintura/altura junto al IMC; 0,5-0,59 adiposidad central aumentada; 0,6 o más, alta.
 2. Ashwell M, Gibson S. Waist-to-height ratio as an indicator of "early health risk": simpler and more predictive than using a "matrix" based on BMI and waist circumference. BMJ Open. 2016;6:e010159. Regla "mantén tu cintura por debajo de la mitad de tu altura".
 3. Ross R, et al. Waist circumference as a vital sign in clinical practice: a Consensus Statement from the IAS and ICCR Working Group on Visceral Obesity. Nat Rev Endocrinol. 2020;16:177-189. La cintura añade información de riesgo al IMC y debe medirse de forma rutinaria.
 4. Rubino F, et al. Definition and diagnostic criteria of clinical obesity. Lancet Diabetes Endocrinol. 2025 (Comisión Lancet): el IMC solo no basta; se confirma el exceso de adiposidad con cintura, cintura/altura o cintura/cadera.
