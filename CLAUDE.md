@@ -23,6 +23,17 @@ La carpeta `memoria/` contiene conocimiento que la usuaria (Dra. Cristina Petrat
 
 Cuando la usuaria aporte material nuevo "para tener en memoria", añadirlo a `memoria/` como Markdown estructurado, registrarlo en esta tabla y hacer commit.
 
+## Marca personal y contenido divulgativo (unificado el 27-09-2026 con la rama de la otra sesión)
+
+La usuaria es médica de familia, especialista en obesidad, creadora del Método Petratti®, autora de «Pierde peso» y «Obesidades sin culpa», y se posiciona como **líder de opinión digital (DOL)** dentro del programa CONNECTA (Programa de Líderes en divulgación científica digital, financiado por Novo Nordisk). Antes de redactar cualquier guion, reel, vídeo «quién soy», calendario editorial, caption o reflexión de marca, leer:
+
+- `memoria/perfil-dra-petratti.md`: identidad verificada, giro de posicionamiento, marco CONNECTA (M1-M3), respuestas literales al M3, mapa de marca y preguntas abiertas.
+- `memoria/Sistema_editorial_DOL.md`: protocolo de copy por plataforma (Instagram, LinkedIn, TikTok, YouTube) y formato de entrega.
+- `.claude/skills/guiones-reels-petratti/SKILL.md`: método de guiones de reels en serie y vídeo de presentación.
+- `contenido/`: piezas ya producidas (reels, series, guiones de TV, copys, guías PDF, consentimientos). Consultar antes de crear una pieza nueva para no duplicar; la serie de cinco reels del índice cintura/talla está en `contenido/2026-09-26-serie-5-reels-indice-cintura-talla.md`.
+
+Reglas siempre vigentes en contenido: español de España, tono guía con autoridad científica, sin culpa ni estigma; principio activo y mecanismo, nunca marca comercial; sin promesas de resultados ni cifras de pérdida de peso; casos solo como arquetipo compuesto declarado; declarar vínculos con la industria cuando el tema los toque; cada pieza con su disclaimer (General, Referral o Patrocinado); al presentar un caso clínico usar la skill `asistente-clinico-endocrino`; los campos `[confirmar]` de la memoria no se afirman como hechos.
+
 ## Proyectos en curso
 - `proyectos/libro_IA_AP_obesidad/prompt_gemini.md`: prompt maestro y secuencia de prompts para Gemini con los que la usuaria escribe un libro sobre IA en Atención Primaria para el abordaje de la obesidad. Al retomar el proyecto, leer primero ese archivo.
 - `proyectos/orquestadores/`: dos sistemas multiagente con prompts de sistema, esquema de traspaso JSON y mapa de nodos n8n. `orquestador_editorial.md` (libro, 7 agentes) y `orquestador_contenido.md` (reels y posts, 6 agentes). Si la usuaria pide ejecutar uno, lanzar los agentes con la herramienta Agent siguiendo esos prompts y el ciclo descrito.
