@@ -66,3 +66,9 @@ Notas: el disclaimer General va en la story 6 y en el destacado; las respuestas 
 - Variante corta (portada): **Tu peso está bien. Tu cintura, no.**
 - Variante pregunta: **¿Peso normal y riesgo de infarto? Mira dónde guardas la grasa**
 Regla: sin cifras de kilos, sin marcas, sin miedo gratuito; el título promete lo que el vídeo cumple.
+
+## Guía PDF para entregar por mensaje (palabra clave CINTURA)
+Archivos: `contenido/guia-cintura-dra-petratti.pdf` (genérica) y `contenido/guia-cintura-dra-petratti-maricarmen.pdf` (saludo personalizado). Generador: `contenido/build_guia_cintura.py [nombre]`. Dos páginas: cómo medir en cinco pasos con silueta, regla cintura/altura, tabla por alturas (0,5 y 0,6), qué hacer si la cifra está por encima, bloque "¿Quieres una cita? Escríbeme" con enlace y QR a Calendly, tres referencias para colegas (NICE NG246 2025, Ross 2020, Rubino 2025), disclaimer general y nota de vínculos en el pie.
+
+Respuesta automática al comentario "CINTURA": "Gracias por escribir CINTURA. Te mando por mensaje la guía de dos páginas para medirte bien y saber qué significa tu cifra. Es contenido divulgativo: si tu número está por encima, llévalo a tu médico/a o escríbeme para una cita."
+Mensaje directo con el PDF: "Aquí tienes la guía. Mídete mañana en ayunas, apunta la cifra y divídela entre tu altura. Si quieres que lo veamos juntas en consulta, escríbeme aquí mismo o reserva en el enlace de la guía. Por deontología no valoro casos por mensaje."
