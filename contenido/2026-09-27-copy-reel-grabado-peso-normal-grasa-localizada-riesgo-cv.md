@@ -47,3 +47,16 @@ Guardar el reel para medirse mañana en ayunas. Seguir para el reel de cómo med
 
 ## Checklist DOL
 Marca: no · promesa o kilos: no · caso real: no · fármacos: no (sin declaración) · disclaimer: General + Referral · DM: derivación · fuentes: sí · tono guía + experto: sí. Publicable.
+
+## Secuencia de stories del día (6 stories, publicar 1-2 h después del reel)
+
+| # | Formato | Texto en pantalla | Sticker / acción |
+|---|---|---|---|
+| 1 | Encuesta sobre fondo liso o foto de la cinta métrica | "¿Sabías que puedes tener peso normal y riesgo cardiovascular alto?" | Encuesta: "Sí, lo sabía" / "No tenía ni idea" |
+| 2 | Texto grande | "La báscula mide cuánto pesas. No dónde guardas la grasa. La que rodea tus órganos, la visceral, es la que inflama, sube la tensión y altera el colesterol." | Sin sticker; fondo de marca |
+| 3 | Compartir el reel | "Lo explico en 45 segundos 👇" | Reel compartido a story |
+| 4 | Vídeo selfie de 15 s o texto | "La regla: cintura por debajo de la mitad de tu altura. Mides 165 → cintura menor de 82. A partir de 0,6, riesgo alto." | Sticker deslizante: "¿Cuánto crees que mide tu cintura?" |
+| 5 | Caja de preguntas | "¿Qué te han dicho de tu cintura o de tu IMC en una consulta? Lo respondo en el próximo Q&A, sin valorar casos individuales." | Sticker de preguntas |
+| 6 | Cierre | "Mañana: cómo medirte bien en 30 segundos (el 90 % lo hace mal). Guarda el reel para medirte en ayunas." | Sticker de recordatorio o cuenta atrás; disclaimer en pequeño: "Contenido divulgativo. No sustituye la valoración de tu médico/a." |
+
+Notas: el disclaimer General va en la story 6 y en el destacado; las respuestas a la caja de preguntas se dan en reel o directo, nunca como consulta por mensaje. Guardar la secuencia en el destacado "Cintura" junto a los reels de la serie.
