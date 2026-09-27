@@ -1,6 +1,6 @@
 # Sistema editorial de la Dra. Cristina Petratti como DOL
 
-> **Regla fija (27-09-2026):** cada vez que la usuaria pida copy para LinkedIn, TikTok o YouTube (también Instagram si lo pide), se aplica este documento entero, sin que tenga que recordarlo. Ella es **DOL (Digital Opinion Leader)**: profesional sanitaria con audiencia propia, colaboración vigente con industria (Novo Nordisk) y responsabilidad deontológica sobre todo lo que firma. Eso cambia tres cosas en cada pieza: la transparencia va antes que el gancho, nunca aparece un medicamento de prescripción por su nombre, y la evidencia se cita para poder ser comprobada.
+> **Regla fija (27-09-2026):** cada vez que la usuaria pida copy para LinkedIn, TikTok, YouTube o Instagram, se aplica este documento entero, sin que tenga que recordarlo. Ella es **DOL (Digital Opinion Leader)**: profesional sanitaria con audiencia propia, colaboración vigente con industria (Novo Nordisk) y responsabilidad deontológica sobre todo lo que firma. Eso cambia tres cosas en cada pieza: la transparencia va antes que el gancho, nunca aparece un medicamento de prescripción por su nombre, y la evidencia se cita para poder ser comprobada.
 
 Este documento encadena los módulos del Programa de Líderes en divulgación científica digital que están en memoria: **M2** (anchor statement, 4 pilares, calendario, herramientas, IA básica: `M2_pilares_calendario_anchor_herramientas.md`) → **M3** (compliance: `M3_protocolo_creacion_reels_posts.md` y sus cinco archivos) → **M4** (simplificar evidencia sin perder rigor; pendiente de material) → **M7** (KPIs; pendiente) → **M9** (prompts y validación; pendiente; mientras tanto, `Curso_PotencIA_materiales_sesiones.md`). Producción con agentes: `proyectos/orquestadores/orquestador_contenido.md`.
 
@@ -18,22 +18,23 @@ Este documento encadena los módulos del Programa de Líderes en divulgación ci
 > «Hablo a adultos de 35 a 65 años que viven con obesidad, muchos después de cuatro o cinco dietas, y a los profesionales que los atienden (audiencia), para que entiendan que la obesidad es biología, no falta de voluntad (mensaje clave), y pidan ayuda sin culpa y con evidencia (take-away). Lo hago desde mi consulta de medicina de familia y obesidad en El Campello, Alicante (toque personal), en TikTok para el público general, en LinkedIn para colegas y en YouTube en formato largo (canal), porque el estigma sigue siendo la primera barrera para tratarla (propósito).»
 
 Versiones cortas para la bio:
-- **TikTok / Instagram:** "Médica de familia y de obesidad. Es biología, no falta de voluntad. Divulgo, no consulto por aquí."
+- **TikTok:** "Médica de familia y de obesidad. Es biología, no falta de voluntad. Divulgo, no consulto por aquí."
+- **Instagram:** "Médica de familia · Obesidad sin culpa 📖 · Es biología, no falta de voluntad · Divulgación, no consulta · Vínculos en el post fijado" (el disclaimer general del M3 va en el post fijado o destacado).
 - **LinkedIn:** "Médica de familia · Obesidad y salud metabólica · SEEDO · Autora de *Obesidades sin culpa* · Divulgación con evidencia. Vínculos con industria declarados en el post fijado."
 - **YouTube:** "Ciencia de la obesidad explicada sin culpa, por una médica de familia. Vídeos informativos: no sustituyen una valoración individual."
 
 ## 3. Pilar × canal × formato (mapa de trabajo)
 
-| Pilar (M2) | TikTok (público general) | LinkedIn (colegas, AP, gestores) | YouTube (formato largo) |
-|---|---|---|---|
-| Mito busting | Vídeo corto 30-45 s, gancho en 2 s, un solo mito | Post de texto con la evidencia detrás del mito y qué decir en consulta | Bloque dentro de un vídeo largo ("tres mitos que oigo cada semana") |
-| Ciencia desentrañada | Vídeo 45-60 s, una idea, un dibujo | Carrusel PDF 6-8 páginas o post con 3 ideas para no especialistas | Vídeo 8-15 min sobre un consenso o estudio |
-| Q&A | Respuesta a comentario (formato "responder a") | Post "tres preguntas que me hicieron esta semana" | Directo o vídeo de preguntas mensual |
-| ¿Sabías qué? | Vídeo 20-30 s con un dato y su fuente en pantalla | Estático con el dato, fuente y una reflexión profesional | Apertura de vídeo largo |
+| Pilar (M2) | Instagram (pacientes y comunidad) | TikTok (público general nuevo) | LinkedIn (colegas, AP, gestores) | YouTube (formato largo) |
+|---|---|---|---|---|
+| Mito busting | Reel 30-45 s (el mismo que TikTok) o estático "mito / realidad" | Vídeo corto 30-45 s, gancho en 2 s, un solo mito | Post de texto con la evidencia detrás del mito y qué decir en consulta | Bloque dentro de un vídeo largo ("tres mitos que oigo cada semana") |
+| Ciencia desentrañada | Carrusel 6-8 diapositivas con estilo sketchnote | Vídeo 45-60 s, una idea, un dibujo | Carrusel PDF o post con 3 ideas para no especialistas | Vídeo 8-15 min sobre un consenso o estudio |
+| Q&A | Sticker de preguntas en stories → reel de respuesta; directo mensual | Respuesta a comentario (formato "responder a") | Post "tres preguntas que me hicieron esta semana" | Directo o vídeo de preguntas mensual |
+| ¿Sabías qué? | Estático con el dato, fuente y una línea personal | Vídeo 20-30 s con un dato y su fuente en pantalla | Estático con el dato, fuente y reflexión profesional | Apertura de vídeo largo |
 
-Working mix de M2 en dos semanas (8 piezas): 2 estáticos (LinkedIn), 2 carruseles (LinkedIn o Instagram), 2 vídeos cortos (TikTok; se reutilizan como reel), 1 vídeo largo (YouTube), 1 directo o entrevista. Dos días fijos por semana; si no se llega a cuatro piezas, tres bien hechas.
+Working mix de M2 en dos semanas (8 piezas), tal como lo distribuye el ejemplo del curso: 2 estáticos (Instagram y LinkedIn), 2 carruseles (Instagram), 2 vídeos cortos (TikTok, reutilizados como reel en Instagram), 1 vídeo largo (YouTube), 1 directo (Instagram). Instagram es el canal ancla de la comunidad de pacientes; TikTok capta audiencia nueva; LinkedIn habla a colegas; YouTube profundiza. Dos días fijos por semana; si no se llega a cuatro piezas, tres bien hechas.
 
-Horas de referencia (del ejemplo del curso, ajustar con la analítica nativa a los 3 meses): LinkedIn martes-viernes 8:30-9:30; TikTok 13:00 y 21:00; YouTube martes o jueves 19:00.
+Horas de referencia (del ejemplo del curso, ajustar con la analítica nativa a los 3 meses): Instagram 21:00-21:30 y directos viernes 20:30; LinkedIn martes-viernes 8:30-9:30; TikTok 13:00; YouTube martes o jueves 19:00.
 
 ## 4. Protocolo de copy por plataforma
 
@@ -47,7 +48,16 @@ Común a las tres: gancho basado en una situación de consulta o en un dato con 
 - Hashtags: 3-5, específicos (#obesidad #atencionprimaria #saludmetabolica #medicinadefamilia).
 - Regla DOL: nunca "recomiendo", "indicado para", ni comparativas entre fármacos; la evidencia se describe, no se promociona.
 
-### TikTok (público general; se reutiliza como reel de Instagram)
+### Instagram (comunidad de pacientes; canal ancla)
+- Reels: mismo guion que TikTok (gancho 0-2 s, una idea con ejemplo de consulta, "qué puedes hacer", derivación y cierre), 30-45 s, subtítulos siempre, portada con la frase del gancho.
+- Carruseles: 6-8 diapositivas; la primera es el gancho en 6-8 palabras; una idea por diapositiva; penúltima con la fuente; última con la acción y el disclaimer que aplique. Estilo visual constante (misma fuente, paleta y estructura; guía sketchnote de `proyectos/libro_IA_AP_obesidad/voz.md`).
+- Estáticos: una frase que se lea en la miniatura del feed; el dato y su fuente en la imagen, no solo en el caption.
+- Stories: sticker de preguntas para alimentar el pilar Q&A (las respuestas se dan en reel o directo, nunca como consulta individual); encuestas de mito/realidad; recordatorio del directo. Las stories caducan, el disclaimer no: el general vive en el post fijado y en los destacados.
+- Caption: primera línea que aguante el corte (unas 10 palabras); 2-4 párrafos cortos; pregunta para comentarios; disclaimer de derivación cuando interpele; hashtags 5-8 al final o en primer comentario (#obesidad #obesidadsinculpa #saludmetabolica #medicinadefamilia #menopausia según tema).
+- Patrocinado: "#publi para [marca]" como primera palabra del caption, etiqueta de colaboración pagada de la plataforma y "Contenido patrocinado por [marca]" desde el primer fotograma.
+- Regla DOL: los mensajes directos no son consulta; respuesta preparada del M3 y, si llega un efecto adverso, protocolo RAM en tres pasos.
+
+### TikTok (público general; capta audiencia nueva)
 - Guion: 0-2 s gancho (pregunta o afirmación que rompa un mito); 2-25 s una idea con un ejemplo de consulta; 25-40 s "qué puedes hacer"; últimos 5 s derivación ("consúltalo con tu médico") y cierre de marca personal.
 - Copy del caption: 1-2 frases que añadan algo al vídeo, no que lo repitan; pregunta para comentarios; 3-5 hashtags.
 - Texto en pantalla: subtítulos siempre; el disclaimer de derivación aparece escrito al final; en patrocinado, "Contenido patrocinado por [marca]" desde el primer fotograma.
@@ -75,7 +85,7 @@ Común a las tres: gancho basado en una situación de consulta o en un dato con 
 
 ## 6. Qué entrego cada vez que pida copy
 
-Para cada pieza, en este orden: **plataforma y pilar** · **formato y duración** · **gancho** (y variante) · **guion o cuerpo** con texto en pantalla si es vídeo · **caption** · **CTA** · **hashtags** · **disclaimer que aplica** (general, derivación, patrocinado) y **línea de vínculos** si procede · **fuentes** (autor, año, dónde comprobarlas) · **checklist DOL** con puntuación. Si la pieza forma parte de una serie, la sitúo en el calendario de dos semanas y en el pilar que le toca.
+Para cada pieza (Instagram, TikTok, LinkedIn o YouTube), en este orden: **plataforma y pilar** · **formato y duración** · **gancho** (y variante) · **guion o cuerpo** con texto en pantalla si es vídeo · **caption** · **CTA** · **hashtags** · **disclaimer que aplica** (general, derivación, patrocinado) y **línea de vínculos** si procede · **fuentes** (autor, año, dónde comprobarlas) · **checklist DOL** con puntuación. Si la pieza forma parte de una serie, la sitúo en el calendario de dos semanas y en el pilar que le toca.
 
 ## 7. Cola de temas propios (para arrancar el calendario)
 
