@@ -60,3 +60,9 @@ Marca: no · promesa o kilos: no · caso real: no · fármacos: no (sin declarac
 | 6 | Cierre | "Mañana: cómo medirte bien en 30 segundos (el 90 % lo hace mal). Guarda el reel para medirte en ayunas." | Sticker de recordatorio o cuenta atrás; disclaimer en pequeño: "Contenido divulgativo. No sustituye la valoración de tu médico/a." |
 
 Notas: el disclaimer General va en la story 6 y en el destacado; las respuestas a la caja de preguntas se dan en reel o directo, nunca como consulta por mensaje. Guardar la secuencia en el destacado "Cintura" junto a los reels de la serie.
+
+## Título para TikTok (portada y primera línea del caption)
+- Recomendado: **Peso normal, riesgo cardiovascular alto: la grasa que la báscula no ve**
+- Variante corta (portada): **Tu peso está bien. Tu cintura, no.**
+- Variante pregunta: **¿Peso normal y riesgo de infarto? Mira dónde guardas la grasa**
+Regla: sin cifras de kilos, sin marcas, sin miedo gratuito; el título promete lo que el vídeo cumple.
