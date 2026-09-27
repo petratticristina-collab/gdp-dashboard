@@ -1,0 +1,82 @@
+# Sistema editorial de la Dra. Cristina Petratti como DOL
+
+> **Regla fija (27-09-2026):** cada vez que la usuaria pida copy para LinkedIn, TikTok o YouTube (también Instagram si lo pide), se aplica este documento entero, sin que tenga que recordarlo. Ella es **DOL (Digital Opinion Leader)**: profesional sanitaria con audiencia propia, colaboración vigente con industria (Novo Nordisk) y responsabilidad deontológica sobre todo lo que firma. Eso cambia tres cosas en cada pieza: la transparencia va antes que el gancho, nunca aparece un medicamento de prescripción por su nombre, y la evidencia se cita para poder ser comprobada.
+
+Este documento encadena los módulos del Programa de Líderes en divulgación científica digital que están en memoria: **M2** (anchor statement, 4 pilares, calendario, herramientas, IA básica: `M2_pilares_calendario_anchor_herramientas.md`) → **M3** (compliance: `M3_protocolo_creacion_reels_posts.md` y sus cinco archivos) → **M4** (simplificar evidencia sin perder rigor; pendiente de material) → **M7** (KPIs; pendiente) → **M9** (prompts y validación; pendiente; mientras tanto, `Curso_PotencIA_materiales_sesiones.md`). Producción con agentes: `proyectos/orquestadores/orquestador_contenido.md`.
+
+---
+
+## 1. Quién habla (identidad DOL)
+
+- Médica de familia, especialista en obesidad y salud metabólica. Consulta en El Campello (Alicante). Miembro de SEEDO. Autora de *Obesidades sin culpa*. Colaboradora en televisión ("Directo al grano"). Formada en IA aplicada a la clínica (autora de una calculadora de condición física).
+- **Tesis que atraviesa todo:** *la obesidad es biología, no falta de voluntad*. Sin culpa, sin estigma, con ciencia.
+- **Vínculos declarables:** formación patrocinada y colaboración vigente con Novo Nordisk. Ningún vínculo con proveedores de IA (las suscripciones son gasto propio). No hay contrato de tratamiento de datos con ninguna herramienta.
+- **Lo que no dice nunca:** nombres comerciales ni principios activos de fármacos de prescripción en contenido abierto ("el medicamento", "los tratamientos para la obesidad que prescribe y controla un médico"); "obeso/a" (siempre "persona con obesidad"); consejo individual por mensaje; cifras sin fuente; datos de pacientes reales (regla "una sola persona": todo caso es arquetipo compuesto y se etiqueta).
+
+## 2. Anchor statement (propuesta, pendiente de que ella lo haga suyo)
+
+> «Hablo a adultos de 35 a 65 años que viven con obesidad, muchos después de cuatro o cinco dietas, y a los profesionales que los atienden (audiencia), para que entiendan que la obesidad es biología, no falta de voluntad (mensaje clave), y pidan ayuda sin culpa y con evidencia (take-away). Lo hago desde mi consulta de medicina de familia y obesidad en El Campello, Alicante (toque personal), en TikTok para el público general, en LinkedIn para colegas y en YouTube en formato largo (canal), porque el estigma sigue siendo la primera barrera para tratarla (propósito).»
+
+Versiones cortas para la bio:
+- **TikTok / Instagram:** "Médica de familia y de obesidad. Es biología, no falta de voluntad. Divulgo, no consulto por aquí."
+- **LinkedIn:** "Médica de familia · Obesidad y salud metabólica · SEEDO · Autora de *Obesidades sin culpa* · Divulgación con evidencia. Vínculos con industria declarados en el post fijado."
+- **YouTube:** "Ciencia de la obesidad explicada sin culpa, por una médica de familia. Vídeos informativos: no sustituyen una valoración individual."
+
+## 3. Pilar × canal × formato (mapa de trabajo)
+
+| Pilar (M2) | TikTok (público general) | LinkedIn (colegas, AP, gestores) | YouTube (formato largo) |
+|---|---|---|---|
+| Mito busting | Vídeo corto 30-45 s, gancho en 2 s, un solo mito | Post de texto con la evidencia detrás del mito y qué decir en consulta | Bloque dentro de un vídeo largo ("tres mitos que oigo cada semana") |
+| Ciencia desentrañada | Vídeo 45-60 s, una idea, un dibujo | Carrusel PDF 6-8 páginas o post con 3 ideas para no especialistas | Vídeo 8-15 min sobre un consenso o estudio |
+| Q&A | Respuesta a comentario (formato "responder a") | Post "tres preguntas que me hicieron esta semana" | Directo o vídeo de preguntas mensual |
+| ¿Sabías qué? | Vídeo 20-30 s con un dato y su fuente en pantalla | Estático con el dato, fuente y una reflexión profesional | Apertura de vídeo largo |
+
+Working mix de M2 en dos semanas (8 piezas): 2 estáticos (LinkedIn), 2 carruseles (LinkedIn o Instagram), 2 vídeos cortos (TikTok; se reutilizan como reel), 1 vídeo largo (YouTube), 1 directo o entrevista. Dos días fijos por semana; si no se llega a cuatro piezas, tres bien hechas.
+
+Horas de referencia (del ejemplo del curso, ajustar con la analítica nativa a los 3 meses): LinkedIn martes-viernes 8:30-9:30; TikTok 13:00 y 21:00; YouTube martes o jueves 19:00.
+
+## 4. Protocolo de copy por plataforma
+
+Común a las tres: gancho basado en una situación de consulta o en un dato con fuente; una sola idea por pieza; tesis "biología, no voluntad" cuando aporte, no como muletilla; cierre con una acción concreta y, si el tema interpela clínicamente, el disclaimer de derivación (M3, área 2) verbalizado y escrito; ninguna marca; ninguna cifra sin fuente; ninguna persona real reconocible.
+
+### LinkedIn (audiencia profesional)
+- Estructura: primera línea que se sostiene sola antes del "ver más" (máximo 12 palabras); desarrollo en párrafos de 1-2 líneas; 3 ideas como máximo; cierre con pregunta a colegas o con "qué hago yo en consulta".
+- Longitud: 900-1.300 caracteres en posts de texto; carruseles de 6-8 páginas con una frase por página.
+- Tono: profesional y directo, primera persona, sin jerga sin definir, sin emojis o con uno como viñeta; cifras siempre con autor y año en el propio texto.
+- Disclosure: si el tema toca fármacos para la obesidad o formación, una línea al pie: "Vínculos: colaboración y formación con Novo Nordisk, declarados en mi post fijado." Contenido patrocinado: "#publi para [marca]" como primera palabra.
+- Hashtags: 3-5, específicos (#obesidad #atencionprimaria #saludmetabolica #medicinadefamilia).
+- Regla DOL: nunca "recomiendo", "indicado para", ni comparativas entre fármacos; la evidencia se describe, no se promociona.
+
+### TikTok (público general; se reutiliza como reel de Instagram)
+- Guion: 0-2 s gancho (pregunta o afirmación que rompa un mito); 2-25 s una idea con un ejemplo de consulta; 25-40 s "qué puedes hacer"; últimos 5 s derivación ("consúltalo con tu médico") y cierre de marca personal.
+- Copy del caption: 1-2 frases que añadan algo al vídeo, no que lo repitan; pregunta para comentarios; 3-5 hashtags.
+- Texto en pantalla: subtítulos siempre; el disclaimer de derivación aparece escrito al final; en patrocinado, "Contenido patrocinado por [marca]" desde el primer fotograma.
+- Tono: cercano, cálido, sin condescendencia; "persona con obesidad"; sin humor a costa de nadie.
+- Regla DOL: los medicamentos se llaman "el medicamento" o "el tratamiento que prescribe un médico"; nada de "te cuento cuál"; ninguna respuesta clínica individual en comentarios (protocolo de mensajes y RAM del M3).
+
+### YouTube (formato largo y descripciones)
+- Título: promesa concreta y honesta, sin clickbait, 60 caracteres. Miniatura con una frase de 3-5 palabras.
+- Guion: apertura de 30 s con el "¿sabías qué?" o la escena de consulta; índice hablado de 3 bloques; desarrollo con una fuente por afirmación fuerte; cierre con "qué haría yo en consulta" y disclaimer general verbalizado.
+- Descripción: 3 líneas de resumen; capítulos con minutaje; referencias completas (autor, año, revista o institución, enlace); declaración de vínculos; disclaimer general literal (M3, área 1); enlaces a la consulta y al libro.
+- Regla DOL: en vídeos que toquen tratamientos, la nota de transparencia va verbalizada en el primer minuto y escrita en la descripción; nunca dosis, pautas ni marcas.
+
+## 5. Checklist DOL antes de publicar (resumen del M3, en un minuto)
+
+1. ¿Está dentro de mi competencia y tiene propósito divulgativo, no promocional?
+2. ¿Hay alguna persona real reconocible? (tres checks de "una sola persona")
+3. ¿Toca fármacos? → sin marca ni principio activo; nota de vínculos.
+4. ¿Interpela clínicamente? → disclaimer de derivación dentro de la pieza.
+5. ¿Hay contraprestación? → #publi primera palabra + etiqueta en pantalla desde el inicio, además del disclaimer general.
+6. ¿Cada cifra tiene fuente comprobada en el original? (advertencia 1 del M2: la IA inventa)
+7. ¿Se ha usado IA? → ningún dato de paciente entró; lo firmo yo (regla de oro del M2).
+8. ¿Puede llegar un comentario con un efecto adverso? → protocolo RAM en tres pasos preparado.
+9. ¿Lo publicaría igual sabiendo que lo lee un paciente, un colega y un inspector?
+10. Puntuación: 8-10 publicar; 6-7 corregir; menos de 6 rehacer. Los puntos 2, 3, 6 y 7 son eliminatorios.
+
+## 6. Qué entrego cada vez que pida copy
+
+Para cada pieza, en este orden: **plataforma y pilar** · **formato y duración** · **gancho** (y variante) · **guion o cuerpo** con texto en pantalla si es vídeo · **caption** · **CTA** · **hashtags** · **disclaimer que aplica** (general, derivación, patrocinado) y **línea de vínculos** si procede · **fuentes** (autor, año, dónde comprobarlas) · **checklist DOL** con puntuación. Si la pieza forma parte de una serie, la sitúo en el calendario de dos semanas y en el pilar que le toca.
+
+## 7. Cola de temas propios (para arrancar el calendario)
+
+Con material ya trabajado en este repositorio: "El nuevo apetito" (por qué cambia lo que apetece con el tratamiento; industria alimentaria y etiquetas "aptas"); mitos de la perimenopausia y el peso; "una persona con obesidad no es una persona sin fuerza de voluntad"; qué mide de verdad la condición física (caminata, prensión, silla); IA en la consulta sin datos de pacientes; cómo leer una analítica metabólica sin asustarse; el estigma en la consulta y en los modelos de IA; sueño como tratamiento; lo que un médico de familia puede hacer en diez minutos.
