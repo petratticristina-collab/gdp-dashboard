@@ -29,7 +29,7 @@ el siguiente paso natural es una mesa dedicada a la inteligencia artificial en l
 gustaría proponerla para el congreso de 2027 o, si os parece oportuno, como actividad formativa de la sociedad
 antes de esa fecha.
 
-Este interés se ha reforzado en las últimas semanas. En el congreso de la EASD en Milán la inteligencia artificial estuvo muy presente, y allí participé en un curso de formación sobre IA organizado por Novo Nordisk [nombre exacto del curso]. En la sesión científica coincidí además con Albert Lecube [completar: qué presentó o qué comentasteis], lo que me confirmó que es un tema que la comunidad de la obesidad necesita abordar con criterio propio.
+Este interés viene de lejos y se ha reforzado en las últimas semanas. Hace tres años me formé en los fundamentos de la inteligencia artificial con un curso de Microsoft, y desde entonces la he ido incorporando a mi práctica. En el congreso de la EASD en Milán asistí a la sesión científica sobre IA organizada por Novo Nordisk, en la que participó Albert Lecube, y salí con la confirmación de que es un tema que la comunidad de la obesidad necesita abordar con criterio propio.
 
 La motivación es muy concreta. En mi práctica diaria, la IA ya me permite preparar en pocos minutos tareas que
 antes me llevaban buena parte de la consulta: el informe de evolución, la comparación de medidas entre visitas,
@@ -75,7 +75,7 @@ Clinic Now Rehab, Alicante · [teléfono] · [correo]
 
 ## Notas para ti (no enviar)
 
-- **Mención a Novo Nordisk.** Citar el curso es transparente y está bien: es tu vínculo declarado. Pero conviene que la mesa se proponga como iniciativa independiente de la industria, sin patrocinio del laboratorio, para que SEEDO pueda respaldarla sin conflicto.
+- **Mención a Novo Nordisk.** Citar la sesión es transparente y está bien: es tu vínculo declarado. Pero conviene que la mesa se proponga como iniciativa independiente de la industria, sin patrocinio del laboratorio, para que SEEDO pueda respaldarla sin conflicto.
 - **Albert Lecube** es director de la revista de SEEDO y forma parte de la Junta. Si tienes relación con él, ponlo en copia: un aliado dentro de la Junta ayuda mucho.
 
 - **«De 20 minutos a 2 segundos».** Lo he sustituido por «en pocos minutos tareas que antes me llevaban buena
