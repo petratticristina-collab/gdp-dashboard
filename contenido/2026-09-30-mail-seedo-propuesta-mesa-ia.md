@@ -29,7 +29,7 @@ el siguiente paso natural es una mesa dedicada a la inteligencia artificial en l
 gustaría proponerla para el congreso de 2027 o, si os parece oportuno, como actividad formativa de la sociedad
 antes de esa fecha.
 
-Este interés viene de lejos y se ha reforzado en las últimas semanas. Hace tres años me formé en los fundamentos de la inteligencia artificial con un curso de Microsoft, y desde entonces la he ido incorporando a mi práctica. En el congreso de la EASD en Milán asistí a la sesión científica sobre IA organizada por Novo Nordisk, en la que participó Albert Lecube, y salí con la confirmación de que es un tema que la comunidad de la obesidad necesita abordar con criterio propio.
+Este interés viene de lejos y se ha reforzado en las últimas semanas. Hace tres años me formé en los fundamentos de la inteligencia artificial con un curso de Microsoft, y desde entonces la he ido incorporando a mi práctica. En el congreso de la EASD en Milán asistí a PotencIA, la sesión científica sobre inteligencia artificial organizada por Novo Nordisk, en la que participó Albert Lecube, y salí con la confirmación de que es un tema que la comunidad de la obesidad necesita abordar con criterio propio.
 
 La motivación es muy concreta. En mi práctica diaria, la IA ya me permite preparar en pocos minutos tareas que
 antes me llevaban buena parte de la consulta: el informe de evolución, la comparación de medidas entre visitas,
