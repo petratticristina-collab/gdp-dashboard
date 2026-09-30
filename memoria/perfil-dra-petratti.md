@@ -14,7 +14,8 @@ Todo lo marcado con `[confirmar]` es inferencia o dato público que la Dra. Petr
 | Nombre público | Dra. Cristina Petratti |
 | Titulación | Médica de familia, especializada en obesidad y medicina de la obesidad |
 | Experiencia | Más de 25 años en obesidad y nutrición |
-| Sociedades | SEEDO (Sociedad Española para el Estudio de la Obesidad); vinculada a EASO `[confirmar rol exacto]` |
+| Sociedades | SEEDO (Sociedad Española para el Estudio de la Obesidad); vinculada a EASO `[confirmar rol exacto]`. Presidencia SEEDO desde 20/11/2025: Dr. Diego Bellido Guerrero; vicepresidenta Dra. Gema Medina. XXI Congreso SEEDO: Cádiz, 25–27/11/2026 |
+| Iniciativas propias | Propuesta a SEEDO de mesa «IA en la consulta de obesidad» (sept. 2026) |
 | Marca registrada | Método Petratti® — tres pilares: alimentación flexible · ejercicio adaptado · gestión emocional |
 | Libros | «Pierde peso» (bestseller) · «Obesidades sin culpa. No es falta de voluntad. Es biología» (2026) |
 | Canales | Instagram @crispetratti · YouTube @dra.cristinapetratti · Threads @crispetratti · LinkedIn · web cristinapetratti.com · podcast «Quiérete mucho» `[confirmar]` |
