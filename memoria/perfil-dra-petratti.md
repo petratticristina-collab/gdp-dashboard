@@ -81,6 +81,16 @@ es su diferencial y debe trasladarse a los guiones.
 - Ha entrado una **nueva comunidad** `[confirmar: origen, tamaño, plataforma, qué la trajo]` a la que quiere
   enganchar con una serie amplia de reels (ella habla de «mil reels» = producción en serie, sistemática).
 
+### EASD 2026 Milán · programa DOL de Novo Nordisk (sept.–oct. 2026)
+- Participó como **DOL (digital opinion leader)** en sesiones **NOVO SYNC** de Novo Nordisk en la EASD de Milán.
+  · 29/09/2026: sesión sobre semaglutida (oral OASIS 4, STEP UP 7,2 mg, composición corporal, health gain).
+  · 01/10/2026: «Better outcomes, better lives: Optimizing treatment choices», Dr. Sean Wharton.
+  · Sesión científica PotencIA sobre IA (Novo Nordisk), con Albert Lecube como asesor científico.
+- Es un **segundo vínculo con Novo Nordisk** además de CONNECTA: declararlo en todo contenido que derive de estas
+  sesiones. `[confirmar si la compañía cubrió viaje, alojamiento o inscripción]`
+- Formación propia en IA: curso de Microsoft (hace ~3 años). Usa ChatGPT como espacio de trabajo con tareas
+  programadas (selección científica semanal, agenda editorial de LinkedIn, briefing de cardiometabolismo).
+
 ### Implicación de compliance que ella misma debe tener en cuenta
 Participar en un programa formativo financiado por Novo Nordisk (fabricante de arGLP-1: semaglutida,
 liraglutida) es un **vínculo declarable** cuando divulgue sobre fármacos para obesidad/diabetes. Según su
