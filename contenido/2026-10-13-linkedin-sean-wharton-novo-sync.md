@@ -67,6 +67,44 @@ Disclosure: I attended as part of a Novo Nordisk programme for health communicat
 
 ---
 
+## POST BILINGÜE ESPAÑOL + INGLÉS (versión para publicar · 2.175 caracteres, límite 3.000)
+
+La pregunta ya no es qué tratamiento funciona mejor. Es qué necesita esta persona, ahora, y para qué.
+
+En la EASD de Milán compartí la sesión «Better outcomes, better lives: optimizing treatment choices» con el Dr. Sean Wharton, autor principal de la guía canadiense de obesidad en adultos.
+
+Vuelvo con tres reflexiones para mi consulta:
+
+1️⃣ Elegir un tratamiento es individualizar: historia clínica, complicaciones, medicación actual, rutina y preferencias.
+2️⃣ El objetivo es ganar salud, no solo perder peso: salud cardiometabólica, movilidad, sueño y calidad de vida.
+3️⃣ La obesidad es una enfermedad crónica: decisiones compartidas, objetivos claros y un plan para mantener lo conseguido.
+
+Y como divulgadora: traducir la evidencia con rigor, sin falsas expectativas y sin culpa. Frente a la desinformación, criterio.
+
+Gracias, Sean, por el encuentro.
+
+🇬🇧 English
+
+The question is no longer which treatment works best. It is what this person needs, right now, and what for.
+
+At EASD in Milan I shared the session "Better outcomes, better lives: optimizing treatment choices" with Dr. Sean Wharton, lead author of the Canadian adult obesity clinical practice guideline.
+
+Three reflections I bring back to my practice:
+
+1️⃣ Choosing a treatment means individualizing it: medical history, complications, current medication, daily routine and preferences.
+2️⃣ The goal is health gain, not just weight loss: cardiometabolic health, mobility, sleep and quality of life.
+3️⃣ Obesity is a chronic disease: shared decisions, clear goals and a plan to maintain what has been achieved.
+
+And as a health communicator: translating evidence with rigour, without false expectations and without blame. Against misinformation, sound judgement.
+
+Thank you, Sean, for the conversation.
+
+Transparencia / Disclosure: asistí como parte de un programa de Novo Nordisk para divulgadores sanitarios. Publicación propia, no revisada ni pagada por la compañía. / I attended as part of a Novo Nordisk programme for health communicators. This post is my own, not reviewed or paid for by the company.
+
+#Obesidad #Obesity #EASD2026 #EvidenceBasedMedicine #SaludCardiometabolica #HealthCommunication
+
+---
+
 ## FOTO
 
 - Texto alternativo (accesibilidad): «La Dra. Cristina Petratti junto al Dr. Sean Wharton en el congreso de la
