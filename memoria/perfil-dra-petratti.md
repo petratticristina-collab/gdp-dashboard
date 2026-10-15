@@ -91,6 +91,12 @@ es su diferencial y debe trasladarse a los guiones.
 - Formación propia en IA: curso de Microsoft (hace ~3 años). Usa ChatGPT como espacio de trabajo con tareas
   programadas (selección científica semanal, agenda editorial de LinkedIn, briefing de cardiometabolismo).
 
+### Colaboración comercial con Belevels (suplementos)
+- Tiene **código de descuento propio** («Cris Petratti») con la marca de suplementos Belevels y recomienda su magnesio
+  a pacientes. Es un **interés económico declarable**: no incluir el código en informes clínicos; si se comparte con
+  pacientes, hacerlo aparte, declarando el vínculo y ofreciendo alternativa equivalente sin código. En redes, cualquier
+  mención con código es publicidad: #publi y etiqueta de colaboración (Código de Conducta de Influencers).
+
 ### Implicación de compliance que ella misma debe tener en cuenta
 Participar en un programa formativo financiado por Novo Nordisk (fabricante de arGLP-1: semaglutida,
 liraglutida) es un **vínculo declarable** cuando divulgue sobre fármacos para obesidad/diabetes. Según su
