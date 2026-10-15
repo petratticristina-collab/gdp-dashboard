@@ -50,6 +50,16 @@ Lectura simbólica útil para guiones: la mariposa habla de transformación y li
 turquesa aporta calma clínica y el verde, vitalidad. Tipografía manuscrita solo para el logo; el cuerpo de
 texto en sans serif limpia para legibilidad en móvil.
 
+### Facturación (formato vigente)
+- Plantilla de referencia: factura nº 160 (15/09/2026). Cabecera con logo «Método Dra. Petratti» y «FACTURA Nº X» +
+  «Fecha de emisión»; bloque de datos profesionales (nombre, especialidad, nº colegiada, NIF, domicilio profesional,
+  web e Instagram); bloque «Datos del paciente» (nombre, DNI, dirección); tabla Concepto/Importe; IVA «Exento» con la
+  leyenda «Actividad sanitaria exenta de IVA según el artículo 20 de la Ley 37/1992»; forma de pago; firma escaneada.
+- Concepto habitual: «Consulta médica especializada en obesidad y nutrición» · 110,00 € · pago por Bizum.
+- Método de trabajo: copiar el PDF de la última factura y sustituir solo número, fecha y, si cambia, paciente e
+  importe, para conservar logo y firma. NIF, domicilio y datos de pacientes NO se guardan en el repositorio.
+- Última factura emitida en esta memoria: **nº 166**, 14/10/2026. La siguiente sería la 167 `[confirmar numeración]`.
+
 ### Tesis públicas que ya la definen (su "voz científica")
 - «Comer menos y moverse más» es un eslogan científicamente incorrecto y dañino para quien vive con obesidad.
 - La obesidad es una enfermedad crónica, compleja y multifactorial: cerebro, hormonas, metabolismo, entorno y emociones.
