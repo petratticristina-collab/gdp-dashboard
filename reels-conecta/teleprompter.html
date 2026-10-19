@@ -1,0 +1,265 @@
+<title>Teleprompter Conecta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: estudio oscuro a pantalla completa; barra de control arriba, guion desplazándose sobre una línea de lectura fija al 33 % de altura. Diseño solo oscuro a propósito (un teleprompter siempre es oscuro). */
+:root{
+  --stage:#0d1114;
+  --panel:#161c21;
+  --line:#26313a;
+  --ink:#f3f1ea;
+  --mute:#8b98a3;
+  --cue:#7cc6c0;      /* texto en pantalla / acotaciones */
+  --hook:#ffb547;     /* hook y línea de lectura */
+  --ok:#5fd18b;
+  --warn:#ff6b5e;
+  --f-read:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--stage);color:var(--ink);font-family:var(--f-read);overflow:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--panel);z-index:10}
+.app{display:flex;flex-direction:column;height:100%}
+.bar{background:var(--panel);border-bottom:1px solid var(--line);padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.brand{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px;color:var(--mute)}
+.brand b{color:var(--hook)}
+.timer{font-family:var(--f-mono);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;min-width:5ch}
+.timer[data-z="hook"]{color:var(--hook)}
+.timer[data-z="ok"]{color:var(--ok)}
+.timer[data-z="over"]{color:var(--warn)}
+.zone{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.grp{display:flex;align-items:center;gap:8px}
+.grow{flex:1}
+button,.ctl{font:inherit;font-size:14px;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer}
+button:hover{border-color:var(--mute)}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--hook);outline-offset:2px}
+button.primary{background:var(--hook);border-color:var(--hook);color:#1a1205;font-weight:700;min-width:9ch}
+button[aria-pressed="true"]{border-color:var(--cue);color:var(--cue)}
+label{font-size:12px;color:var(--mute);display:flex;align-items:center;gap:6px}
+input[type=range]{width:96px;accent-color:var(--hook)}
+.stagewrap{position:relative;flex:1;min-height:0}
+.scroller{position:absolute;inset:0;overflow-y:auto;scrollbar-width:none}
+.scroller::-webkit-scrollbar{display:none}
+.script{max-width:30ch;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:33vh 70vh;font-size:var(--fs,44px);line-height:1.42}
+.script.mirror{transform:scaleX(-1)}
+.sec{font-size:.34em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:1.6em 0 .5em;display:flex;gap:.8em;align-items:center}
+.sec::after{content:"";flex:1;height:1px;background:var(--line)}
+.sec.hook{color:var(--hook)}
+.say{margin:0 0 .7em}
+.cue{font-size:.42em;font-style:italic;color:var(--cue);margin:-.3em 0 1.2em;padding-left:.8em;border-left:2px solid var(--cue)}
+.readline{position:absolute;left:0;right:0;top:33%;height:0;border-top:2px solid var(--hook);opacity:.55;pointer-events:none}
+.readline::before,.readline::after{content:"";position:absolute;top:-9px;border:8px solid transparent}
+.readline::before{left:0;border-left-color:var(--hook)}
+.readline::after{right:0;border-right-color:var(--hook)}
+.fade{position:absolute;left:0;right:0;pointer-events:none}
+.fade.t{top:0;height:18%;background:linear-gradient(var(--stage),transparent)}
+.fade.b{bottom:0;height:22%;background:linear-gradient(transparent,var(--stage))}
+.count{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-mono);font-size:min(40vw,240px);font-weight:700;color:var(--hook);background:color-mix(in srgb,var(--stage) 80%,transparent)}
+.drawer{position:absolute;inset:0;background:var(--stage);overflow-y:auto;padding-block:20px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.drawer .in{max-width:760px;margin:0 auto;display:grid;gap:18px}
+.drawer h2{font-size:20px;margin:0;text-wrap:balance}
+.drawer p,.drawer li{color:var(--mute);line-height:1.55;font-size:14px}
+.drawer code{font-family:var(--f-mono);color:var(--cue);font-size:13px}
+textarea{width:100%;min-height:52vh;box-sizing:border-box;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:14px;font:15px/1.6 var(--f-mono);resize:vertical}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:10px;padding:0;margin:0;list-style:none}
+.checks li{display:flex;gap:10px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--ink)}
+.checks input{margin-top:3px;accent-color:var(--ok)}
+.checks small{display:block;color:var(--mute);font-size:12px;margin-top:2px}
+.row{display:flex;flex-wrap:wrap;gap:10px}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--mute)}
+@media (max-width:640px){.script{font-size:calc(var(--fs,44px)*.72)} .hide-s{display:none}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="app">
+  <div class="bar">
+    <span class="brand"><b>Conecta</b> · Teleprompter</span>
+    <div class="grp"><span class="timer" id="timer" data-z="hook">0:00</span><span class="zone" id="zone">Hook</span></div>
+    <span class="meta hide-s" id="est"></span>
+    <span class="grow"></span>
+    <div class="grp">
+      <button class="primary" id="play">▶ Grabar</button>
+      <button id="reset" title="Volver al inicio (R)">↺ Inicio</button>
+    </div>
+    <div class="grp">
+      <label for="speed">Velocidad <input type="range" id="speed" min="10" max="120" value="42"></label>
+      <label for="size" class="hide-s">Letra <input type="range" id="size" min="26" max="80" value="44"></label>
+    </div>
+    <div class="grp">
+      <button id="mirror" aria-pressed="false" title="Para cristal de teleprompter">Espejo</button>
+      <button id="check" aria-pressed="false">Checklist</button>
+      <button id="edit" aria-pressed="false">Editar guion</button>
+      <button id="fs" class="hide-s">Pantalla completa</button>
+    </div>
+  </div>
+
+  <div class="stagewrap">
+    <div class="scroller" id="scroller"><div class="script" id="script"></div></div>
+    <div class="fade t"></div><div class="fade b"></div>
+    <div class="readline" aria-hidden="true"></div>
+    <div class="count" id="count" hidden></div>
+
+    <div class="drawer" id="editor" hidden>
+      <div class="in">
+        <h2>Editar guion</h2>
+        <p>Cada línea es una frase que dirás. <code># TÍTULO</code> marca un tramo (usa <code># HOOK</code> para el inicio). Las líneas entre <code>[corchetes]</code> son acotaciones o texto en pantalla: se ven en turquesa y no se leen en voz alta.</p>
+        <textarea id="src" spellcheck="true"></textarea>
+        <div class="row"><button class="primary" id="save">Guardar y volver</button><button id="restore">Restaurar guion de ejemplo</button></div>
+      </div>
+    </div>
+
+    <div class="drawer" id="checklist" hidden>
+      <div class="in">
+        <h2>Antes de pulsar Grabar</h2>
+        <p>Estándar de Reels Conecta. Si todo está marcado, adelante.</p>
+        <ul class="checks" id="checks"></ul>
+        <div class="row"><button class="primary" id="closecheck">Listo, al teleprompter</button><button id="clearcheck">Desmarcar todo</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DEFAULT = `# HOOK
+¿Y si te dijera que tu cuerpo lucha para que recuperes el peso que perdiste?
+[Mirada fija a cámara. Pausa de 1 segundo.]
+
+# QUIÉN SOY Y QUÉ DESMONTO
+Soy la doctora Cristina Petratti, endocrinóloga.
+Y hoy desmonto un mito que hace mucho daño en consulta: que la obesidad es falta de fuerza de voluntad.
+[Texto en pantalla: MITO · «Es falta de voluntad»]
+
+# LA BIOLOGÍA
+Cuando pierdes peso, tu cerebro no lo celebra. Lo interpreta como una amenaza.
+Baja la leptina, la hormona que dice «tengo reservas».
+Y sube la grelina, la que dice «tengo hambre».
+[Highlight card: ↓ Leptina · ↑ Grelina]
+Un estudio en el New England Journal of Medicine vio que estos cambios seguían presentes un año después de adelgazar.
+[Fuente en pantalla: Sumithran P et al. N Engl J Med 2011;365:1597-604]
+
+# LA GENÉTICA
+Además, se han identificado casi cien regiones del genoma asociadas al índice de masa corporal.
+[Fuente en pantalla: Locke AE et al. Nature 2015;518:197-206]
+Por eso la Organización Mundial de la Salud reconoce la obesidad como una enfermedad crónica.
+No como un defecto de carácter.
+
+# LO QUE SÍ IMPORTA
+Esto no significa que lo que haces no cuente.
+Significa que necesitas un plan que tenga en cuenta tu biología, no solo tu voluntad.
+[Cambia el ritmo: más lento, voz más baja.]
+
+# CIERRE
+La próxima vez que alguien te diga «solo tienes que comer menos», recuérdalo:
+no estás luchando contra tu falta de voluntad.
+Estás negociando con tu biología.
+[Silencio 2 segundos mirando a cámara. Sin despedida.]`;
+
+const CHECKS = [
+  ["Formato vertical 9:16, 1080p","Móvil en horizontal NO: en vertical, cámara trasera si puedes."],
+  ["Luz de frente, nunca detrás","Ventana o aro delante de ti, a la altura de los ojos."],
+  ["Micrófono lavalier puesto","A un palmo de la boca. Prueba: ¿se entiende en el altavoz del móvil?"],
+  ["Silencio en la sala","Ventanas cerradas, notificaciones fuera, aire acondicionado apagado."],
+  ["Encuadre en regla de tercios","Ojos en el tercio superior. Fondo limpio, sin ruido visual."],
+  ["Teleprompter pegado a la cámara","Ponlo justo debajo del objetivo para que tu mirada no se desvíe."],
+  ["Mirar a la cámara, no a la pantalla","Lee en la línea ámbar y vuelve al objetivo en cada pausa."],
+  ["Postura con energía","Hombros atrás, de pie si puedes. Sonrisa antes de empezar."],
+  ["Ninguna marca comercial de fármaco","Solo principio activo o grupo terapéutico."],
+  ["Ningún paciente identificable","Ni imagen, ni voz, ni datos clínicos."],
+  ["Fuentes listas para el texto en pantalla","Cada dato cuantitativo lleva su referencia visible."],
+  ["Cierre con un pensamiento","Nada de «suscríbete» ni «espero que os haya gustado»."]
+];
+
+const $ = id => document.getElementById(id);
+const store = {
+  get(k,d){try{const v=localStorage.getItem("conecta-tp-"+k);return v===null?d:JSON.parse(v)}catch(e){return d}},
+  set(k,v){try{localStorage.setItem("conecta-tp-"+k,JSON.stringify(v))}catch(e){}}
+};
+
+let src = store.get("src", DEFAULT);
+const scroller = $("scroller"), scriptEl = $("script");
+
+function esc(s){return s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+function render(){
+  let html = "", words = 0;
+  for (const raw of src.split("\n")) {
+    const l = raw.trim(); if (!l) continue;
+    if (l.startsWith("#")) { const t=l.replace(/^#+\s*/,""); html += `<div class="sec${/hook/i.test(t)?" hook":""}">${esc(t)}</div>`; }
+    else if (/^\[.*\]$/.test(l)) html += `<div class="cue">${esc(l.slice(1,-1))}</div>`;
+    else { html += `<p class="say">${esc(l)}</p>`; words += l.split(/\s+/).length; }
+  }
+  scriptEl.innerHTML = html;
+  const secs = Math.round(words/150*60);
+  $("est").textContent = `${words} palabras · ≈ ${fmt(secs)} a ritmo natural`;
+}
+function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")}
+
+// Ajustes
+const speed=$("speed"), size=$("size");
+speed.value = store.get("speed",42); size.value = store.get("size",44);
+const applySize=()=>{scriptEl.style.setProperty("--fs",size.value+"px");store.set("size",+size.value)};
+size.oninput=applySize; speed.oninput=()=>store.set("speed",+speed.value);
+let mirrored = store.get("mirror",false);
+const applyMirror=()=>{scriptEl.classList.toggle("mirror",mirrored);$("mirror").setAttribute("aria-pressed",mirrored)};
+$("mirror").onclick=()=>{mirrored=!mirrored;store.set("mirror",mirrored);applyMirror()};
+
+// Reproducción
+let playing=false, last=0, acc=0, elapsed=0, t0=0, raf=0, lock=null;
+function zone(){
+  const z = elapsed<3?"hook":elapsed<=90?(elapsed<60?"run":"ok"):"over";
+  $("timer").textContent = fmt(elapsed);
+  $("timer").dataset.z = z==="run"?"":z;
+  $("zone").textContent = {hook:"Hook · 0–3 s",run:"Desarrollo",ok:"Zona 60–90 s",over:"Te pasas de 90 s"}[z];
+}
+function tick(now){
+  if(!playing) return;
+  const dt=(now-last)/1000; last=now;
+  elapsed += dt;
+  acc += speed.value*dt*(window.innerWidth<640?.75:1);
+  if (acc>=1){ const n=Math.floor(acc); scroller.scrollTop+=n; acc-=n; }
+  zone();
+  if (scroller.scrollTop+scroller.clientHeight>=scroller.scrollHeight-2) stop();
+  else raf=requestAnimationFrame(tick);
+}
+async function start(){
+  closeDrawers();
+  const c=$("count"); c.hidden=false;
+  for (const n of [3,2,1]) { c.textContent=n; await new Promise(r=>setTimeout(r,800)); }
+  c.hidden=true;
+  playing=true; last=performance.now(); $("play").textContent="❚❚ Pausa";
+  try{ lock = await navigator.wakeLock?.request("screen"); }catch(e){}
+  raf=requestAnimationFrame(tick);
+}
+function stop(){ playing=false; cancelAnimationFrame(raf); $("play").textContent="▶ Seguir"; try{lock?.release()}catch(e){} }
+function reset(){ stop(); scroller.scrollTop=0; elapsed=0; zone(); $("play").textContent="▶ Grabar"; }
+$("play").onclick=()=>playing?stop():start();
+$("reset").onclick=reset;
+
+// Editor y checklist
+function closeDrawers(){ $("editor").hidden=true; $("checklist").hidden=true; $("edit").setAttribute("aria-pressed",false); $("check").setAttribute("aria-pressed",false); }
+function openDrawer(id,btn){ stop(); const was=!$(id).hidden; closeDrawers(); if(!was){$(id).hidden=false;$(btn).setAttribute("aria-pressed",true)} }
+$("edit").onclick=()=>{ $("src").value=src; openDrawer("editor","edit"); };
+$("save").onclick=()=>{ src=$("src").value; store.set("src",src); render(); closeDrawers(); reset(); };
+$("restore").onclick=()=>{ $("src").value=DEFAULT; };
+$("check").onclick=()=>openDrawer("checklist","check");
+$("closecheck").onclick=closeDrawers;
+let ticked = store.get("checks",[]);
+function renderChecks(){
+  $("checks").innerHTML = CHECKS.map(([t,s],i)=>`<li><input type="checkbox" id="ck${i}" ${ticked.includes(i)?"checked":""}><label for="ck${i}" style="display:block;color:var(--ink);font-size:14px">${t}<small>${s}</small></label></li>`).join("");
+  CHECKS.forEach((_,i)=>$("ck"+i).onchange=e=>{ ticked=e.target.checked?[...ticked,i]:ticked.filter(x=>x!==i); store.set("checks",ticked); });
+}
+$("clearcheck").onclick=()=>{ticked=[];store.set("checks",ticked);renderChecks()};
+
+$("fs").onclick=()=>{ (document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())?.catch?.(()=>{}); };
+
+document.addEventListener("keydown",e=>{
+  if (e.target.tagName==="TEXTAREA"||e.target.tagName==="INPUT") return;
+  if (e.code==="Space"){ e.preventDefault(); playing?stop():start(); }
+  else if (e.key==="ArrowUp"){ e.preventDefault(); speed.value=+speed.value+5; speed.oninput(); }
+  else if (e.key==="ArrowDown"){ e.preventDefault(); speed.value=+speed.value-5; speed.oninput(); }
+  else if (e.key==="r"||e.key==="R") reset();
+});
+
+render(); applySize(); applyMirror(); renderChecks(); zone();
+</script>
