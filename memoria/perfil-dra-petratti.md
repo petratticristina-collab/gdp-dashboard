@@ -60,6 +60,13 @@ texto en sans serif limpia para legibilidad en móvil.
   importe, para conservar logo y firma. NIF, domicilio y datos de pacientes NO se guardan en el repositorio.
 - Última factura emitida en esta memoria: **nº 167**, 20/10/2026. La siguiente sería la 168 `[confirmar numeración]`.
 
+### Apariciones en medios
+- Cuídate Plus (19/10/2026): «Ni a las 22:00 ni a las 23:00: la ciencia señala cuándo conviene cenar». Citada como
+  «médico de Familia especialista en Obesidad y Nutrición y miembro de SEEDO». Fuentes que citó: Lopez-Minguez Clin
+  Nutr 2018, Gu JCEM 2020, Vujović Cell Metab 2022, Palomar-Cros Nat Commun 2023. Frase propia reutilizable: «No es que
+  el reloj engorde por sí solo: se suman comer más, elegir peor y metabolizar peor».
+- Previas en prensa: Deia/Noticias de Navarra (2025), OKDiario, ANIS, Celicidad.
+
 ### Tesis públicas que ya la definen (su "voz científica")
 - «Comer menos y moverse más» es un eslogan científicamente incorrecto y dañino para quien vive con obesidad.
 - La obesidad es una enfermedad crónica, compleja y multifactorial: cerebro, hormonas, metabolismo, entorno y emociones.
