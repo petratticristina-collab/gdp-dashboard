@@ -24,7 +24,7 @@ Lo que todavía no sabemos con certeza: son estudios controlados, cortos y con p
 Mi recomendación práctica no es cenar a las siete. Es dejar unas tres o cuatro horas entre la cena y el momento de acostarse. Y, si un día se cena tarde, que sea una cena ligera, con proteína y verdura, y con pocos hidratos de absorción rápida.
 
 Fuentes:
-Garaulet M, et al. Interplay of Dinner Timing and MTNR1B Type 2 Diabetes Risk Variant on Glucose Tolerance and Insulin Secretion. Diabetes Care 2022;45(3):512-519.
+Garaulet M, et al. Interplay of Dinner Timing and MTNR1B Type 2 Diabetes Risk Variant on Glucose Tolerance and Insulin Secretion. Diabetes Care 2022;45(3):512.
 Vujović N, et al. Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity. Cell Metab 2022;34:1486-1498. https://doi.org/10.1016/j.cmet.2022.09.007
 
 #Cronobiologia #Obesidad #SaludMetabolica #Nutricion #MedicinaBasadaEnLaEvidencia
