@@ -39,6 +39,7 @@ button.primary{background:var(--hook);border-color:var(--hook);color:#1a1205;fon
 button[aria-pressed="true"]{border-color:var(--cue);color:var(--cue)}
 label{font-size:12px;color:var(--mute);display:flex;align-items:center;gap:6px}
 input[type=range]{width:96px;accent-color:var(--hook)}
+select.ctl{background:var(--panel);padding:7px 8px;max-width:62vw}
 .stagewrap{position:relative;flex:1;min-height:0}
 .scroller{position:absolute;inset:0;overflow-y:auto;scrollbar-width:none}
 .scroller::-webkit-scrollbar{display:none}
@@ -79,6 +80,7 @@ textarea{width:100%;min-height:52vh;box-sizing:border-box;background:var(--panel
     <div class="grp"><span class="timer" id="timer" data-z="hook">0:00</span><span class="zone" id="zone">Hook</span></div>
     <span class="meta hide-s" id="est"></span>
     <span class="grow"></span>
+    <label for="pick">Guion <select id="pick" class="ctl"></select></label>
     <div class="grp">
       <button class="primary" id="play">▶ Grabar</button>
       <button id="reset" title="Volver al inicio (R)">↺ Inicio</button>
@@ -122,12 +124,49 @@ textarea{width:100%;min-height:52vh;box-sizing:border-box;background:var(--panel
 </div>
 
 <script>
-const DEFAULT = `# HOOK
+const SCRIPTS = {
+oral: {name: "Semaglutida oral: eficaz, cómoda, simple", text: `# HOOK
+Si tienes sobrepeso u obesidad, y lo que te frena es pincharte… escucha esto.
+[Rótulo 01: inyección semanal → comprimido diario. Mirada fija a cámara.]
+
+# QUIÉN SOY
+Soy la doctora Cristina Petratti.
+La semaglutida, uno de los tratamientos más estudiados para la obesidad, ya existe en comprimido diario.
+Te lo resumo en tres palabras.
+
+# EFICAZ
+Eficaz.
+En el ensayo OASIS 4, quienes la tomaron como se indica perdieron de media un 16,6 % de su peso en 64 semanas.
+[Rótulo 02 EFICAZ, con la fuente: Wharton S et al. N Engl J Med 2025]
+
+# CÓMODO
+Cómodo.
+Sin agujas y sin nevera: la llevas contigo.
+Y con un perfil de seguridad similar al de la inyección.
+[Rótulo 03 CÓMODO. Toma de apoyo: comprimido en la palma de tu mano.]
+
+# SIMPLE
+Simple.
+Un comprimido al despertar, en ayunas, con un sorbo de agua.
+Y esperas treinta minutos antes de desayunar.
+[Rótulo 04 SIMPLE. Toma de apoyo: despertador y vaso con un sorbo de agua.]
+
+# PARA QUIÉN
+Está indicada si tienes obesidad, o sobrepeso con alguna enfermedad asociada.
+Al principio puede dar náuseas o molestias digestivas, normalmente leves.
+Por eso, siempre con receta y seguimiento médico.
+[Rótulo 05: para quién]
+
+# CIERRE
+Cambia la forma de tomarlo.
+No cambia la idea: la obesidad es una enfermedad crónica, y merece un tratamiento serio.
+[Rótulo 06. Silencio 2 segundos mirando a cámara. Sin despedida.]`},
+obesidad: {name: "Mito: la obesidad es falta de voluntad", text: `# HOOK
 ¿Y si te dijera que tu cuerpo lucha para que recuperes el peso que perdiste?
 [Mirada fija a cámara. Pausa de 1 segundo.]
 
 # QUIÉN SOY Y QUÉ DESMONTO
-Soy la doctora Cristina Petratti, endocrinóloga.
+Soy la doctora Cristina Petratti.
 Y hoy desmonto un mito que hace mucho daño en consulta: que la obesidad es falta de fuerza de voluntad.
 [Texto en pantalla: MITO · «Es falta de voluntad»]
 
@@ -154,7 +193,8 @@ Significa que necesitas un plan que tenga en cuenta tu biología, no solo tu vol
 La próxima vez que alguien te diga «solo tienes que comer menos», recuérdalo:
 no estás luchando contra tu falta de voluntad.
 Estás negociando con tu biología.
-[Silencio 2 segundos mirando a cámara. Sin despedida.]`;
+[Silencio 2 segundos mirando a cámara. Sin despedida.]`}
+};
 
 const CHECKS = [
   ["Formato vertical 9:16, 1080p","Móvil en horizontal NO: en vertical, cámara trasera si puedes."],
@@ -177,7 +217,8 @@ const store = {
   set(k,v){try{localStorage.setItem("conecta-tp-"+k,JSON.stringify(v))}catch(e){}}
 };
 
-let src = store.get("src", DEFAULT);
+let cur = store.get("cur", "oral"); if (!SCRIPTS[cur]) cur = "oral";
+let src = store.get("src-"+cur, SCRIPTS[cur].text);
 const scroller = $("scroller"), scriptEl = $("script");
 
 function esc(s){return s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
@@ -240,8 +281,11 @@ $("reset").onclick=reset;
 function closeDrawers(){ $("editor").hidden=true; $("checklist").hidden=true; $("edit").setAttribute("aria-pressed",false); $("check").setAttribute("aria-pressed",false); }
 function openDrawer(id,btn){ stop(); const was=!$(id).hidden; closeDrawers(); if(!was){$(id).hidden=false;$(btn).setAttribute("aria-pressed",true)} }
 $("edit").onclick=()=>{ $("src").value=src; openDrawer("editor","edit"); };
-$("save").onclick=()=>{ src=$("src").value; store.set("src",src); render(); closeDrawers(); reset(); };
-$("restore").onclick=()=>{ $("src").value=DEFAULT; };
+$("save").onclick=()=>{ src=$("src").value; store.set("src-"+cur,src); render(); closeDrawers(); reset(); };
+$("restore").onclick=()=>{ $("src").value=SCRIPTS[cur].text; };
+$("pick").innerHTML = Object.entries(SCRIPTS).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join("");
+$("pick").value = cur;
+$("pick").onchange = e => { cur = e.target.value; store.set("cur",cur); src = store.get("src-"+cur, SCRIPTS[cur].text); render(); closeDrawers(); reset(); };
 $("check").onclick=()=>openDrawer("checklist","check");
 $("closecheck").onclick=closeDrawers;
 let ticked = store.get("checks",[]);
