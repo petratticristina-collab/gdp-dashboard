@@ -58,7 +58,7 @@ texto en sans serif limpia para legibilidad en móvil.
 - Concepto habitual: «Consulta médica especializada en obesidad y nutrición» · 110,00 € · pago por Bizum.
 - Método de trabajo: copiar el PDF de la última factura y sustituir solo número, fecha y, si cambia, paciente e
   importe, para conservar logo y firma. NIF, domicilio y datos de pacientes NO se guardan en el repositorio.
-- Última factura emitida en esta memoria: **nº 166**, 14/10/2026. La siguiente sería la 167 `[confirmar numeración]`.
+- Última factura emitida en esta memoria: **nº 167**, 20/10/2026. La siguiente sería la 168 `[confirmar numeración]`.
 
 ### Tesis públicas que ya la definen (su "voz científica")
 - «Comer menos y moverse más» es un eslogan científicamente incorrecto y dañino para quien vive con obesidad.
