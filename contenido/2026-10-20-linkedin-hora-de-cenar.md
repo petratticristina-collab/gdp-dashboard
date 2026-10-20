@@ -13,18 +13,18 @@ En España cenamos a la hora a la que en otros países ya duermen. Y la hora, no
 
 Esta semana Cuídate Plus publicaba que la ciencia aconseja no cenar tan tarde. Fui a los estudios originales, porque el matiz importa.
 
-El más interesante para nosotros es español. El equipo de Marta Garaulet (Universidad de Murcia) dio a los mismos voluntarios la misma carga de glucosa en dos noches distintas: cuatro horas antes de acostarse y una hora antes. Con la «cena tardía», la melatonina estaba unas 3,5 veces más alta, la insulina respondió un 6,7 % menos y la glucosa en sangre subió un 8,3 % más. El efecto fue mayor en quienes portan una variante del gen del receptor de melatonina, MTNR1B, frecuente en la población.
+El más interesante para nosotros es español. El equipo de Marta Garaulet (Universidad de Murcia) dio a 845 voluntarios sin diabetes la misma carga de glucosa en dos noches distintas: cuatro horas antes de acostarse y una hora antes. Con la «cena tardía», la melatonina estaba unas 3,5 veces más alta, la insulina respondió un 6,7 % menos y la glucosa en sangre subió un 8,3 % más. El efecto fue mayor en quienes portan una variante del gen del receptor de melatonina, MTNR1B, frecuente en la población.
 
 Dicho de otra forma: el mismo plato no se metaboliza igual a las 20:00 que a las 23:00, porque a esa hora el cuerpo ya se está preparando para dormir.
 
 Un ensayo de Harvard (Vujović et al., 2022) añadió otra pieza: con las mismas calorías, comer más tarde duplicó la probabilidad de tener hambre, bajó el gasto energético y modificó la expresión de genes del tejido adiposo hacia almacenar grasa.
 
-Lo que todavía no sabemos con certeza: son estudios controlados, cortos y con pocos participantes. Muestran mecanismos coherentes, pero no prueban por sí solos cuánto peso se gana a largo plazo cenando tarde.
+Lo que todavía no sabemos con certeza: el estudio de Murcia mide una sola noche con una carga de glucosa, no una cena real, y el de Harvard es corto y con pocos participantes. Muestran mecanismos coherentes, pero no prueban por sí solos cuánto peso se gana a largo plazo cenando tarde.
 
 Mi recomendación práctica no es cenar a las siete. Es dejar unas tres o cuatro horas entre la cena y el momento de acostarse. Y, si un día se cena tarde, que sea una cena ligera, con proteína y verdura, y con pocos hidratos de absorción rápida.
 
 Fuentes:
-Garaulet M, et al. Interplay of Dinner Timing and MTNR1B Type 2 Diabetes Risk Variant on Glucose Tolerance and Insulin Secretion. Diabetes Care 2022;45(3):512.
+Garaulet M, et al. Interplay of Dinner Timing and MTNR1B Type 2 Diabetes Risk Variant on Glucose Tolerance and Insulin Secretion. Diabetes Care 2022;45(3):512. https://doi.org/10.2337/dc21-1314
 Vujović N, et al. Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity. Cell Metab 2022;34:1486-1498. https://doi.org/10.1016/j.cmet.2022.09.007
 
 #Cronobiologia #Obesidad #SaludMetabolica #Nutricion #MedicinaBasadaEnLaEvidencia
@@ -51,4 +51,4 @@ Vujović N, et al. Late isocaloric eating increases hunger, decreases energy exp
 ## Pendiente
 
 - Comprobar que el artículo de Cuídate Plus cita estos estudios. Si cita otro, pegar el texto y se ajusta el post.
-- Tamaños muestrales no incluidos porque no se pudieron verificar contra el texto completo.
+- Corregido el 20/10: el estudio de Garaulet 2022 incluyó 845 participantes sin diabetes (ONTIME-MT); no es «pocos participantes».
