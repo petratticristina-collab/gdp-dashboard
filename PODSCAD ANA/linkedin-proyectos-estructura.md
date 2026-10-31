@@ -6,7 +6,7 @@ Cada cosa en su sección:
 - Organizaciones: SEEDO.
 - Destacado: canal, mejor episodio y libro.
 
-Orden recomendado en Proyectos (LinkedIn muestra primero los que están en curso y por fecha de inicio más reciente):
+Orden recomendado en Proyectos (LinkedIn los ordena por fechas; si no salen en este orden, ajusta las fechas de inicio):
 1. Método Petratti
 2. Podcast Método Petratti
 3. Obesidad sin rodeos
