@@ -6,7 +6,7 @@
 
 El [DATO CLAVE] no es lo que creías.
 
-En el nuevo episodio de PODSCAD ANA hablamos con [INVITADA/O] sobre [TEMA]: qué dice realmente la evidencia, qué está cambiando en la consulta y qué mitos seguimos repitiendo.
+En el nuevo episodio de Obesidad sin rodeos hablamos con [INVITADA/O] sobre [TEMA]: qué dice realmente la evidencia, qué está cambiando en la consulta y qué mitos seguimos repitiendo.
 
 3 ideas que me llevo:
 → [Idea 1]
@@ -17,7 +17,7 @@ Ciencia rigurosa, contada en un lenguaje humano.
 
 🎧 Episodio completo en YouTube: link en el primer comentario 👇
 
-#Endocrinología #Obesidad #SaludMetabólica #Podcast #Medicina
+#MedicinaDeFamilia #Obesidad #SaludMetabólica #Podcast #Medicina
 
 ## Versión 2 — Storytelling desde la consulta
 
@@ -25,17 +25,17 @@ Ciencia rigurosa, contada en un lenguaje humano.
 
 Lo escucho casi cada semana. Y casi siempre hay algo que nadie le ha explicado a esa persona: [TEMA].
 
-De eso va el nuevo episodio de PODSCAD ANA. Una conversación honesta con [INVITADA/O] sobre lo que la ciencia sabe hoy, y sobre lo que todavía no.
+De eso va el nuevo episodio de Obesidad sin rodeos. Una conversación honesta con [INVITADA/O] sobre lo que la ciencia sabe hoy, y sobre lo que todavía no.
 
 Si trabajas en salud, o si alguna vez te has hecho esa misma pregunta, este episodio es para ti.
 
 ▶️ Míralo completo en YouTube (link en comentarios).
 
-#Obesidad #Endocrinología #MedicinaBasadaEnEvidencia #Podcast
+#Obesidad #MedicinaDeFamilia #MedicinaBasadaEnEvidencia #Podcast
 
 ## Versión 3 — Corta y directa
 
-Nuevo episodio de PODSCAD ANA 🎙️
+Nuevo episodio de Obesidad sin rodeos 🎙️
 
 [TEMA], con [INVITADA/O].
 Menos mitos. Más evidencia. Cero juicio.
