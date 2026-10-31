@@ -28,13 +28,13 @@ def font(size, weight):
     return f
 
 
-# (archivo del icono, color de marca, etiqueta). iVoox no tiene icono en simple-icons: insignia con texto.
+# (archivo del icono, color de marca, etiqueta). iVoox usa su logo en PNG como imagen completa.
 PLATAFORMAS = [
     ("youtube.svg", (255, 0, 0), "YouTube"),
     ("spotify.svg", (30, 215, 96), "Spotify"),
     ("applepodcasts.svg", (153, 51, 204), "Apple"),
     ("amazonmusic.svg", (37, 209, 218), "Amazon"),
-    (None, (244, 90, 0), "iVoox"),
+    ("ivoox.png", (244, 90, 0), "iVoox"),
 ]
 
 
@@ -52,12 +52,15 @@ def fila_plataformas(canvas, y):
     for i, (archivo, color, etiqueta) in enumerate(PLATAFORMAS):
         cx = x0 + i * paso
         d.ellipse([cx - r, y, cx + r, y + 2 * r], fill=color, outline=CREAM, width=3)
-        if archivo:
+        if archivo.endswith(".png"):
+            logo = Image.open(HERE / "iconos" / archivo).convert("RGB").resize((2 * r, 2 * r), Image.LANCZOS)
+            mask = Image.new("L", (2 * r, 2 * r), 0)
+            ImageDraw.Draw(mask).ellipse([0, 0, 2 * r, 2 * r], fill=255)
+            canvas.paste(logo, (int(cx - r), int(y)), mask)
+            d.ellipse([cx - r, y, cx + r, y + 2 * r], outline=CREAM, width=3)
+        else:
             ic = icono(archivo, 54)
             canvas.paste(ic, (int(cx - 27), int(y + r - 27)), ic)
-        else:
-            f_iv = font(25, 800)
-            d.text((cx - d.textlength("iVoox", font=f_iv) / 2, y + r - 17), "iVoox", font=f_iv, fill=(255, 255, 255))
         d.text((cx - d.textlength(etiqueta, font=f_lab) / 2, y + 2 * r + 14), etiqueta, font=f_lab, fill=CREAM)
 
 
