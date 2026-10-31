@@ -19,3 +19,13 @@ Disponible en YouTube, Spotify, Apple Podcasts, Amazon Music e iVoox.
 ## Versión aún más corta
 
 Podcast en YouTube donde converso con expertos en obesidad, nutrición, ejercicio, salud de la mujer e IA en salud. Ciencia clara, sin culpa y sin bulos, para entender y tratar la obesidad como enfermedad crónica.
+
+## Aptitudes (5)
+
+1. Divulgación científica
+2. Podcasting
+3. Medicina basada en la evidencia
+4. Obesidad
+5. Comunicación en salud
+
+Alternativas: Salud metabólica · Entrevistas · Creación de contenido · Medicina de familia · Educación para la salud
