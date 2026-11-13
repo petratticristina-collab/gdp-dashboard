@@ -125,6 +125,47 @@ textarea{width:100%;min-height:52vh;box-sizing:border-box;background:var(--panel
 
 <script>
 const SCRIPTS = {
+cintura: {name: "La cintura: el indicador equivocado", text: `# HOOK
+¿Has tenido que hacer un agujero nuevo en el cinturón…
+y la báscula casi no se mueve?
+[Rótulo: ¿Agujero nuevo en el cinturón… y la báscula igual? Pausa.]
+Esto te interesa.
+[Opcional: si no te sale natural, sáltala.]
+
+# QUIÉN SOY
+Soy Cristina, médica de familia, y me dedico a la obesidad.
+[Pausa.]
+
+# EL DATO
+El estudio INTERHEART analizó a veintisiete mil personas en cincuenta y dos países.
+Para el infarto, la grasa del abdomen predecía el riesgo mucho mejor que el peso.
+[Rótulo: 27.000 personas · 52 países · Fuente: Yusuf S et al. Lancet 2005 (INTERHEART). Pausa.]
+
+# QUÉ PASA EN TU CUERPO
+Con los años, si no lo entrenas, el músculo se pierde poco a poco.
+La grasa ocupa su lugar y se acumula en el abdomen.
+La báscula apenas cambia.
+Pero tu cuerpo, sí.
+[Pausa.]
+
+# LA ANALOGÍA
+Es como mirar solo la facturación de tu empresa sin ver la deuda.
+La grasa abdominal es esa deuda oculta.
+Y la paga tu corazón.
+[Rótulo: Facturación = peso · Deuda oculta = grasa abdominal. Pausa.]
+
+# TRES COSAS
+Si tienes poco tiempo, tres cosas.
+Uno: fuerza, dos veces por semana. Media hora basta.
+Dos: proteína en cada comida. También en el desayuno.
+Tres: deja de mirar la báscula y mídete la cintura.
+Debe medir menos de la mitad de tu altura.
+[Rótulo: Cintura < ½ de tu altura · Fuente: NICE 2022. Pausa.]
+
+# CIERRE
+No es que hayas perdido la batalla con la báscula.
+Es que estabas mirando el indicador equivocado.
+[Silencio 2 segundos mirando a cámara. Sin despedida.]`},
 oral: {name: "Semaglutida oral: eficaz, cómoda, simple", text: `# HOOK
 Si tienes sobrepeso u obesidad, y lo que te frena es pincharte… escucha esto.
 [Rótulo 01: inyección semanal → comprimido diario. Mirada fija a cámara.]
@@ -217,7 +258,7 @@ const store = {
   set(k,v){try{localStorage.setItem("conecta-tp-"+k,JSON.stringify(v))}catch(e){}}
 };
 
-let cur = store.get("cur", "oral"); if (!SCRIPTS[cur]) cur = "oral";
+let cur = store.get("cur", "cintura"); if (!SCRIPTS[cur]) cur = "cintura";
 let src = store.get("src-"+cur, SCRIPTS[cur].text);
 const scroller = $("scroller"), scriptEl = $("script");
 
